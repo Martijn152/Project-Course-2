@@ -193,7 +193,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label text="Head of uman Ressources">
+                        <Label text="Head of human Ressources">
                            <font>
                               <Font name="Avenir Next Bold" size="14.0" />
                            </font>
