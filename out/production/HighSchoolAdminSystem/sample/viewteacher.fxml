@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewTeacher">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.ViewTeacher">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -70,15 +70,14 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <TableView prefHeight="336.0" prefWidth="900.0">
+            <TableView fx:id="teacherTableView" prefHeight="336.0" prefWidth="900.0">
                <columns>
-                  <TableColumn maxWidth="4000.0" prefWidth="75.0" text="Firstname" />
-                  <TableColumn maxWidth="4000.0" prefWidth="75.0" text="Lastname" />
-                  <TableColumn maxWidth="2500.0" prefWidth="75.0" text="Gender" />
-                  <TableColumn prefWidth="75.0" text="Email" />
-                  <TableColumn maxWidth="3000.0" prefWidth="75.0" text="Tel" />
-                  <TableColumn prefWidth="75.0" text="Home Address" />
-                  <TableColumn prefWidth="75.0" text="Subject" />
+                  <TableColumn fx:id="firstNameCol" maxWidth="4000.0" prefWidth="75.0" text="Firstname" />
+                  <TableColumn fx:id="lastNameCol" maxWidth="4000.0" prefWidth="75.0" text="Lastname" />
+                  <TableColumn fx:id="emailCol" prefWidth="75.0" text="Email" />
+                  <TableColumn fx:id="telCol" maxWidth="3000.0" prefWidth="75.0" text="Tel" />
+                  <TableColumn fx:id="addressCol" prefWidth="75.0" text="Home Address" />
+                  <TableColumn fx:id="subjectCol" prefWidth="75.0" text="Subject" />
                </columns>
                <columnResizePolicy>
                   <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

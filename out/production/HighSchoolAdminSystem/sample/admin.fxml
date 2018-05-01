@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPortal">
+<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.AdminPortal">
    <top>
       <GridPane prefHeight="161.0" prefWidth="898.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -189,12 +189,12 @@
                   <Font size="14.0" />
                </font>
             </MenuButton>
-            <MenuButton layoutX="382.0" layoutY="305.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #1329;" text="Student Groups" textFill="#fffbfb" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <MenuButton fx:id="studentGroup" layoutX="382.0" layoutY="305.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="146.0" style="-fx-background-color: #1329;" text="Student Groups" textFill="#fffbfb" GridPane.columnIndex="2" GridPane.rowIndex="3">
                <items>
-                  <MenuItem fx:id="groupYear9" mnemonicParsing="false" onAction="#manageGroupYear9" style="-fx-background-color: #1329;" text="GroupYear9" />
-                  <MenuItem fx:id="groupYear10" mnemonicParsing="false" onAction="#manageGroupYear10" style="-fx-background-color: #1329;" text="GroupYear10" />
-                  <MenuItem fx:id="groupYear11" mnemonicParsing="false" onAction="#manageGroupYear11" style="-fx-background-color: #1329;" text="GroupYear11" />
-                  <MenuItem fx:id="groupYear12" mnemonicParsing="false" onAction="#manageGroupYear12" style="-fx-background-color: #1329;" text="GroupYear12" />
+                  <MenuItem fx:id="groupYear9" mnemonicParsing="false" onAction="#manageGroupYear9" style="-fx-background-color: #1329;" text="Group Year 9" />
+                  <MenuItem fx:id="groupYear10" mnemonicParsing="false" onAction="#manageGroupYear10" style="-fx-background-color: #1329;" text="Group Year 10" />
+                  <MenuItem fx:id="groupYear11" mnemonicParsing="false" onAction="#manageGroupYear11" style="-fx-background-color: #1329;" text="Group Year 11" />
+                  <MenuItem fx:id="groupYear12" mnemonicParsing="false" onAction="#manageGroupYear12" style="-fx-background-color: #1329;" text="Group Year 12" />
                </items>
                <font>
                   <Font size="14.0" />
