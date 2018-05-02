@@ -9,7 +9,11 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
+<<<<<<< HEAD
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="600.0" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StudentContactTeacher">
+=======
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="600.0" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.StudentContactTeacher">
+>>>>>>> martijnEdits
    <top>
       <GridPane prefHeight="87.0" prefWidth="600.0" style="-fx-background-color: #1232;" BorderPane.alignment="CENTER">
          <columnConstraints>

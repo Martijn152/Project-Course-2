@@ -11,7 +11,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
 <BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginScreen">
+=======
+<BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.LoginScreen">
+>>>>>>> martijnEdits
    <top>
       <GridPane prefHeight="117.0" prefWidth="1298.0" BorderPane.alignment="CENTER">
         <columnConstraints>
