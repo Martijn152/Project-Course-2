@@ -66,6 +66,9 @@
                <GridPane.margin>
                   <Insets bottom="5.0" />
                </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
             </Button>
          </children>
       </GridPane>
@@ -81,12 +84,12 @@
             <RowConstraints maxHeight="577.0" minHeight="10.0" prefHeight="191.0" valignment="TOP" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label text="Welcome!" textFill="#282626">
+            <Label text="Welcome!" textFill="#9a8686">
                <font>
                   <Font name="Arial Black" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="userName" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="144.0" style="-fx-background-color: #1222;" textAlignment="CENTER" textFill="#250bd0" GridPane.rowIndex="1" />
+            <Label fx:id="userName" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="144.0" style="-fx-background-color: #1222;" textAlignment="CENTER" textFill="#09dd37" GridPane.rowIndex="1" />
             <Button fx:id="updatePw" mnemonicParsing="false" onAction="#updatePword" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #3229;" text="Upgrade password" textFill="#f2efef" GridPane.rowIndex="2">
                <font>
                   <Font name="Adobe Gurmukhi" size="15.0" />
@@ -170,7 +173,7 @@
               <tabs>
                 <Tab style="-fx-background-color: #76696e#76696e;">
                   <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: gray; -fx-border-color: black;" />
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #1230; -fx-border-color: black;" />
                   </content>
                 </Tab>
                   <Tab text="Grades/Semester1">
@@ -231,7 +234,7 @@
                                           <Font name="Arial Black" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="physicsGrade1" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                    <Label fx:id="physicsGrade1" textFill="#49bf62" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
@@ -241,27 +244,27 @@
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="mathsGrade1" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                    <Label fx:id="mathsGrade1" textFill="#4fb272" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="biologyGrade1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                    <Label fx:id="biologyGrade1" textFill="#49ae69" GridPane.columnIndex="1" GridPane.rowIndex="5">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="chemistryGrade1" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                    <Label fx:id="chemistryGrade1" textFill="#41b973" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="englishGrade1" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                    <Label fx:id="englishGrade1" textFill="#43a872" GridPane.columnIndex="1" GridPane.rowIndex="6">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="philosophyGrade1" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                    <Label fx:id="philosophyGrade1" textFill="#439e6c" GridPane.columnIndex="1" GridPane.rowIndex="7">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
@@ -365,13 +368,13 @@
                                                 <Insets left="3.0" />
                                              </GridPane.margin>
                                           </Label>
-                                          <Label fx:id="mathsGrade1Transcript" textFill="#2a13a8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                                          <Label fx:id="biologyGrade1Transcript" textFill="#2b0f80" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                          <Label fx:id="chemistryGrade1Transcript" textFill="#3c13ae" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                                          <Label fx:id="historyGrade1Transcript" textFill="#320e94" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                                          <Label fx:id="englishGrade1Transcript" textFill="#45129e" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                          <Label fx:id="philosophyGrade1Transcript" textFill="#2d0f86" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <Label fx:id="semester1AvgGrade" textFill="#9e0c94" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <Label fx:id="mathsGrade1Transcript" textFill="#14a651" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label fx:id="biologyGrade1Transcript" textFill="#0f802b" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label fx:id="chemistryGrade1Transcript" textFill="#13ad46" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label fx:id="historyGrade1Transcript" textFill="#0f9449" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label fx:id="englishGrade1Transcript" textFill="#139c63" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label fx:id="philosophyGrade1Transcript" textFill="#10853c" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                          <Label fx:id="semester1AvgGrade" textFill="#0c9a9c" GridPane.columnIndex="1" GridPane.rowIndex="8" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="3" />

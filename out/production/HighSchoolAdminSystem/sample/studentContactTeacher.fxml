@@ -20,7 +20,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label text="GROUP TEACHERS" />
+            <Label text="GROUP TEACHERS" textFill="#f5f0f0" />
          </children>
       </GridPane>
    </top>
