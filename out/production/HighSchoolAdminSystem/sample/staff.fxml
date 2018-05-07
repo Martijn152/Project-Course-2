@@ -9,11 +9,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
-<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-background-color: #1231;" styleClass="imgStaff" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StaffPortal">
-=======
 <BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-background-color: #1231;" styleClass="imgStaff" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.StaffPortal">
->>>>>>> martijnEdits
    <center>
       <GridPane BorderPane.alignment="CENTER">
          <columnConstraints>
