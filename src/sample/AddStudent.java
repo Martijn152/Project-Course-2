@@ -70,10 +70,10 @@ public class AddStudent implements Initializable {
         newStudent.setDateOfBirth(dateOfB.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         newStudent.setHomeAddress(homeAddress.getText());
 
-        newStudent.setUserName(userName.getText());
-        newStudent.setPassWord(password.getText());
-        newStudent.setEmailAddress(userEmail.getText());
-        newStudent.setGradeYear(group.getValue().toString());
+        //newStudent.setUserName(userName.getText());
+        //newStudent.setPassWord(password.getText());
+        //newStudent.setEmailAddress(userEmail.getText());
+        //newStudent.setGradeYear(group.getValue().toString());
 
         //DBConnections.connect();
         //DBConnections.addTeacher(newStudent);

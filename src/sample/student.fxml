@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="imgStudent" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.StudentPortal">
+<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="imgStudent" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StudentPortal">
    <top>
       <GridPane prefHeight="85.0" prefWidth="898.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -54,18 +54,13 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitBtn" prefHeight="58.0" prefWidth="126.0" text="RETURN" GridPane.columnIndex="6">
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitBtn" prefHeight="58.0" prefWidth="180.0" text="RETURN" GridPane.columnIndex="3">
                <GridPane.margin>
                   <Insets bottom="5.0" right="5.0" />
                </GridPane.margin>
                <font>
                   <Font name="Arial Black" size="13.0" />
                </font>
-            </Button>
-            <Button fx:id="downloadPdf" mnemonicParsing="false" onAction="#downloadBtn" prefHeight="40.0" prefWidth="170.0" text="Download Transcript" GridPane.columnIndex="3">
-               <GridPane.margin>
-                  <Insets bottom="5.0" />
-               </GridPane.margin>
             </Button>
          </children>
       </GridPane>
@@ -81,12 +76,12 @@
             <RowConstraints maxHeight="577.0" minHeight="10.0" prefHeight="191.0" valignment="TOP" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label text="Welcome!" textFill="#282626">
+            <Label text="Welcome!" textFill="#9a8686">
                <font>
                   <Font name="Arial Black" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="username" prefHeight="28.0" prefWidth="144.0" style="-fx-background-color: #1222;" textAlignment="CENTER" textFill="#f5f8f8" GridPane.rowIndex="1" />
+            <Label fx:id="userName" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="144.0" style="-fx-background-color: #1222;" textAlignment="CENTER" textFill="#09dd37" GridPane.rowIndex="1" />
             <Button fx:id="updatePw" mnemonicParsing="false" onAction="#updatePword" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #3229;" text="Upgrade password" textFill="#f2efef" GridPane.rowIndex="2">
                <font>
                   <Font name="Adobe Gurmukhi" size="15.0" />
@@ -101,8 +96,11 @@
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
          </columnConstraints>
          <rowConstraints>
-            <RowConstraints maxHeight="205.0" minHeight="10.0" prefHeight="48.0" valignment="BOTTOM" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="522.0" minHeight="10.0" prefHeight="517.0" valignment="TOP" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="205.0" minHeight="10.0" prefHeight="20.0" valignment="BOTTOM" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="522.0" minHeight="0.0" prefHeight="0.0" valignment="TOP" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="522.0" minHeight="10.0" prefHeight="150.0" valignment="TOP" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="522.0" minHeight="0.0" prefHeight="226.0" valignment="BOTTOM" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="522.0" minHeight="10.0" prefHeight="241.0" valignment="TOP" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
             <Label prefHeight="17.0" prefWidth="119.0" text="Ministry of secondary " textFill="#2f2b2b">
@@ -121,6 +119,22 @@
                   <Insets />
                </GridPane.margin>
             </Label>
+            <Button fx:id="pdfViewT2" mnemonicParsing="false" onAction="#pdfVeiwBtn2" prefHeight="40.0" prefWidth="187.0" text="Transcript2PDF VIEW" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="pdfViewT1" layoutX="41.0" layoutY="372.0" mnemonicParsing="false" onAction="#pdfViewBtn1" prefHeight="40.0" prefWidth="185.0" text="Transcript1 PDF VIEW" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="5.0" />
+               </GridPane.margin>
+            </Button>
          </children>
       </GridPane>
    </right>
@@ -146,7 +160,7 @@
                         <Font size="15.0" />
                      </font>
                   </Button>
-                  <Button fx:id="viewClassMates" mnemonicParsing="false" onAction="#viewClassMateBtn" prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: #1329;" text="Classmates" textFill="#fcfafa" GridPane.rowIndex="2">
+                  <Button fx:id="viewClassMates" mnemonicParsing="false" onAction="#viewClassMateBtn" prefHeight="20.0" prefWidth="200.0" style="-fx-background-color: #1329;" text="Group Students" textFill="#fcfafa" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
@@ -170,7 +184,7 @@
               <tabs>
                 <Tab style="-fx-background-color: #76696e#76696e;">
                   <content>
-                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: gray; -fx-border-color: black;" />
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #1230; -fx-border-color: black;" />
                   </content>
                 </Tab>
                   <Tab text="Grades/Semester1">
@@ -179,7 +193,7 @@
                            <children>
                               <GridPane layoutX="141.0" layoutY="112.0" prefHeight="373.0" prefWidth="482.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <columnConstraints>
-                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                  </columnConstraints>
@@ -200,38 +214,56 @@
                                        <font>
                                           <Font name="Arial Black" size="18.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="80.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Maths" GridPane.rowIndex="2">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Chemistry" GridPane.rowIndex="4">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Biology" GridPane.rowIndex="5">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="English" GridPane.rowIndex="6">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Philosophy" GridPane.rowIndex="7">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Grades /20" underline="true" GridPane.columnIndex="1">
                                        <font>
                                           <Font name="Arial Black" size="18.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="physicsGrade1" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                    <Label fx:id="physicsGrade1" textFill="#49bf62" GridPane.columnIndex="1" GridPane.rowIndex="3">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
@@ -240,28 +272,31 @@
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
-                                    <Label fx:id="mathsGrade1" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                    <Label fx:id="mathsGrade1" textFill="#4fb272" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="biologyGrade1" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                    <Label fx:id="biologyGrade1" textFill="#49ae69" GridPane.columnIndex="1" GridPane.rowIndex="5">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="chemistryGrade1" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                    <Label fx:id="chemistryGrade1" textFill="#41b973" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="englishGrade1" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                    <Label fx:id="englishGrade1" textFill="#43a872" GridPane.columnIndex="1" GridPane.rowIndex="6">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
                                     </Label>
-                                    <Label fx:id="philosophyGrade1" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                    <Label fx:id="philosophyGrade1" textFill="#439e6c" GridPane.columnIndex="1" GridPane.rowIndex="7">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
@@ -274,7 +309,7 @@
                   </Tab>
                   <Tab text="Transcript1">
                     <content>
-                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                      <AnchorPane fx:id="transcript1" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
                               <BorderPane layoutX="159.0" layoutY="73.0" prefHeight="324.0" prefWidth="482.0" style="-fx-background-color: #1232;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <center>
@@ -339,7 +374,7 @@
                                                 <Insets left="3.0" />
                                              </GridPane.margin>
                                           </Label>
-                                          <Label fx:id="physicsGrade1Transcript" text="Physics" GridPane.rowIndex="4">
+                                          <Label text="Physics" GridPane.rowIndex="4">
                                              <GridPane.margin>
                                                 <Insets left="3.0" />
                                              </GridPane.margin>
@@ -355,30 +390,23 @@
                                              </GridPane.margin>
                                           </Label>
                                           <Label GridPane.rowIndex="7" />
-                                          <Label text="AVG GRADE" GridPane.rowIndex="8">
-                                             <GridPane.margin>
-                                                <Insets left="3.0" />
-                                             </GridPane.margin>
-                                          </Label>
                                           <Label text="Maths" GridPane.rowIndex="1">
                                              <GridPane.margin>
                                                 <Insets left="3.0" />
                                              </GridPane.margin>
                                           </Label>
-                                          <Label fx:id="mathsGrade1Transcript" textFill="#2a13a8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                                          <Label fx:id="biologyGrade1Transcript" textFill="#2b0f80" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                                          <Label fx:id="chemistryGrade1Transcript" textFill="#3c13ae" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                                          <Label fx:id="historyGrade1Transcript" textFill="#320e94" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                                          <Label fx:id="englishGrade1Transcript" textFill="#45129e" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                          <Label fx:id="philosophyGrade1Transcript" textFill="#2d0f86" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <Label fx:id="semester1AvgGrade" textFill="#9e0c94" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <Label fx:id="mathsGrade1Transcript" textFill="#14a651" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <Label fx:id="biologyGrade1Transcript" textFill="#0f802b" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <Label fx:id="chemistryGrade1Transcript" textFill="#13ad46" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <Label fx:id="physicsGrade1Transcript" textFill="#0f9449" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <Label fx:id="englishGrade1Transcript" textFill="#139c63" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                          <Label fx:id="philosophyGrade1Transcript" textFill="#10853c" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="4" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                                          <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="8" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="1" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="2" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="3" />
@@ -401,10 +429,10 @@
                                        <children>
                                           <Label text="First semester transcript">
                                              <font>
-                                                <Font name="Adobe Gurmukhi" size="18.0" />
+                                                <Font name="Adobe Gurmukhi" size="24.0" />
                                              </font>
                                           </Label>
-                                          <Label fx:id="studentNameTranscript1" alignment="CENTER" prefHeight="21.0" prefWidth="435.0" GridPane.rowIndex="2">
+                                          <Label fx:id="studentNameTranscript1" alignment="CENTER" prefHeight="21.0" prefWidth="435.0" textFill="#464343" GridPane.rowIndex="2">
                                              <font>
                                                 <Font name="Adobe Gurmukhi Bold" size="18.0" />
                                              </font>
@@ -446,7 +474,7 @@
                            <children>
                               <GridPane layoutX="141.0" layoutY="112.0" prefHeight="373.0" prefWidth="482.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <columnConstraints>
-                                    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                                  </columnConstraints>
@@ -467,31 +495,49 @@
                                        <font>
                                           <Font name="Arial Black" size="18.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="80.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Maths" GridPane.rowIndex="2">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Chemistry" GridPane.rowIndex="4">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Biology" GridPane.rowIndex="5">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="English" GridPane.rowIndex="6">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Philosophy" GridPane.rowIndex="7">
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label text="Grades /20" underline="true" GridPane.columnIndex="1">
                                        <font>
@@ -507,6 +553,9 @@
                                        <font>
                                           <Font name="Arial Black" size="13.0" />
                                        </font>
+                                       <GridPane.margin>
+                                          <Insets left="50.0" />
+                                       </GridPane.margin>
                                     </Label>
                                     <Label fx:id="mathsGrade2" GridPane.columnIndex="1" GridPane.rowIndex="2">
                                        <font>
@@ -541,7 +590,7 @@
                   </Tab>
                   <Tab text="Transcript2">
                      <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <AnchorPane fx:id="transcript2" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
                               <BorderPane layoutX="159.0" layoutY="73.0" prefHeight="324.0" prefWidth="482.0" style="-fx-background-color: #1232;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                  <center>
@@ -622,11 +671,6 @@
                                              </GridPane.margin>
                                           </Label>
                                           <Label GridPane.rowIndex="7" />
-                                          <Label text="AVG GRADE" GridPane.rowIndex="8">
-                                             <GridPane.margin>
-                                                <Insets left="3.0" />
-                                             </GridPane.margin>
-                                          </Label>
                                           <Label text="Maths" GridPane.rowIndex="1">
                                              <GridPane.margin>
                                                 <Insets left="3.0" />
@@ -637,15 +681,13 @@
                                           <Label fx:id="chemistryGrade2Transcript" textFill="#3c13ae" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                                           <Label fx:id="physicsGrade2Transcript" textFill="#320e94" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                                           <Label fx:id="englishGrade2Transcript" textFill="#45129e" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                                          <Label fx:id="philosophyGrade2Transcript2" textFill="#2d0f86" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                                          <Label fx:id="semester2AvgGrade" textFill="#9e0c94" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                          <Label fx:id="philosophyGrade2Transcript" textFill="#2d0f86" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="3" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="4" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                                           <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-                                          <Label text="/20" GridPane.columnIndex="2" GridPane.rowIndex="8" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="1" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="2" />
                                           <Label GridPane.columnIndex="3" GridPane.rowIndex="3" />
@@ -668,10 +710,10 @@
                                        <children>
                                           <Label text="Second semester transcript">
                                              <font>
-                                                <Font name="Adobe Gurmukhi" size="18.0" />
+                                                <Font name="Adobe Gurmukhi" size="24.0" />
                                              </font>
                                           </Label>
-                                          <Label fx:id="studentNameTranscript2" alignment="CENTER" prefHeight="21.0" prefWidth="435.0" GridPane.rowIndex="2">
+                                          <Label fx:id="studentNameTranscript2" alignment="CENTER" prefHeight="21.0" prefWidth="435.0" textFill="#4d4646" GridPane.rowIndex="2">
                                              <font>
                                                 <Font name="Adobe Gurmukhi Bold" size="18.0" />
                                              </font>
