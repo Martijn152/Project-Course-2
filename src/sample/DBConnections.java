@@ -187,4 +187,52 @@ public class DBConnections {
 
         return result;
     }
+
+    public static void addTeacher(Teacher newTeacher) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                    "VALUES ('" +
+                    newTeacher.getSSN() + "','" +
+                    newTeacher.getName() + "','" +
+                    newTeacher.getSurname() + "','" +
+                    newTeacher.getDateOfBirth() + "','" +
+                    newTeacher.getHomeAddress() + "','" +
+                    newTeacher.getPhoneNum() + "','" +
+                    newTeacher.getUserName() + "','" +
+                    newTeacher.getPassWord() + "','" +
+                    newTeacher.getEmailAddress() + "')");
+
+            statement.execute("INSERT INTO teachers (ssn, subject)" +
+                    "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + newTeacher.getSSN() + "'),'" + newTeacher.getTeachingField() +"');");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static void addStaff(Staff newStaff) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                    "VALUES ('" +
+                    newStaff.getSSN() + "','" +
+                    newStaff.getName() + "','" +
+                    newStaff.getSurname() + "','" +
+                    newStaff.getDateOfBirth() + "','" +
+                    newStaff.getHomeAddress() + "','" +
+                    newStaff.getPhoneNum() + "','" +
+                    newStaff.getUserName() + "','" +
+                    newStaff.getPassword() + "','" +
+                    newStaff.getEmailAddress() + "')");
+
+            statement.execute("INSERT INTO staff (ssn, job)" +
+                    "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + newStaff.getSSN() + "'),'" + newStaff.getPosition() +"');");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
 }
