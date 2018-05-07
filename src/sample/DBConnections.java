@@ -235,4 +235,54 @@ public class DBConnections {
         }
 
     }
+//WORK IN PROGRESS BELOW
+ /*   public static void editTeachers(ObservableList<Teacher> editedList) {
+        try {
+            for(int i = 0; i < editedList.size(); i++) {
+                System.out.println("SSN of person in edit: ");
+                System.out.println(editedList.get(i).getSSN());
+                ArrayList list = getTeacherID(editedList);
+                statement.execute("DELETE FROM teachers WHERE teacherid = " + list.get(i));
+
+                System.out.println("Deleted from teachers table");
+
+                statement.execute("DELETE FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'");
+
+                System.out.println("Deleted from persons table");
+
+                statement.execute("" +
+                        "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                        "VALUES ('" +
+                        editedList.get(i).getSSN() + "','" +
+                        editedList.get(i).getName() + "','" +
+                        editedList.get(i).getSurname() + "','" +
+                        editedList.get(i).getDateOfBirth() + "','" +
+                        editedList.get(i).getHomeAddress() + "','" +
+                        editedList.get(i).getPhoneNum() + "','" +
+                        editedList.get(i).getUserName() + "','" +
+                        editedList.get(i).getPassWord() + "','" +
+                        editedList.get(i).getEmailAddress() + "')");
+
+                statement.execute("INSERT INTO teachers (ssn, subject)" +
+                        "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'),'" + editedList.get(i).getTeachingField() + "');");
+            }
+        } catch (SQLException var4) {
+            System.out.println("Something went wrong...");
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static ArrayList getTeacherID(ObservableList<Teacher> editedList) {
+        ArrayList<String> teacherIDList = new ArrayList<>();
+        try {
+            for(int i = 0; i < editedList.size(); i++) {
+                System.out.println("SSN of person in getID: " + editedList.get(i).getSSN());
+                teacherIDList.add(statement.executeQuery("SELECT teacherid FROM teachers WHERE ssn = " + editedList.get(i).getSSN()).getString(1));
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+        return teacherIDList;
+    }*/
 }

@@ -14,7 +14,7 @@ public class Student extends Person {
     private StringProperty parentName = new SimpleStringProperty(this, "parentName");
     private StringProperty parentEmail = new SimpleStringProperty(this, "parentEmail");
     private StringProperty parentPhoneNum = new SimpleStringProperty(this, "parentPhoneNum");
-    private Group gradeYear;
+    private StringProperty group = new SimpleStringProperty(this, "group");
     private StringProperty passWord = new SimpleStringProperty(this, "password");
     private StringProperty userName = new SimpleStringProperty(this, "userName");
     private DoubleProperty firstSemester = new SimpleDoubleProperty(this, "firstSemester");
@@ -35,11 +35,11 @@ public class Student extends Person {
     public Student() {
     }
 
-    public Student(StringProperty parentName, StringProperty parentEmail, StringProperty parentPhoneNum, Group gradeYear, StringProperty passWord, StringProperty userName, DoubleProperty firstSemester, DoubleProperty biology1, DoubleProperty maths1, DoubleProperty chemistry1, DoubleProperty english1, DoubleProperty physics1, DoubleProperty philosophy1, DoubleProperty secondSemester, DoubleProperty biology2, DoubleProperty maths2, DoubleProperty chemistry2, DoubleProperty english2, DoubleProperty physics2, DoubleProperty philosophy2) {
+    public Student(StringProperty parentName, StringProperty parentEmail, StringProperty parentPhoneNum, StringProperty group, StringProperty passWord, StringProperty userName, DoubleProperty firstSemester, DoubleProperty biology1, DoubleProperty maths1, DoubleProperty chemistry1, DoubleProperty english1, DoubleProperty physics1, DoubleProperty philosophy1, DoubleProperty secondSemester, DoubleProperty biology2, DoubleProperty maths2, DoubleProperty chemistry2, DoubleProperty english2, DoubleProperty physics2, DoubleProperty philosophy2) {
         this.parentName = parentName;
         this.parentEmail = parentEmail;
         this.parentPhoneNum = parentPhoneNum;
-        this.gradeYear = gradeYear;
+        this.group = group;
         this.passWord = passWord;
         this.userName = userName;
         this.firstSemester = firstSemester;
@@ -58,12 +58,12 @@ public class Student extends Person {
         this.philosophy2 = philosophy2;
     }
 
-    public Student(StringProperty SSN, StringProperty name, StringProperty surname, StringProperty dateOfBirth, StringProperty gender, StringProperty homeAddress, StringProperty emailAddress, StringProperty parentName, StringProperty parentEmail, StringProperty parentPhoneNum, Group gradeYear, StringProperty passWord, StringProperty userName, DoubleProperty firstSemester, DoubleProperty biology1, DoubleProperty maths1, DoubleProperty chemistry1, DoubleProperty english1, DoubleProperty physics1, DoubleProperty philosophy1, DoubleProperty secondSemester, DoubleProperty biology2, DoubleProperty maths2, DoubleProperty chemistry2, DoubleProperty english2, DoubleProperty physics2, DoubleProperty philosophy2) {
+    public Student(StringProperty SSN, StringProperty name, StringProperty surname, StringProperty dateOfBirth, StringProperty gender, StringProperty homeAddress, StringProperty emailAddress, StringProperty parentName, StringProperty parentEmail, StringProperty parentPhoneNum, StringProperty group, StringProperty passWord, StringProperty userName, DoubleProperty firstSemester, DoubleProperty biology1, DoubleProperty maths1, DoubleProperty chemistry1, DoubleProperty english1, DoubleProperty physics1, DoubleProperty philosophy1, DoubleProperty secondSemester, DoubleProperty biology2, DoubleProperty maths2, DoubleProperty chemistry2, DoubleProperty english2, DoubleProperty physics2, DoubleProperty philosophy2) {
         super(SSN, name, surname, dateOfBirth, gender, homeAddress, emailAddress);
         this.parentName = parentName;
         this.parentEmail = parentEmail;
         this.parentPhoneNum = parentPhoneNum;
-        this.gradeYear = gradeYear;
+        this.group = group;
         this.passWord = passWord;
         this.userName = userName;
         this.firstSemester = firstSemester;
@@ -130,13 +130,12 @@ public class Student extends Person {
         this.userName.set(userName);
     }
 
-    public Group getGradeYear() {
-        return this.gradeYear;
+    public StringProperty getGradeYear() {
+        return this.group;
     }
 
-    public void setGradeYear(Group gradeYear) {
-        this.gradeYear = gradeYear;
-    }
+    public void setGradeYear(String group) {
+        this.group.set(group); }
 
     public String getPassWord() {
         return (String)this.passWord.get();

@@ -7,6 +7,7 @@ package sample;
 
 import java.io.IOException;
 import java.net.URL;
+import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,6 +19,7 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import sample.SystemUsers.Student;
 
 public class AddStudent implements Initializable {
     public TextField parentSSN;
@@ -61,6 +63,21 @@ public class AddStudent implements Initializable {
 
     @FXML
     private void handleSaveBtn() throws IOException {
+        Student newStudent = new Student();
+        newStudent.setSSN(ssn.getText());
+        newStudent.setName(firstName.getText());
+        newStudent.setSurname(lastName.getText());
+        newStudent.setDateOfBirth(dateOfB.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+        newStudent.setHomeAddress(homeAddress.getText());
+
+        newStudent.setUserName(userName.getText());
+        newStudent.setPassWord(password.getText());
+        newStudent.setEmailAddress(userEmail.getText());
+        newStudent.setGradeYear(group.getValue().toString());
+
+        //DBConnections.connect();
+        //DBConnections.addTeacher(newStudent);
+
         ((Stage)this.saveBtn.getScene().getWindow()).close();
     }
 }
