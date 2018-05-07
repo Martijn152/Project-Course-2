@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jPDFViewerFX">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/jPDFViewerFX.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jPDFViewerFX.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
