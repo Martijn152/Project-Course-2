@@ -20,6 +20,10 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class AddStudent implements Initializable {
+    public TextField parentSSN;
+    public TextField parentName;
+    public TextField parentEmail;
+    public TextField parentPhone;
     ObservableList<String> list = FXCollections.observableArrayList(new String[]{"GroupYear9", "GroupYear10", "GroupYear11", "GroupYear12"});
     @FXML
     private TextField firstName;

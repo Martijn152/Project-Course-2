@@ -7,6 +7,7 @@ package sample;
 
 import java.io.IOException;
 import java.net.URL;
+import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,6 +19,7 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import sample.SystemUsers.Teacher;
 
 public class AddTeacher implements Initializable {
     ObservableList<String> list = FXCollections.observableArrayList(new String[]{"Maths", "Physics", "Chemistry", "Biology", "Philosophy", "English"});
@@ -57,6 +59,21 @@ public class AddTeacher implements Initializable {
 
     @FXML
     private void handleSaveBtn() throws IOException {
+        Teacher newTeacher = new Teacher();
+        newTeacher.setSSN(ssn.getText());
+        newTeacher.setName(firstName.getText());
+        newTeacher.setSurname(lastName.getText());
+        newTeacher.setDateOfBirth(dateOfB.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+        newTeacher.setHomeAddress(homeAddress.getText());
+        newTeacher.setPhoneNum(phoneNumber.getText());
+        newTeacher.setUserName(userName.getText());
+        newTeacher.setPassWord(password.getText());
+        newTeacher.setEmailAddress(userEmail.getText());
+        newTeacher.setTeachingField(subject.getValue().toString());
+
+        DBConnections.connect();
+        DBConnections.addTeacher(newTeacher);
+
         ((Stage)this.saveBtn.getScene().getWindow()).close();
     }
 }

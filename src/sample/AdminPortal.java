@@ -90,11 +90,13 @@ public class AdminPortal implements Initializable, Actions, ControlledScenes {
 
     @FXML
     private void manageStaff() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.viewStaffSceneID, SchoolAppFramework.viewStaffSceneIDFile);
         this.myController.setScenes(SchoolAppFramework.viewStaffSceneID);
     }
 
     @FXML
     private void manageTeacher() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.viewTeacherSceneID, SchoolAppFramework.viewTeacherSceneIDFile);
         this.myController.setScenes(SchoolAppFramework.viewTeacherSceneID);
     }
 
