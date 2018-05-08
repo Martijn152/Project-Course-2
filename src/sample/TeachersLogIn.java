@@ -35,6 +35,7 @@ public class TeachersLogIn implements UserLogin, ControlledScenes {
         String ps=password.getText();
         System.out.println(un);
         DBConnections.connect();
+        //DBConnections.connect ();
         boolean resu=DBConnections.isteacher(un,ps);
         if (resu) {
             myController.setScenes(SchoolAppFramework.teacherSceneID);
