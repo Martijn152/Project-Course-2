@@ -137,17 +137,22 @@ public class DBConnections {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber," +
-                    " address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT persons.ssn, firstname, lastname, dateofbirth, address, phonenumber, emailadress, subject, loginid, password FROM persons, teachers WHERE persons.ssn = teachers.ssn ORDER BY teacherid");
 
             while(resultSet.next()) {
                 Teacher teacher = new Teacher();
-                teacher.setName(resultSet.getString(1));
-                teacher.setSurname(resultSet.getString(2));
-                teacher.setEmailAddress(resultSet.getString(3));
-                teacher.setPhoneNum(resultSet.getString(4));
+
+                teacher.setSSN(resultSet.getString(1));
+                teacher.setName(resultSet.getString(2));
+                teacher.setSurname(resultSet.getString(3));
+                teacher.setDateOfBirth(resultSet.getString(4));
                 teacher.setHomeAddress(resultSet.getString(5));
-                teacher.setTeachingField(resultSet.getString(6));
+                teacher.setPhoneNum(resultSet.getString(6));
+                teacher.setEmailAddress(resultSet.getString(7));
+                teacher.setTeachingField(resultSet.getString(8));
+                teacher.setUserName(resultSet.getString(9));
+                teacher.setPassWord(resultSet.getString(10));
+
                 result.add(teacher);
             }
         } catch (SQLException var3) {
@@ -249,6 +254,59 @@ public class DBConnections {
             var4.printStackTrace();
         }
 
+    }
+
+    public static void editTeacher(ObservableList<Teacher> editedList) {
+        try {
+            ArrayList<String> list = getTeacherID();
+
+            for(int i = 0; i < editedList.size(); i++) {
+                System.out.println("Trying to remove from teachers table");
+
+                statement.execute("DELETE FROM grades WHERE teacherid = '" + list.get(i) + "'");
+                statement.execute("DELETE FROM groups_teachers WHERE teacherid = '" + list.get(i) + "'");
+                statement.execute("DELETE FROM teachers WHERE teacherid = '" + list.get(i) + "'");
+            }
+                    for(int i = 0; i < editedList.size(); i++) {
+                        System.out.println("Trying to remove from persons table");
+
+                        statement.execute("DELETE FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'");
+
+                        statement.execute("" +
+                                "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                                "VALUES ('" +
+                                editedList.get(i).getSSN() + "','" +
+                                editedList.get(i).getName() + "','" +
+                                editedList.get(i).getSurname() + "','" +
+                                editedList.get(i).getDateOfBirth() + "','" +
+                                editedList.get(i).getHomeAddress() + "','" +
+                                editedList.get(i).getPhoneNum() + "','" +
+                                editedList.get(i).getUserName() + "','" +
+                                editedList.get(i).getPassWord() + "','" +
+                                editedList.get(i).getEmailAddress() + "')");
+
+                        statement.execute("INSERT INTO teachers (ssn, subject)" +
+                                "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'),'" + editedList.get(i).getTeachingField() + "');");
+                    }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static ArrayList<String> getTeacherID() {
+        ArrayList<String> result = new ArrayList<>();
+
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT teacherid FROM teachers ORDER BY teacherid");
+
+            while(resultSet.next()) {
+                result.add(resultSet.getString(1));
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+        return result;
     }
 
     public static void addStaff(Staff newStaff) {

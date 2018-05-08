@@ -21,14 +21,14 @@ import sample.SystemUsers.Teacher;
 
 public class ViewTeacher implements Initializable, ControlledScenes {
     public TableView teacherTableView;
+    public TableColumn ssnCol;
     public TableColumn firstNameCol;
     public TableColumn lastNameCol;
-    public TableColumn emailCol;
-    public TableColumn telCol;
-    public TableColumn addressCol;
-    public TableColumn subjectCol;
-    public TableColumn ssnCol;
     public TableColumn dobCol;
+    public TableColumn addressCol;
+    public TableColumn telCol;
+    public TableColumn emailCol;
+    public TableColumn subjectCol;
     public TableColumn usernameCol;
     public TableColumn passwordCol;
     private ScenesController myController;
@@ -50,15 +50,27 @@ public class ViewTeacher implements Initializable, ControlledScenes {
         this.ssnCol.setCellValueFactory(new PropertyValueFactory("SSN"));
         this.firstNameCol.setCellValueFactory(new PropertyValueFactory("name"));
         this.lastNameCol.setCellValueFactory(new PropertyValueFactory("surname"));
-        //this.dobCol.setCellFactory(new PropertyValueFactory("dateOfBirth"));
+        this.dobCol.setCellValueFactory(new PropertyValueFactory("dateOfBirth"));
         this.addressCol.setCellValueFactory(new PropertyValueFactory("homeAddress"));
         this.telCol.setCellValueFactory(new PropertyValueFactory("phoneNum"));
         this.emailCol.setCellValueFactory(new PropertyValueFactory("emailAddress"));
         this.subjectCol.setCellValueFactory(new PropertyValueFactory("teachingField"));
-        //this.usernameCol.setCellFactory(new PropertyValueFactory("userName"));
-        //this.passwordCol.setCellFactory(new PropertyValueFactory("password"));
+        this.usernameCol.setCellValueFactory(new PropertyValueFactory("userName"));
+        this.passwordCol.setCellValueFactory(new PropertyValueFactory("passWord"));
 
         this.teacherTableView.setItems(infoList);
+
+        ssnCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        ssnCol.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
+                    @Override
+                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
+                        ((Teacher) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setSSN(t.getNewValue());
+                    }
+                }
+        );
 
         firstNameCol.setCellFactory(TextFieldTableCell.forTableColumn());
         firstNameCol.setOnEditCommit(
@@ -84,26 +96,14 @@ public class ViewTeacher implements Initializable, ControlledScenes {
                 }
         );
 
-        emailCol.setCellFactory(TextFieldTableCell.forTableColumn());
-        emailCol.setOnEditCommit(
+        dobCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        dobCol.setOnEditCommit(
                 new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
                     @Override
                     public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
                         ((Teacher) t.getTableView().getItems().get(
                                 t.getTablePosition().getRow())
-                        ).setEmailAddress(t.getNewValue());
-                    }
-                }
-        );
-
-        telCol.setCellFactory(TextFieldTableCell.forTableColumn());
-        telCol.setOnEditCommit(
-                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
-                    @Override
-                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
-                        ((Teacher) t.getTableView().getItems().get(
-                                t.getTablePosition().getRow())
-                        ).setPhoneNum(t.getNewValue());
+                        ).setDateOfBirth(t.getNewValue());
                     }
                 }
         );
@@ -120,18 +120,65 @@ public class ViewTeacher implements Initializable, ControlledScenes {
                 }
         );
 
+
+        telCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        telCol.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
+                    @Override
+                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
+                        ((Teacher) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setPhoneNum(t.getNewValue());
+                    }
+                }
+        );
+
+        emailCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        emailCol.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
+                    @Override
+                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
+                        ((Teacher) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setEmailAddress(t.getNewValue());
+                    }
+                }
+        );
+
         subjectCol.setCellFactory(TextFieldTableCell.forTableColumn());
         subjectCol.setOnEditCommit(
                 new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
                     @Override
                     public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
-                        System.out.println("New value: ");
                         ((Teacher) t.getTableView().getItems().get(
                                 t.getTablePosition().getRow())
                         ).setTeachingField(t.getNewValue());
-                        System.out.println(t.getNewValue());
-                        System.out.println("New value in object: ");
-                        System.out.println(t.getTableView().getItems().get(t.getTablePosition().getRow()).getTeachingField());
+
+                    }
+                }
+        );
+
+        usernameCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        usernameCol.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
+                    @Override
+                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
+                        ((Teacher) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setUserName(t.getNewValue());
+
+                    }
+                }
+        );
+
+        passwordCol.setCellFactory(TextFieldTableCell.forTableColumn());
+        passwordCol.setOnEditCommit(
+                new EventHandler<TableColumn.CellEditEvent<Teacher, String>>() {
+                    @Override
+                    public void handle(TableColumn.CellEditEvent<Teacher, String> t) {
+                        ((Teacher) t.getTableView().getItems().get(
+                                t.getTablePosition().getRow())
+                        ).setPassWord(t.getNewValue());
 
                     }
                 }
@@ -149,15 +196,11 @@ public class ViewTeacher implements Initializable, ControlledScenes {
 
     @FXML
     private void handleUpdateBtn() {
-        //WORK IN PROGRESS BELOW
-/*        ObservableList<Teacher> editedList = teacherTableView.getItems();
-        System.out.println("New value in list:");
-        System.out.println(editedList.get(2).getTeachingField());
+        ObservableList<Teacher> editedList = teacherTableView.getItems();
 
         System.out.println("Will now try connection");
         DBConnections.connect();
-        DBConnections.editTeachers(editedList);
-        System.out.println("Oh boy let's hope it worked");*/
+        DBConnections.editTeacher(editedList);
     }
 
     @FXML

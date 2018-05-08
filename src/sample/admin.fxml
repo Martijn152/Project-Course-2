@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPortal">
+<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.AdminPortal">
    <top>
       <GridPane prefHeight="161.0" prefWidth="898.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -124,7 +124,7 @@
       </GridPane>
    </right>
    <center>
-      <GridPane prefHeight="494.0" prefWidth="563.0" styleClass="admin" stylesheets="@docsAndFiles/bgAdmin.css" BorderPane.alignment="CENTER">
+      <GridPane prefHeight="494.0" prefWidth="563.0" styleClass="admin" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
