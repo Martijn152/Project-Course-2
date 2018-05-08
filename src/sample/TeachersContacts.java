@@ -45,7 +45,7 @@ public class TeachersContacts implements Initializable, ControlledScenes {
 
     public void initialize(URL location, ResourceBundle resources) {
         DBConnections.connect();
-        ObservableList<Teacher> infoList = DBConnections.getTeacherInfo2();
+        ObservableList<Teacher> infoList = DBConnections.getTeacherInfo();
         this.teacherTableView.setEditable(false);
         this.firstNameCol.setCellValueFactory(new PropertyValueFactory ("name"));
         this.lastNameCol.setCellValueFactory(new PropertyValueFactory("surname"));
