@@ -99,11 +99,69 @@ public class DBConnections {
         return result;
     }
 
+    public static boolean isteacher(String username,String password){
+
+        ResultSet rs=null;
+
+        try {
+            String q1="SELECT SSN FROM persons WHERE LoginID='"+username+"' && Password='"+password +"'";
+            rs=statement.executeQuery(q1);
+            String ssn="";
+
+            if(rs.next()){
+                ssn=rs.getString("SSN");
+            }
+            else{
+                return false;
+            }
+            q1="SELECT * From teachers WHERE SSN='"+ssn+"'";
+            rs = statement.executeQuery(q1);
+
+            if(rs.next()){
+                return true;
+            }
+            else{
+                return false;
+            }
+
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+        }
+
+        return false;
+
+    }
+
     public static ObservableList<Teacher> getTeacherInfo() {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber, address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber," +
+                    " address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
+
+            while(resultSet.next()) {
+                Teacher teacher = new Teacher();
+                teacher.setName(resultSet.getString(1));
+                teacher.setSurname(resultSet.getString(2));
+                teacher.setEmailAddress(resultSet.getString(3));
+                teacher.setPhoneNum(resultSet.getString(4));
+                teacher.setHomeAddress(resultSet.getString(5));
+                teacher.setTeachingField(resultSet.getString(6));
+                result.add(teacher);
+            }
+        } catch (SQLException var3) {
+            var3.printStackTrace();
+        }
+
+        return result;
+    }
+    public static ObservableList<Teacher> getTeacherInfo2() {
+        ObservableList result = FXCollections.observableArrayList();
+
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress," +
+                    " phonenumber, address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
 
             while(resultSet.next()) {
                 Teacher teacher = new Teacher();
@@ -126,7 +184,8 @@ public class DBConnections {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber, address, job FROM persons, staff WHERE persons.ssn = staff.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress," +
+                    " phonenumber, address, job FROM persons, staff WHERE persons.ssn = staff.ssn");
 
             while(resultSet.next()) {
                 Staff staff = new Staff();
