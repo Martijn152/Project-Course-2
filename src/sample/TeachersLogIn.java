@@ -33,6 +33,7 @@ public class TeachersLogIn implements UserLogin, ControlledScenes {
     public void login(ActionEvent event) throws IOException {
         String un=userName.getText();
         String ps=password.getText();
+        //String
         System.out.println(un);
         DBConnections.connect();
         boolean resu=DBConnections.isteacher(un,ps);
