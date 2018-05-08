@@ -156,29 +156,7 @@ public class DBConnections {
 
         return result;
     }
-    public static ObservableList<Teacher> getTeacherInfo2() {
-        ObservableList result = FXCollections.observableArrayList();
 
-        try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress," +
-                    " phonenumber, address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
-
-            while(resultSet.next()) {
-                Teacher teacher = new Teacher();
-                teacher.setName(resultSet.getString(1));
-                teacher.setSurname(resultSet.getString(2));
-                teacher.setEmailAddress(resultSet.getString(3));
-                teacher.setPhoneNum(resultSet.getString(4));
-                teacher.setHomeAddress(resultSet.getString(5));
-                teacher.setTeachingField(resultSet.getString(6));
-                result.add(teacher);
-            }
-        } catch (SQLException var3) {
-            var3.printStackTrace();
-        }
-
-        return result;
-    }
 
     public static ObservableList<Staff> getStaffInfo() {
         ObservableList result = FXCollections.observableArrayList();
