@@ -99,11 +99,46 @@ public class DBConnections {
         return result;
     }
 
+    public static boolean isteacher(String username,String password){
+
+        ResultSet rs=null;
+
+        try {
+            String q1="SELECT SSN FROM persons WHERE LoginID='"+username+"' && Password='"+password +"'";
+            rs=statement.executeQuery(q1);
+            String ssn="";
+
+            if(rs.next()){
+                ssn=rs.getString("SSN");
+            }
+            else{
+                return false;
+            }
+            q1="SELECT * From teachers WHERE SSN='"+ssn+"'";
+            rs = statement.executeQuery(q1);
+
+            if(rs.next()){
+                return true;
+            }
+            else{
+                return false;
+            }
+
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+        }
+
+        return false;
+
+    }
+
     public static ObservableList<Teacher> getTeacherInfo() {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber, address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber," +
+                    " address, subject FROM persons, teachers WHERE persons.ssn = teachers.ssn");
 
             while(resultSet.next()) {
                 Teacher teacher = new Teacher();
@@ -122,11 +157,13 @@ public class DBConnections {
         return result;
     }
 
+
     public static ObservableList<Staff> getStaffInfo() {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress, phonenumber, address, job FROM persons, staff WHERE persons.ssn = staff.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress," +
+                    " phonenumber, address, job FROM persons, staff WHERE persons.ssn = staff.ssn");
 
             while(resultSet.next()) {
                 Staff staff = new Staff();
