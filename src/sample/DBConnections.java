@@ -192,7 +192,7 @@ public class DBConnections {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT persons.SSN, firstname, lastname, dateofbirth, emailadress, phonenumber, address FROM persons, students, groups WHERE persons.ssn = students.ssn AND students.groupid = groups.groupid AND groups.groupid = '" + selectedGroup + "'");
+            ResultSet resultSet = statement.executeQuery("SELECT persons.SSN, firstname, lastname, dateofbirth, emailadress, phonenumber, address, loginid, password FROM persons, students, groups WHERE persons.ssn = students.ssn AND students.groupid = groups.groupid AND groups.groupid = '" + selectedGroup + "'");
 
             while(resultSet.next()) {
                 Student student = new Student();
@@ -201,7 +201,10 @@ public class DBConnections {
                 student.setSurname(resultSet.getString(3));
                 student.setDateOfBirth(resultSet.getString(4));
                 student.setEmailAddress(resultSet.getString(5));
-                student.setHomeAddress(resultSet.getString(6));
+                student.setHomeAddress(resultSet.getString(7));
+                student.setUsername(resultSet.getString(8));
+                student.setPassword(resultSet.getString(9));
+                student.setPhoneNumber(resultSet.getString(6));
                 result.add(student);
             }
         } catch (SQLException var4) {
@@ -215,7 +218,7 @@ public class DBConnections {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT subject, firstname, lastname, emailadress, phonenumber FROM persons, teachers, groups, groups_teachers WHERE persons.ssn = teachers.ssn AND teachers.teacherid = groups_teachers.teacherid AND groups_teachers.groupid = groups.groupid AND groups.groupid = '" + selectedGroup + "'");
+            ResultSet resultSet = statement.executeQuery("SELECT subject, firstname, lastname, emailadress, phonenumber, persons.ssn FROM persons, teachers, groups, groups_teachers WHERE persons.ssn = teachers.ssn AND teachers.teacherid = groups_teachers.teacherid AND groups_teachers.groupid = groups.groupid AND groups.groupid = '" + selectedGroup + "'");
 
             while(resultSet.next()) {
                 Teacher teacher = new Teacher();
@@ -224,6 +227,28 @@ public class DBConnections {
                 teacher.setSurname(resultSet.getString(3));
                 teacher.setEmailAddress(resultSet.getString(4));
                 teacher.setPhoneNum(resultSet.getString(5));
+                teacher.setSSN(resultSet.getString(6));
+                result.add(teacher);
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+        return result;
+    }
+
+    public static ObservableList<Teacher> getTeacherInfoNotGroup(String selectedGroup) {
+        ObservableList result = FXCollections.observableArrayList();
+
+        try {
+            ResultSet resultSet = statement.executeQuery("select persons.ssn, subject, firstname, lastname from persons, teachers where persons.ssn = teachers.ssn and teacherid NOT IN (select teachers.teacherid from teachers, groups_teachers where teachers.teacherid = groups_teachers.teacherid and groups_teachers.groupid = "+selectedGroup+")");
+
+            while(resultSet.next()) {
+                Teacher teacher = new Teacher();
+                teacher.setSSN(resultSet.getString(1));
+                teacher.setTeachingField(resultSet.getString(2));
+                teacher.setName(resultSet.getString(3));
+                teacher.setSurname(resultSet.getString(4));
                 result.add(teacher);
             }
         } catch (SQLException var4) {
@@ -463,6 +488,73 @@ public class DBConnections {
 
             statement.execute("INSERT INTO admins (ssn, position) " +
                     "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + newAdmin.getSSN() + "'),'" + newAdmin.getPosition() +"')");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static void editStudents(ObservableList<Student> editedList) {
+        try {
+            for(int i = 0; i < editedList.size(); i++) {
+                statement.execute("" +
+                        "UPDATE persons " +
+                        "SET firstname = '" + editedList.get(i).getName() + "', lastname = '" +
+                        editedList.get(i).getSurname() + "', dateofbirth = '" +
+                        editedList.get(i).getDateOfBirth() + "', address = '" +
+                        editedList.get(i).getHomeAddress() + "', phonenumber = '" +
+                        editedList.get(i).getPhoneNumber() + "', loginid = '" +
+                        editedList.get(i).getUsername() + "', password = '" +
+                        editedList.get(i).getPassword() + "', emailadress = '" +
+                        editedList.get(i).getEmailAddress() + "'" +
+                        "WHERE SSN = '" + editedList.get(i).getSSN() + "'");
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static void deleteStudent(Student student) {
+        try {
+            String studentid = getSingleStudentID(student);
+            statement.execute("DELETE FROM students WHERE id = '" + studentid + "'");
+            //statement.execute("DELETE FROM persons where ssn = '" + staff.getSSN() + "'");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static String getSingleStudentID(Student student) {
+        String string = "";
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT studentid FROM students WHERE ssn = '" + student.getSSN() + "'");
+            while(resultSet.next()) {
+                string = resultSet.getString(1);
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+        return string;
+
+    }
+
+    public static void addTeacherToGroup(Teacher addedTeacher, String currentGroup) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO groups_teachers (teacherid, groupid) VALUES ('" + DBConnections.getSingleTeacherID(addedTeacher) + "','" + currentGroup + "')");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static void removeTeacherFromGroup(Teacher removedTeacher, String currentGroup) {
+        try {
+            statement.execute("" +
+                    "DELETE FROM groups_teachers WHERE teacherid = '" + DBConnections.getSingleTeacherID(removedTeacher) + "' AND groupid = '" + currentGroup + "'");
 
         } catch (SQLException var4) {
             var4.printStackTrace();
