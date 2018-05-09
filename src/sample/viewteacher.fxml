@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.ViewTeacher">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewTeacher">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -24,6 +24,11 @@
             <Label fx:id="groupName" style="-fx-background-color: #1230;">
                <font>
                   <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label text="PLEASE NOTE THAT CHANGING THE SOCIAL SECURITY NUMBER IS CURRENTLY NOT SUPPORTED" textFill="#a4a4a4">
+               <font>
+                  <Font name="System Bold" size="12.0" />
                </font>
             </Label>
          </children>
@@ -58,6 +63,11 @@
                   <Font name="Arial Black" size="13.0" />
                </font>
             </Button>
+            <Label fx:id="messageLabel" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
          </children>
       </GridPane>
    </bottom>
@@ -73,7 +83,7 @@
             <TableView fx:id="teacherTableView" prefHeight="336.0" prefWidth="900.0">
                <columns>
                   <TableColumn fx:id="ssnCol" prefWidth="75.0" text="SSN" />
-                  <TableColumn fx:id="firstNameCol" maxWidth="4000.0" onEditCommit="#handleUpdateBtn" onEditStart="#onEditStart" prefWidth="75.0" text="Firstname" />
+                  <TableColumn fx:id="firstNameCol" maxWidth="4000.0" onEditCommit="#handleUpdateBtn" prefWidth="75.0" text="Firstname" />
                   <TableColumn fx:id="lastNameCol" maxWidth="4000.0" prefWidth="143.20004272460938" text="Lastname" />
                   <TableColumn fx:id="dobCol" prefWidth="111.20001220703125" text="Date of Birth" />
                   <TableColumn fx:id="addressCol" onEditCommit="#handleUpdateBtn" prefWidth="75.0" text="Home Address" />

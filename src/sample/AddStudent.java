@@ -22,35 +22,22 @@ import javafx.stage.Stage;
 import sample.SystemUsers.Student;
 
 public class AddStudent implements Initializable {
-    public TextField parentSSN;
-    public TextField parentName;
-    public TextField parentEmail;
-    public TextField parentPhone;
+
+
     ObservableList<String> list = FXCollections.observableArrayList(new String[]{"GroupYear9", "GroupYear10", "GroupYear11", "GroupYear12"});
-    @FXML
-    private TextField firstName;
-    @FXML
-    private TextField lastName;
-    @FXML
-    private TextField ssn;
-    @FXML
-    private DatePicker dateOfB;
-    @FXML
-    private RadioButton maleGender;
-    @FXML
-    private RadioButton femaleGender;
-    @FXML
-    private TextField homeAddress;
-    @FXML
-    private TextField phoneNumber;
-    @FXML
-    private TextField userName;
-    @FXML
-    private TextField password;
-    @FXML
-    private TextField userEmail;
-    @FXML
-    private ChoiceBox group;
+
+    public TextField firstName;
+    public TextField lastName;
+    public TextField ssn;
+    public DatePicker dateOfB;
+    public TextField homeAddress;
+    public TextField phoneNumber;
+    public TextField userEmail;
+    public TextField iceNumber;
+    public TextField userName;
+    public TextField password;
+    public ChoiceBox group;
+
     @FXML
     private Button saveBtn;
 
@@ -64,19 +51,31 @@ public class AddStudent implements Initializable {
     @FXML
     private void handleSaveBtn() throws IOException {
         Student newStudent = new Student();
+
         newStudent.setSSN(ssn.getText());
         newStudent.setName(firstName.getText());
         newStudent.setSurname(lastName.getText());
         newStudent.setDateOfBirth(dateOfB.getValue().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
         newStudent.setHomeAddress(homeAddress.getText());
+        newStudent.setUsername(userName.getText());
+        newStudent.setPassword(password.getText());
+        newStudent.setEmailAddress(userEmail.getText());
+        newStudent.setPhoneNumber(phoneNumber.getText());
 
-        //newStudent.setUserName(userName.getText());
-        //newStudent.setPassWord(password.getText());
-        //newStudent.setEmailAddress(userEmail.getText());
-        //newStudent.setGradeYear(group.getValue().toString());
+        String groupID = "";
+        if(group.getValue().toString().equals("GroupYear9")){
+            groupID = "1";
+        }else if(group.getValue().toString().equals("GroupYear10")){
+            groupID = "2";
+        }else if(group.getValue().toString().equals("GroupYear11")){
+            groupID = "3";
+        }else if(group.getValue().toString().equals("GroupYear12")){
+            groupID = "4";
+        }
+        newStudent.setGradeYear(groupID);
 
-        //DBConnections.connect();
-        //DBConnections.addTeacher(newStudent);
+        DBConnections.connect();
+        DBConnections.addStudent(newStudent);
 
         ((Stage)this.saveBtn.getScene().getWindow()).close();
     }

@@ -68,7 +68,7 @@ public class SchoolAppFramework extends Application {
         //mainContainer.loadScene(viewAddgradeSceneID, viewAddgradeSceneIDFile);
         //mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
         //mainContainer.loadScene(viewStaffSceneID, viewStaffSceneIDFile);
-        mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);
+        //mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);
         //mainContainer.loadScene(teacherContactAdminSceneID, teacherContactAdminSceneFile);
         //mainContainer.loadScene(studentContactAdminSceneID, studentContactAdminSceneFile);
         //mainContainer.loadScene(teachersContactsSceneID, teachersContactsSceneFile);

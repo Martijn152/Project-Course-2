@@ -8,15 +8,19 @@ package sample;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.concurrent.TimeUnit;
+
 import javafx.collections.ObservableList;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.paint.Color;
 import sample.SystemUsers.Teacher;
 
 public class ViewTeacher implements Initializable, ControlledScenes {
@@ -31,6 +35,7 @@ public class ViewTeacher implements Initializable, ControlledScenes {
     public TableColumn subjectCol;
     public TableColumn usernameCol;
     public TableColumn passwordCol;
+    public Label messageLabel;
     private ScenesController myController;
     @FXML
     private Button returnBtn;
@@ -197,19 +202,18 @@ public class ViewTeacher implements Initializable, ControlledScenes {
     @FXML
     private void handleUpdateBtn() {
         ObservableList<Teacher> editedList = teacherTableView.getItems();
-
-        System.out.println("Will now try connection");
         DBConnections.connect();
         DBConnections.editTeacher(editedList);
-    }
-
-    @FXML
-    private void onEditStart(){
-        System.out.println("Edit start");
+        messageLabel.setTextFill(Color.GREEN);
+        messageLabel.setText("Changes saved.");
     }
 
     @FXML
     private void handleDeleteBtnBtn() {
+        Teacher teacher = (Teacher)teacherTableView.getSelectionModel().getSelectedItem();
+        DBConnections.deleteTeacher(teacher);
+        messageLabel.setTextFill(Color.GREEN);
+        messageLabel.setText("Teacher deleted \nfrom system.");
     }
 
 

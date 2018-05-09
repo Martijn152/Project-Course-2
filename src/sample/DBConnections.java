@@ -22,9 +22,6 @@ import sample.SystemUsers.*;
 public class DBConnections {
     private static Statement statement;
 
-    public DBConnections() {
-    }
-
     public static void connect() {
         try {
             String url = "jdbc:mysql://den1.mysql3.gear.host:3306/projectcourse2";
@@ -162,22 +159,26 @@ public class DBConnections {
         return result;
     }
 
-
     public static ObservableList<Staff> getStaffInfo() {
         ObservableList result = FXCollections.observableArrayList();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT firstname, lastname, emailadress," +
-                    " phonenumber, address, job FROM persons, staff WHERE persons.ssn = staff.ssn");
+            ResultSet resultSet = statement.executeQuery("SELECT persons.ssn, firstname, lastname, dateofbirth, address, phonenumber, emailadress, job, loginid, password FROM persons, staff WHERE persons.ssn = staff.ssn");
 
             while(resultSet.next()) {
                 Staff staff = new Staff();
-                staff.setName(resultSet.getString(1));
-                staff.setSurname(resultSet.getString(2));
-                staff.setEmailAddress(resultSet.getString(3));
-                staff.setPhoneNum(resultSet.getString(4));
+
+                staff.setSSN(resultSet.getString(1));
+                staff.setName(resultSet.getString(2));
+                staff.setSurname(resultSet.getString(3));
+                staff.setDateOfBirth(resultSet.getString(4));
                 staff.setHomeAddress(resultSet.getString(5));
-                staff.setPosition(resultSet.getString(6));
+                staff.setPhoneNum(resultSet.getString(6));
+                staff.setEmailAddress(resultSet.getString(7));
+                staff.setPosition(resultSet.getString(8));
+                staff.setUserName(resultSet.getString(9));
+                staff.setPassword(resultSet.getString(10));
+
                 result.add(staff);
             }
         } catch (SQLException var3) {
@@ -258,55 +259,74 @@ public class DBConnections {
 
     public static void editTeacher(ObservableList<Teacher> editedList) {
         try {
-            ArrayList<String> list = getTeacherID();
-
-            for(int i = 0; i < editedList.size(); i++) {
-                System.out.println("Trying to remove from teachers table");
-
-                statement.execute("DELETE FROM grades WHERE teacherid = '" + list.get(i) + "'");
-                statement.execute("DELETE FROM groups_teachers WHERE teacherid = '" + list.get(i) + "'");
-                statement.execute("DELETE FROM teachers WHERE teacherid = '" + list.get(i) + "'");
-            }
+            ArrayList list = getTeacherID(editedList);
                     for(int i = 0; i < editedList.size(); i++) {
-                        System.out.println("Trying to remove from persons table");
-
-                        statement.execute("DELETE FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'");
+                        statement.execute("" +
+                                "UPDATE persons " +
+                                "SET firstname = '" + editedList.get(i).getName() + "', lastname = '" +
+                                editedList.get(i).getSurname() + "', dateofbirth = '" +
+                                editedList.get(i).getDateOfBirth() + "', address = '" +
+                                editedList.get(i).getHomeAddress() + "', phonenumber = '" +
+                                editedList.get(i).getPhoneNum() + "', loginid = '" +
+                                editedList.get(i).getUserName() + "', password = '" +
+                                editedList.get(i).getPassWord() + "', emailadress = '" +
+                                editedList.get(i).getEmailAddress() + "'" +
+                                "WHERE SSN = '" + editedList.get(i).getSSN() + "'");
 
                         statement.execute("" +
-                                "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
-                                "VALUES ('" +
-                                editedList.get(i).getSSN() + "','" +
-                                editedList.get(i).getName() + "','" +
-                                editedList.get(i).getSurname() + "','" +
-                                editedList.get(i).getDateOfBirth() + "','" +
-                                editedList.get(i).getHomeAddress() + "','" +
-                                editedList.get(i).getPhoneNum() + "','" +
-                                editedList.get(i).getUserName() + "','" +
-                                editedList.get(i).getPassWord() + "','" +
-                                editedList.get(i).getEmailAddress() + "')");
-
-                        statement.execute("INSERT INTO teachers (ssn, subject)" +
-                                "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + editedList.get(i).getSSN() + "'),'" + editedList.get(i).getTeachingField() + "');");
+                                "UPDATE teachers " +
+                                "SET subject = '" + editedList.get(i).getTeachingField() +
+                                "' WHERE teacherid = " + list.get(i));
                     }
         } catch (SQLException var4) {
             var4.printStackTrace();
         }
     }
 
-    public static ArrayList<String> getTeacherID() {
+    public static void deleteTeacher(Teacher teacher) {
+        try {
+            String teacherid = getSingleTeacherID(teacher);
+            statement.execute("DELETE FROM groups_teachers where teacherid = '" + teacherid + "'");
+            statement.execute("DELETE FROM grades where teacherid = '" + teacherid + "'");
+            statement.execute("DELETE FROM teachers where teacherid = '" + teacherid + "'");
+            //statement.execute("DELETE FROM persons where ssn = '" + teacher.getSSN() + "'");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static ArrayList<String> getTeacherID(ObservableList<Teacher> editedList) {
         ArrayList<String> result = new ArrayList<>();
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT teacherid FROM teachers ORDER BY teacherid");
+            for(int i = 0; i < editedList.size(); i++) {
+                ResultSet resultSet = statement.executeQuery("SELECT teacherid FROM teachers WHERE ssn = '" + editedList.get(i).getSSN() + "'");
 
             while(resultSet.next()) {
                 result.add(resultSet.getString(1));
+            }
             }
         } catch (SQLException var4) {
             var4.printStackTrace();
         }
 
         return result;
+    }
+
+    public static String getSingleTeacherID(Teacher teacher) {
+        String string = "";
+        try {
+                ResultSet resultSet = statement.executeQuery("SELECT teacherid FROM teachers WHERE ssn = '" + teacher.getSSN() + "'");
+
+                while(resultSet.next()) {
+                    string = resultSet.getString(1);
+                }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+        return string;
+
     }
 
     public static void addStaff(Staff newStaff) {
@@ -333,6 +353,124 @@ public class DBConnections {
 
     }
 
+    public static void editStaff(ObservableList<Staff> editedList) {
+        try {
+            ArrayList list = getStaffID(editedList);
+            for(int i = 0; i < editedList.size(); i++) {
+                statement.execute("" +
+                        "UPDATE persons " +
+                        "SET firstname = '" + editedList.get(i).getName() + "', lastname = '" +
+                        editedList.get(i).getSurname() + "', dateofbirth = '" +
+                        editedList.get(i).getDateOfBirth() + "', address = '" +
+                        editedList.get(i).getHomeAddress() + "', phonenumber = '" +
+                        editedList.get(i).getPhoneNum() + "', loginid = '" +
+                        editedList.get(i).getUserName() + "', password = '" +
+                        editedList.get(i).getPassword() + "', emailadress = '" +
+                        editedList.get(i).getEmailAddress() + "'" +
+                        "WHERE SSN = '" + editedList.get(i).getSSN() + "'");
+
+                statement.execute("" +
+                        "UPDATE teachers " +
+                        "SET subject = '" + editedList.get(i).getPosition() +
+                        "' WHERE teacherid = " + list.get(i));
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static ArrayList<String> getStaffID(ObservableList<Staff> editedList) {
+        ArrayList<String> result = new ArrayList<>();
+
+        try {
+            for(int i = 0; i < editedList.size(); i++) {
+                ResultSet resultSet = statement.executeQuery("SELECT id FROM staff WHERE ssn = '" + editedList.get(i).getSSN() + "'");
+
+                while(resultSet.next()) {
+                    result.add(resultSet.getString(1));
+                }
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+        return result;
+    }
+
+    public static void deleteStaff(Staff staff) {
+        try {
+            String staffid = getSingleStaffID(staff);
+            statement.execute("DELETE FROM staff WHERE id = '" + staffid + "'");
+            //statement.execute("DELETE FROM persons where ssn = '" + staff.getSSN() + "'");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+    }
+
+    public static String getSingleStaffID(Staff staff) {
+        String string = "";
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT id FROM staff WHERE ssn = '" + staff.getSSN() + "'");
+            while(resultSet.next()) {
+                string = resultSet.getString(1);
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+        return string;
+
+    }
+
+    public static void addStudent(Student newStudent) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                    "VALUES ('" +
+                    newStudent.getSSN() + "','" +
+                    newStudent.getName() + "','" +
+                    newStudent.getSurname() + "','" +
+                    newStudent.getDateOfBirth() + "','" +
+                    newStudent.getHomeAddress() + "','" +
+                    newStudent.getPhoneNumber() + "','" +
+                    newStudent.getUsername() + "','" +
+                    newStudent.getPassword() + "','" +
+                    newStudent.getEmailAddress() + "')");
+
+            statement.execute("INSERT INTO students (ssn, groupid) " +
+                    "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + newStudent.getSSN() + "'),(SELECT groupid FROM groups WHERE groupid = '" + newStudent.getGradeYear() +"'))");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static void addAdmin(AdminMember newAdmin) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO persons (ssn, firstname, lastname, dateofbirth, address, phonenumber, loginid, password, emailadress)" +
+                    "VALUES ('" +
+                    newAdmin.getSSN() + "','" +
+                    newAdmin.getName() + "','" +
+                    newAdmin.getSurname() + "','" +
+                    newAdmin.getDateOfBirth() + "','" +
+                    newAdmin.getHomeAddress() + "','" +
+                    newAdmin.getPhoneNum() + "','" +
+                    newAdmin.getUserName() + "','" +
+                    newAdmin.getPassWord() + "','" +
+                    newAdmin.getEmailAddress() + "')");
+
+            statement.execute("INSERT INTO admins (ssn, position) " +
+                    "VALUES ((SELECT persons.ssn FROM persons WHERE ssn = '" + newAdmin.getSSN() + "'),'" + newAdmin.getPosition() +"')");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    //This is where Stephan's part starts
     String url="jdbc:mysql://den1.mysql3.gear.host:3306/projectcourse2";
     Statement st = null;
     ResultSet rs = null;
@@ -352,7 +490,6 @@ public class DBConnections {
             System.out.println("Failed to connect "+ ex.getMessage());
         }
     }
-
 
     public ObservableList<Classmate> getClassmate(String groupID){
         DBconnect();
@@ -464,7 +601,6 @@ public class DBConnections {
             e.printStackTrace();
         } return grade;
     }
-
 
     public double getSecondSemesterGrades(String loginID,String subject){
         double grade =0;
