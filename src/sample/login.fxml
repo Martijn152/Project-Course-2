@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginScreen">
+<BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.LoginScreen">
    <top>
       <GridPane prefHeight="117.0" prefWidth="1298.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -138,7 +138,7 @@
                   <Insets left="40.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="adminBtn" mnemonicParsing="false" onAction="#handleAdmBtn" prefHeight="120.0" prefWidth="300.0" style="-fx-border-color: BLACK; -fx-background-color: #858585#858585; -fx-background-radius: 10; -fx-border-radius: 10;" text="ADMIN" textFill="#f2ecec">
+            <Button fx:id="adminBtn" mnemonicParsing="false" onAction="#handleAdmBtn" prefHeight="120.0" prefWidth="300.0" style="-fx-border-color: BLACK; -fx-background-color: #858585#858585; -fx-background-radius: 10; -fx-border-radius: 10;" text="ADMINISTRATORS" textFill="#f2ecec">
                <font>
                   <Font name="Avenir Next Bold" size="18.0" />
                </font>

@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewTeacher">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black; -fx-background-color: #1232;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.ViewTeacher">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>

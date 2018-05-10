@@ -41,6 +41,7 @@ public class StaffPortal implements Initializable, Actions, ControlledScenes {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
+        staffName.setText(StaffLogin.getCurrentUser());
     }
 
     @FXML

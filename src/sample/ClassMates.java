@@ -26,15 +26,10 @@ public class ClassMates implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         loginID=StudentLogin.getCurrentUser();
-        System.out.println(loginID);
 
-
-       String groupId=db.getStudentGroup(loginID);
-       System.out.println(groupId);
-
-       list= db.getClassmate(groupId); //load classmates in the observableList
+        String groupId=db.getStudentGroup(loginID);
+        list= db.getClassmate(groupId); //load classmates in the observableList
 
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
         email.setCellValueFactory(new PropertyValueFactory<>("emailAddress"));

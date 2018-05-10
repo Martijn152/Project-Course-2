@@ -41,16 +41,12 @@ public class LoginScreen implements Initializable, ControlledScenes {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("Adding news to board");
         DBConnections.connect();
         ArrayList<String> list = DBConnections.getNews();
-        System.out.println("DB connection success");
 
         titleLabel.setText(list.get(list.size()-3));
         categoryLabel.setText(list.get(list.size()-2));
         newsArea.setText(list.get(list.size()-1));
-
-        System.out.println(list.get(list.size()-2));
 
         newsArea.setEditable(false);
     }

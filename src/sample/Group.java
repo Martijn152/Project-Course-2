@@ -55,8 +55,6 @@ public class Group implements Initializable, ControlledScenes {
     public void initialize(URL location, ResourceBundle resources) {
         selectedGroup = AdminPortal.getSelectedGroup();
 
-        System.out.println("Selected group: " + selectedGroup);
-
         DBConnections.connect();
         ObservableList<Student> infoList = DBConnections.getStudentInfo(selectedGroup);
 

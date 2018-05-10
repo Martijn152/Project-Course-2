@@ -5,7 +5,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -110,16 +109,7 @@
                   <Insets />
                </GridPane.margin>
             </Label>
-            <HBox prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <TextField fx:id="searchField" prefHeight="27.0" prefWidth="216.0" style="-fx-background-radius: 10;" />
-                  <Button fx:id="searchBtn" mnemonicParsing="false" onAction="#handleSearchBtn" prefHeight="27.0" prefWidth="65.0" text="Search">
-                     <HBox.margin>
-                        <Insets left="4.0" />
-                     </HBox.margin>
-                  </Button>
-               </children>
-            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" />
          </children>
       </GridPane>
    </right>
@@ -165,18 +155,13 @@
                   <Insets />
                </GridPane.margin>
             </Button>
-            <Button fx:id="newsModule" mnemonicParsing="false" onAction="#upgradeNews" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #3229;" text="Upgrade school news" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Button fx:id="newsModule" mnemonicParsing="false" onAction="#upgradeNews" prefHeight="31.0" prefWidth="211.0" style="-fx-background-color: #3229;" text="Update school news" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="7">
                <font>
                   <Font name="Adobe Gurmukhi" size="15.0" />
                </font>
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
-            </Button>
-            <Button fx:id="updatePw" mnemonicParsing="false" onAction="#updatePword" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #3229;" text="Upgrade password" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="6">
-               <font>
-                  <Font name="Adobe Gurmukhi" size="15.0" />
-               </font>
             </Button>
             <MenuButton fx:id="addPerson" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="145.0" style="-fx-background-color: #1329;" text="Add Person" textAlignment="RIGHT" textFill="#f8f6f6" GridPane.columnIndex="2" GridPane.rowIndex="5">
               <items>

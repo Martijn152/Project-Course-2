@@ -96,6 +96,20 @@ public class DBConnections {
         return result;
     }
 
+    public static boolean isStaff(String SSN) {
+        boolean result = false;
+
+        try {
+            for(ResultSet resultSet = statement.executeQuery("SELECT id FROM staff, persons WHERE staff.ssn = persons.ssn AND persons.ssn = '" + SSN + "'"); resultSet.next(); result = true) {
+                ;
+            }
+        } catch (SQLException var3) {
+            var3.printStackTrace();
+        }
+
+        return result;
+    }
+
     public static boolean isteacher(String username,String password){
 
         ResultSet rs=null;

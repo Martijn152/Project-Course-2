@@ -133,10 +133,6 @@ public class StudentPortal implements Initializable,Actions,ControlledScenes {
         this.studentNameTranscript1.setText(fullname);
         this.studentNameTranscript2.setText(fullname);
 
-        System.out.println(usrname);
-        System.out.println(fullname);
-
-
         /**GRADE SEMESTER 1**/
         physicsGrade1.setText(String.valueOf(con.getfirstSemesterGrades(usr,subjectPhysics)));
         physicsGrade1Transcript.setText(physicsGrade1.getText());

@@ -80,7 +80,6 @@ public class AdminPortal implements Initializable, Actions, ControlledScenes {
 
     public void initialize(URL location, ResourceBundle resources) {
         currentUser = AdminLogin.getCurrentUser();
-        System.out.println("Current user: " + currentUser);
         this.username.setText(currentUser);
     }
 
