@@ -45,6 +45,7 @@ public class AddTeacherToGroup{
         DBConnections.connect();
         DBConnections.addTeacherToGroup(addedTeacher, selectedGroup);
         ((Stage)this.saveButton.getScene().getWindow()).close();
+
     }
 
     @FXML

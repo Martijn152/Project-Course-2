@@ -54,19 +54,19 @@ public class SchoolAppFramework extends Application {
     public void start(Stage primaryStage) throws Exception {
         ScenesController mainContainer = new ScenesController();
 
-        //mainContainer.loadScene(loginSceneID, loginSceneFile);
+        mainContainer.loadScene(loginSceneID, loginSceneFile);
         //mainContainer.loadScene(teacherSceneID, teacherSceneFile);
         //mainContainer.loadScene(studentSceneID, studentSceneFile);
-        //mainContainer.loadScene(staffSceneID, staffSceneFile);
+        mainContainer.loadScene(staffSceneID, staffSceneFile);
         //mainContainer.loadScene(teacherLoginSceneID, teacherLoginFile);
         //mainContainer.loadScene(studentLoginSceneID, studentLoginFile);
-        //mainContainer.loadScene(staffLoginSceneID, staffLoginFile);
+        mainContainer.loadScene(staffLoginSceneID, staffLoginFile);
         //mainContainer.loadScene(coverPageSceneID, coverPageSceneFile);
         mainContainer.loadScene(adminSceneID, adminSceneFile);
-        //mainContainer.loadScene(adminLoginSceneID, adminLoginFile);
+        mainContainer.loadScene(adminLoginSceneID, adminLoginFile);
         //mainContainer.loadScene(groupSceneID, groupSceneIDFile);
         //mainContainer.loadScene(viewAddgradeSceneID, viewAddgradeSceneIDFile);
-        //mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
+        mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
         //mainContainer.loadScene(viewStaffSceneID, viewStaffSceneIDFile);
         //mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);
         //mainContainer.loadScene(teacherContactAdminSceneID, teacherContactAdminSceneFile);

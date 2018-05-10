@@ -562,6 +562,37 @@ public class DBConnections {
 
     }
 
+    public static void addNewsItem(String title, String category, String text) {
+        try {
+            statement.execute("" +
+                    "INSERT INTO news (newstext, title, category, date)" +
+                    "VALUES ('" + text + "','" + title + "','" + category +
+                    "','')");
+
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+    }
+
+    public static ArrayList<String> getNews() {
+        ArrayList<String> result = new ArrayList<>();
+
+        try {
+                ResultSet resultSet = statement.executeQuery("SELECT title, category, newstext FROM news ORDER BY newsid");
+
+                while(resultSet.next()) {
+                    result.add(resultSet.getString(1));
+                    result.add(resultSet.getString(2));
+                    result.add(resultSet.getString(3));
+                }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+        return result;
+    }
+
     //This is where Stephan's part starts
     String url="jdbc:mysql://den1.mysql3.gear.host:3306/projectcourse2";
     Statement st = null;

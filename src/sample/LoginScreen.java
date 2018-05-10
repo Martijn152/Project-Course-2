@@ -7,13 +7,18 @@ package sample;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
 public class LoginScreen implements Initializable, ControlledScenes {
+    public TextArea newsArea;
+    public Label titleLabel;
+    public Label categoryLabel;
     @FXML
     private Button adminBtn;
     @FXML
@@ -36,6 +41,18 @@ public class LoginScreen implements Initializable, ControlledScenes {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
+        System.out.println("Adding news to board");
+        DBConnections.connect();
+        ArrayList<String> list = DBConnections.getNews();
+        System.out.println("DB connection success");
+
+        titleLabel.setText(list.get(list.size()-3));
+        categoryLabel.setText(list.get(list.size()-2));
+        newsArea.setText(list.get(list.size()-1));
+
+        System.out.println(list.get(list.size()-2));
+
+        newsArea.setEditable(false);
     }
 
     @FXML
