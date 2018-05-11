@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-border-color: white;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StudentContactAdmin">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.StudentContactAdmin">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -50,7 +50,7 @@
       </GridPane>
    </bottom>
    <center>
-      <GridPane style="-fx-background-color: gray; -fx-border-color: white;" BorderPane.alignment="CENTER">
+      <GridPane style="-fx-background-color: #858585#858585;" BorderPane.alignment="CENTER">
          <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -60,9 +60,9 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Pane prefHeight="200.0" prefWidth="200.0">
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: gray;">
                <children>
-                  <GridPane layoutX="184.0" layoutY="42.0" prefHeight="157.0" prefWidth="210.0">
+                  <GridPane layoutX="150.0" layoutY="42.0" prefHeight="157.0" prefWidth="244.0">
                      <columnConstraints>
                         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="229.0" />
                      </columnConstraints>
@@ -75,7 +75,7 @@
                      <children>
                         <Label text="Principal">
                            <font>
-                              <Font name="Avenir Next Bold" size="18.0" />
+                              <Font name="Avenir Next Bold" size="14.0" />
                            </font>
                         </Label>
                         <Label fx:id="principalName" layoutX="10.0" layoutY="18.0" text="name" GridPane.rowIndex="1" />
@@ -83,7 +83,7 @@
                         <Label fx:id="principalTel" layoutX="116.0" layoutY="111.0" text="tel" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
-                  <GridPane prefHeight="150.0" prefWidth="150.0">
+                  <GridPane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1231;">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                      </columnConstraints>
@@ -91,14 +91,18 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Pane prefHeight="150.0" prefWidth="150.0" styleClass="principal" stylesheets="@docsAndFiles/admin_foto.css" />
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="34.0" layoutY="45.0" text="photo" />
+                           </children>
+                        </Pane>
                      </children>
                   </GridPane>
                </children>
             </Pane>
-            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: gray;" GridPane.rowIndex="1">
                <children>
-                  <GridPane layoutX="169.0" layoutY="42.0" prefHeight="157.0" prefWidth="210.0">
+                  <GridPane layoutX="135.0" layoutY="42.0" prefHeight="157.0" prefWidth="244.0">
                      <columnConstraints>
                         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="229.0" />
                      </columnConstraints>
@@ -111,7 +115,7 @@
                      <children>
                         <Label text="IT-system Manager">
                            <font>
-                              <Font name="Avenir Next Bold" size="18.0" />
+                              <Font name="Avenir Next Bold" size="14.0" />
                            </font>
                         </Label>
                         <Label fx:id="itManagerName" layoutX="10.0" layoutY="18.0" text="name" GridPane.rowIndex="1" />
@@ -119,7 +123,7 @@
                         <Label fx:id="itManagerTel" layoutX="116.0" layoutY="98.0" text="tel" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
-                  <GridPane prefHeight="150.0" prefWidth="150.0">
+                  <GridPane prefHeight="100.0" prefWidth="100.0">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                      </columnConstraints>
@@ -127,14 +131,18 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Pane prefHeight="150.0" prefWidth="150.0" styleClass="IT_manager" stylesheets="@docsAndFiles/admin_foto.css" />
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1231;">
+                           <children>
+                              <Label layoutX="40.0" layoutY="44.0" text="photo" />
+                           </children>
+                        </Pane>
                      </children>
                   </GridPane>
                </children>
             </Pane>
-            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: gray;" GridPane.columnIndex="1">
                <children>
-                  <GridPane layoutX="186.0" layoutY="35.0" prefHeight="157.0" prefWidth="210.0">
+                  <GridPane layoutX="152.0" layoutY="35.0" prefHeight="157.0" prefWidth="244.0">
                      <columnConstraints>
                         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="229.0" />
                      </columnConstraints>
@@ -147,7 +155,7 @@
                      <children>
                         <Label text="General Secretary">
                            <font>
-                              <Font name="Avenir Next Bold" size="18.0" />
+                              <Font name="Avenir Next Bold" size="14.0" />
                            </font>
                         </Label>
                         <Label fx:id="secretaryName" layoutX="10.0" layoutY="17.0" text="name" GridPane.rowIndex="1" />
@@ -158,7 +166,7 @@
                         <Insets right="20.0" />
                      </opaqueInsets>
                   </GridPane>
-                  <GridPane prefHeight="150.0" prefWidth="150.0">
+                  <GridPane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1231;">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                      </columnConstraints>
@@ -166,14 +174,18 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Pane prefHeight="150.0" prefWidth="150.0" styleClass="secretary" stylesheets="@docsAndFiles/admin_foto.css" />
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="31.0" layoutY="41.0" text="photo" />
+                           </children>
+                        </Pane>
                      </children>
                   </GridPane>
                </children>
             </Pane>
-            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <GridPane layoutX="185.0" layoutY="42.0" prefHeight="157.0" prefWidth="237.0">
+                  <GridPane layoutX="151.0" layoutY="42.0" prefHeight="157.0" prefWidth="244.0">
                      <columnConstraints>
                         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="229.0" />
                      </columnConstraints>
@@ -186,7 +198,7 @@
                      <children>
                         <Label text="Head of human Ressources">
                            <font>
-                              <Font name="Avenir Next Bold" size="18.0" />
+                              <Font name="Avenir Next Bold" size="14.0" />
                            </font>
                         </Label>
                         <Label fx:id="humanResName" layoutX="116.0" layoutY="18.0" text="name" GridPane.rowIndex="1" />
@@ -194,7 +206,7 @@
                         <Label fx:id="humanResTel" layoutX="116.0" layoutY="100.0" text="tel" GridPane.rowIndex="3" />
                      </children>
                   </GridPane>
-                  <GridPane prefHeight="150.0" prefWidth="150.0">
+                  <GridPane prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #1231;">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                      </columnConstraints>
@@ -202,7 +214,11 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Pane prefHeight="150.0" prefWidth="150.0" styleClass="HR_manager" stylesheets="@docsAndFiles/admin_foto.css" />
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Label layoutX="33.0" layoutY="37.0" text="photo" />
+                           </children>
+                        </Pane>
                      </children>
                   </GridPane>
                </children>

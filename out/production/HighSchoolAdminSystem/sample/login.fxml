@@ -41,25 +41,35 @@
       </GridPane>
    </top>
    <left>
-      <GridPane prefHeight="389.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+      <GridPane prefHeight="462.0" prefWidth="317.0" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
             <RowConstraints maxHeight="281.0" minHeight="10.0" prefHeight="41.0" valignment="CENTER" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="432.0" minHeight="10.0" prefHeight="369.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="432.0" minHeight="10.0" prefHeight="27.199999999999996" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="432.0" minHeight="6.000009155273432" prefHeight="25.599987792968747" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="432.0" minHeight="10.0" prefHeight="369.6000122070312" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TextArea prefHeight="200.0" prefWidth="200.0" styleClass="text-area" stylesheets="@docsAndFiles/transparent.css" GridPane.rowIndex="1">
+            <TextArea fx:id="newsArea" editable="false" prefHeight="350.0" prefWidth="308.0" styleClass="text-area" stylesheets="@docsAndFiles/transparent.css" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets bottom="20.0" />
                </GridPane.margin>
             </TextArea>
-            <Label text="NEWS BAORD" textFill="#2f2a2a">
+            <Label text="NEWS BOARD" textFill="#2f2a2a">
                <font>
                   <Font name="Arial Black" size="14.0" />
                </font>
             </Label>
+            <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="374.0" textAlignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="categoryLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="390.0" textAlignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Label>
          </children>
       </GridPane>
    </left>
@@ -128,7 +138,7 @@
                   <Insets left="40.0" />
                </GridPane.margin>
             </Button>
-            <Button fx:id="adminBtn" mnemonicParsing="false" onAction="#handleAdmBtn" prefHeight="120.0" prefWidth="300.0" style="-fx-border-color: BLACK; -fx-background-color: #858585#858585; -fx-background-radius: 10; -fx-border-radius: 10;" text="ADMIN" textFill="#f2ecec">
+            <Button fx:id="adminBtn" mnemonicParsing="false" onAction="#handleAdmBtn" prefHeight="120.0" prefWidth="300.0" style="-fx-border-color: BLACK; -fx-background-color: #858585#858585; -fx-background-radius: 10; -fx-border-radius: 10;" text="ADMINISTRATORS" textFill="#f2ecec">
                <font>
                   <Font name="Avenir Next Bold" size="18.0" />
                </font>

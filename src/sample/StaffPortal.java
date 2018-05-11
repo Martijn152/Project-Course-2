@@ -1,66 +1,75 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 package sample;
 
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+public class StaffPortal implements Initializable, Actions, ControlledScenes {
+    @FXML
+    private Button humanResOffice;
+    @FXML
+    private Button workTimeInfo;
+    @FXML
+    private Button salaryInfo;
+    @FXML
+    private Button logOut;
+    @FXML
+    private Button exit;
+    @FXML
+    private Button updatePw;
+    @FXML
+    private Label staffName;
+    @FXML
+    private Label startTime;
+    @FXML
+    private Label endTime;
+    private ScenesController myController;
+    private String fxmlFileChangePW = "changepword.fxml";
+    private String fxmlFileHumanRes = "humanResOffice.fxml";
 
-public class StaffPortal implements Initializable,Actions, ControlledScenes {
+    public StaffPortal() {
+    }
 
-    @FXML private Button humanResOffice;
-    @FXML private Button workTimeInfo;
-    @FXML private Button salaryInfo;
-    @FXML private Button logOut;
-    @FXML private Button exit;
-    @FXML private Button updatePw;
-    @FXML private Label staffName;
-    @FXML private Label startTime;
-    @FXML private Label endTime;
-
-     private ScenesController myController;
-    private String fxmlFileChangePW="changePassword.fxml";
-    private String fxmlFileHumanRes="humanResOffice.fxml";
-
-
-    @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        staffName.setText(StaffLogin.getCurrentUser());
     }
 
-
-    @FXML private void viewHumaRes()throws IOException{
-        myController.popUpStage(fxmlFileHumanRes);
-
-    }
-    @FXML private void viewWorkTime()throws IOException{
-
-    }
-    @FXML private void viewSalaryInfo()throws IOException{
-
-    }
-    @FXML private void manageLogOUt()throws IOException{
-
+    @FXML
+    private void viewHumaRes() throws IOException {
+        this.myController.popUpStage(this.fxmlFileHumanRes);
     }
 
+    @FXML
+    private void viewWorkTime() throws IOException {
+    }
 
-    @Override
+    @FXML
+    private void viewSalaryInfo() throws IOException {
+    }
+
+    @FXML
+    private void manageLogOUt() throws IOException {
+    }
+
     public void exitBtn(ActionEvent event) throws IOException {
-        myController.setScenes(SchoolAppFramework.loginSceneID);
-
+        this.myController.setScenes(SchoolAppFramework.loginSceneID);
     }
 
-    @Override
     public void updatePword(ActionEvent event) throws IOException {
-        myController.popUpStage(fxmlFileChangePW);
+        this.myController.popUpStage(this.fxmlFileChangePW);
     }
 
-    @Override
     public void setScreenParent(ScenesController screenController) {
-        myController=screenController;
+        this.myController = screenController;
     }
 }

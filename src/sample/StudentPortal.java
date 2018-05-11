@@ -113,7 +113,7 @@ public class StudentPortal extends Application implements Initializable,Actions,
     private  String subjectPhilosophy="Philosophy";
     private  String subjectMaths="Maths";
     private  String subjectBiology="Biology";
-    DBConnections con=new DBConnections();
+    DBConnections con = new DBConnections();
 
     private static String USER_NAME = "kt.highschool111@gmail.com";  // GMail user name
     private static String PASSWORD = "Projectcourse2"; // GMail password
@@ -144,7 +144,7 @@ public class StudentPortal extends Application implements Initializable,Actions,
         usr = StudentLogin.getCurrentUser();
         usrname = con.getStudentfisrtName(usr);
         this.userName.setText(usrname);
-        RECIPIENT=con.getCurrentUserEmail(usr);
+        RECIPIENT = con.getCurrentUserEmail(usr);
 
         fullname = con.getStudentFullName(usr);
         this.studentNameTranscript1.setText(fullname);
@@ -159,7 +159,7 @@ public class StudentPortal extends Application implements Initializable,Actions,
         classmateBox.setItems(classMateList);
         classmateBox.getItems().addAll(groupTeacherList);
 
-        /**GRADE SEMESTER 1**/
+        //**GRADE SEMESTER 1**//*
         physicsGrade1.setText(String.valueOf(con.getfirstSemesterGrades(usr,subjectPhysics)));
         physicsGrade1Transcript.setText(physicsGrade1.getText());
 
@@ -178,7 +178,7 @@ public class StudentPortal extends Application implements Initializable,Actions,
         chemistryGrade1.setText(String.valueOf(con.getfirstSemesterGrades(usr,subjectChemistry)));
         chemistryGrade1Transcript.setText(chemistryGrade1.getText());
 
-        /**GRADE SEMESTER 2**/
+        //**GRADE SEMESTER 2**//*
         physicsGrade2.setText(String.valueOf(con.getSecondSemesterGrades(usr,subjectPhysics)));
         physicsGrade2Transcript.setText(physicsGrade2.getText());
 
@@ -300,7 +300,6 @@ public class StudentPortal extends Application implements Initializable,Actions,
             e.printStackTrace();
         }
     }
-
 
     public void viewBoardMbrBtn() {
         myController.setScenes(SchoolAppFramework.studentContactAdminSceneID);

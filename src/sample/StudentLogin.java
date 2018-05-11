@@ -1,68 +1,100 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+import java.util.ArrayList;
 
-public class StudentLogin implements UserLogin, ControlledScenes,Initializable {
+public class StudentLogin implements UserLogin, ControlledScenes {
+    @FXML
+    private Label messageLabel;
+    @FXML
+    private PasswordField password;
     @FXML
     private TextField userName;
-    @FXML private PasswordField password;
-    @FXML private Button enterAsStudent;
-    @FXML private Button yesBtn;
-    @FXML private Button abandonBtn;
+    @FXML
+    private Button enterASAdmin;
+    @FXML
+    private Button yesBtn;
+    @FXML
+    private Button abandonBtn;
     private ScenesController myController;
-    private String passwordRecFxmlFileName="passwordRecovery.fxml";
+    private String passwordRecFxmlFileName = "passwordRecovery.fxml";
     private static String currentUser;
-    private  String user;
+    private String user;
 
-
-    public StudentLogin(){}
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-
+    public StudentLogin() {
     }
-    @Override
-    public void login(ActionEvent event) {
-        this.user=this.userName.getText();
-        System.out.println(this.user);
-        setCurrentUser(this.user);
 
-        this.myController.loadScene(SchoolAppFramework.studentSceneID,SchoolAppFramework.studentSceneFile);
-        myController.setScenes(SchoolAppFramework.studentSceneID);
+    public void login(ActionEvent event) throws IOException {
+        System.out.println("Login button pressed.");
+        this.messageLabel.setText("");
+        System.out.println("Entered username: " + this.userName.getText());
+        System.out.println("Entered password: " + this.password.getText());
+
+        if (!this.userName.getText().equals("") && !this.password.getText().equals("")) {
+            DBConnections.connect();
+            ArrayList<String> loginIDList = DBConnections.getLoginID();
+            ArrayList<String> passwordList = DBConnections.getPassword();
+            ArrayList<String> ssnList = DBConnections.getSSN();
+
+            for(int i = 0; i < loginIDList.size(); ++i) {
+                System.out.println("Checking for correct credentials...");
+                if (this.userName.getText().equals(loginIDList.get(i)) && this.password.getText().equals(passwordList.get(i))) {
+                    System.out.println("Checking student status...");
+                    if (DBConnections.isStudent(ssnList.get(i))) {
+                        System.out.println("Swapping scenes...");
+                        user = userName.getText();
+                        setCurrentUser(user);
+                        messageLabel.setText("Welcome!");
+                        messageLabel.setTextFill(Color.GREEN);
+                        myController.loadScene(SchoolAppFramework.studentSceneID, SchoolAppFramework.studentSceneFile);
+                        myController.setScenes(SchoolAppFramework.studentSceneID);
+                    } else {
+                        messageLabel.setText("You are not a student, please log in to the\n correct page.");
+                        messageLabel.setTextFill(Color.RED);
+                    }
+                    break;
+                }
+
+                messageLabel.setText("Please enter the correct credentials.");
+                messageLabel.setTextFill(Color.RED);
+            }
+        } else {
+            messageLabel.setText("Please enter your username and password \nin the fields below.");
+            messageLabel.setTextFill(Color.RED);
         }
 
-    @Override
+    }
+
     public void passwordRecovering(ActionEvent event) throws IOException {
         myController.popUpStage(passwordRecFxmlFileName);
     }
 
-    @Override
     public void abandonAction(ActionEvent event) {
         myController.setScenes(SchoolAppFramework.loginSceneID);
     }
 
-
-    @Override
     public void setScreenParent(ScenesController screenController) {
-        myController=screenController;
+        myController = screenController;
     }
 
     public static String getCurrentUser() {
         return currentUser;
     }
 
-    public static void setCurrentUser(String currentUser) {
-        StudentLogin.currentUser = currentUser;
+    public static void setCurrentUser(String currentMethodUser) {
+        currentUser = currentMethodUser;
     }
 }
-
-

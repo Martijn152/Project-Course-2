@@ -76,6 +76,7 @@ public class TeacherPortal extends Application implements Initializable,Actions,
         administrationBox.setItems(adminList);
 
     }
+
     public void sendMail() throws URISyntaxException {
         DBConnections.connect();
 
