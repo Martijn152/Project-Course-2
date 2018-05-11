@@ -1,201 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_28_bin.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/activation_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/itext_4_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jPDFViewerFX.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mail_2018_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pdf_renderer_1_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/Actions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ActorsLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AddAdmin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AddNewStaff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AddStudent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AddTeacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AdminLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/AdminPortal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ChangePword.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ClassMates.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ControlledScenes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/Group.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/HumanResOffice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/LoginScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ManageAdmin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/News.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/PasswordRecovery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ScenesController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/AdminMember.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/Group.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/Staff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolActors/Teacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SchoolAppFramework.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/SearchResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StaffLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StaffPortal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StudentContactAdmin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StudentContactTeacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StudentLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/StudentPortal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/TeacherContactAdmin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/TeacherPortal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/TeachersLogIn.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ViewAddGrade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ViewAdmin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ViewStaff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/ViewTeacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/addadmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/addstaff.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/addstudent.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/addteacher.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/admin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/adminlogin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/changepword.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/classMates.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/bg.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/img.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/logo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/logo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/slogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/docsAndFiles/transparentStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/group.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/humanResOffice.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/login.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/manageadmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/news.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/passwordRecovery.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/searchresult.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/staff.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/stafflogin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/student.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/studentContactAdmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/studentContactTeacher.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/studentlogin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/teacher.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/teacherContactAdmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/teacherslogin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/viewaddgrade.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/viewadmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/viewstaff.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ProjectCourse2/viewteacher.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/ActorsLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/AddNewStaff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/News.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/AdminMember.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/Group.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/Staff.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/SchoolActors/Teacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/classMates.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/bg.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/img.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/logo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/logo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/slogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/transparentStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sample/news.fxml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample" afterPath="$PROJECT_DIR$/src/sample" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transcript2.pdf" afterPath="$PROJECT_DIR$/transcript2.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" afterPath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classeMates.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classeMates.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/background.css" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/background.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/dark_theme.css" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/dark_theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/imgLogin.css" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/imgLogin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/loginPage.css" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/loginPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/transparent.css" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/transparent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/passwordRecovery.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/passwordRecovery.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AddAdmin.java" afterPath="$PROJECT_DIR$/src/sample/AddAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AdminLogin.java" afterPath="$PROJECT_DIR$/src/sample/AdminLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AdminPortal.java" afterPath="$PROJECT_DIR$/src/sample/AdminPortal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ChangePword.java" afterPath="$PROJECT_DIR$/src/sample/ChangePword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ClassMates.java" afterPath="$PROJECT_DIR$/src/sample/ClassMates.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ControlledScenes.java" afterPath="$PROJECT_DIR$/src/sample/ControlledScenes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/LoginScreen.java" afterPath="$PROJECT_DIR$/src/sample/LoginScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" afterPath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ScenesController.java" afterPath="$PROJECT_DIR$/src/sample/ScenesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" afterPath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StaffLogin.java" afterPath="$PROJECT_DIR$/src/sample/StaffLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StaffPortal.java" afterPath="$PROJECT_DIR$/src/sample/StaffPortal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" afterPath="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" afterPath="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentLogin.java" afterPath="$PROJECT_DIR$/src/sample/StudentLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentPortal.java" afterPath="$PROJECT_DIR$/src/sample/StudentPortal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" afterPath="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeacherPortal.java" afterPath="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeachersLogIn.java" afterPath="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" afterPath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ViewAdmin.java" afterPath="$PROJECT_DIR$/src/sample/ViewAdmin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/addstaff.fxml" afterPath="$PROJECT_DIR$/src/sample/addstaff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/admin.fxml" afterPath="$PROJECT_DIR$/src/sample/admin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/src/sample/adminlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/changepword.fxml" afterPath="$PROJECT_DIR$/src/sample/changepword.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/group.fxml" afterPath="$PROJECT_DIR$/src/sample/group.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/humanResOffice.fxml" afterPath="$PROJECT_DIR$/src/sample/humanResOffice.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/login.fxml" afterPath="$PROJECT_DIR$/src/sample/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/manageadmin.fxml" afterPath="$PROJECT_DIR$/src/sample/manageadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/passwordRecovery.fxml" afterPath="$PROJECT_DIR$/src/sample/passwordRecovery.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/src/sample/searchresult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/staff.fxml" afterPath="$PROJECT_DIR$/src/sample/staff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/src/sample/stafflogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/student.fxml" afterPath="$PROJECT_DIR$/src/sample/student.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/src/sample/studentlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacher.fxml" afterPath="$PROJECT_DIR$/src/sample/teacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/src/sample/teacherslogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewadmin.fxml" afterPath="$PROJECT_DIR$/src/sample/viewadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewstaff.fxml" afterPath="$PROJECT_DIR$/src/sample/viewstaff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewteacher.fxml" afterPath="$PROJECT_DIR$/src/sample/viewteacher.fxml" />
-    </list>
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -258,8 +64,28 @@
       <file leaf-file-name="StudentPortal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="341" column="48" lean-forward="true" selection-start-line="341" selection-start-column="48" selection-end-line="341" selection-end-column="48" />
+            <state relative-caret-position="147">
+              <caret line="221" column="28" lean-forward="false" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Storage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,12 +93,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+      <file leaf-file-name="PasswordRecovery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="609">
+              <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherPortal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3612">
+              <caret line="189" column="41" lean-forward="false" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -282,9 +120,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="FxmlFile" />
       </list>
@@ -314,40 +152,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/AddAdmin.java" />
-        <option value="$PROJECT_DIR$/src/sample/News.java" />
-        <option value="$PROJECT_DIR$/src/sample/UserIDRecovery.java" />
-        <option value="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
-        <option value="$PROJECT_DIR$/src/sample/studentlist.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/SearchResult.java" />
-        <option value="$PROJECT_DIR$/src/sample/studentContactAdmin.html" />
-        <option value="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" />
-        <option value="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
-        <option value="$PROJECT_DIR$/src/sample/ClasseMates.java" />
-        <option value="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
-        <option value="$PROJECT_DIR$/src/sample/ActorsLogin.java" />
-        <option value="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-        <option value="$PROJECT_DIR$/src/sample/humanResOffice.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/HumanResOffice.java" />
-        <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
-        <option value="$PROJECT_DIR$/src/sample/studentlogin.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/docsAndFiles/loginPage.css" />
-        <option value="$PROJECT_DIR$/src/sample/docsAndFiles/background.css.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/docsAndFiles/dark_theme.css" />
         <option value="$PROJECT_DIR$/src/sample/AdminLogin.java" />
         <option value="$PROJECT_DIR$/src/sample/docsAndFiles/transparent.css" />
         <option value="$PROJECT_DIR$/src/sample/admin2.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/coverPage.fxml" />
         <option value="$PROJECT_DIR$/src/sample/LoginScreen.java" />
-        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/docsAndFiles/background.css" />
         <option value="$PROJECT_DIR$/src/sample/StaffLogin.java" />
         <option value="$PROJECT_DIR$/src/sample/CoverPage.java" />
-        <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
         <option value="$PROJECT_DIR$/src/sample/classeMates.fxml" />
         <option value="$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java" />
         <option value="$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java" />
@@ -355,16 +167,42 @@
         <option value="$PROJECT_DIR$/src/sample/LoginID.java" />
         <option value="$PROJECT_DIR$/src/sample/Singleton.java" />
         <option value="$PROJECT_DIR$/src/sample/UserLog.java" />
-        <option value="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
         <option value="$PROJECT_DIR$/out/src/sample/SchoolAppFramework.java" />
         <option value="$PROJECT_DIR$/out/src/sample/DBConnections.java" />
         <option value="$PROJECT_DIR$/out/src/sample/StudentPortal.java" />
-        <option value="$PROJECT_DIR$/src/sample/ClassMates.java" />
-        <option value="$PROJECT_DIR$/src/sample/StudentLogin.java" />
         <option value="$PROJECT_DIR$/src/sample/image.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ChangePword.java" />
+        <option value="$PROJECT_DIR$/src/sample/sendMassagebox.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/sendMessagebox.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/myMails.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ScenesController.java" />
+        <option value="$PROJECT_DIR$/src/sample/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/sample/docsAndFiles/admin_foto.css" />
+        <option value="$PROJECT_DIR$/src/sample/StudentLogin.java" />
+        <option value="$PROJECT_DIR$/src/sample/fileChooser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/chooseFile.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
+        <option value="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
+        <option value="$PROJECT_DIR$/src/sample/ClassMates.java" />
+        <option value="$PROJECT_DIR$/src/sample/MyMails.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
+        <option value="$PROJECT_DIR$/src/sample/ViewAdmin.java" />
+        <option value="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
+        <option value="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" />
+        <option value="$PROJECT_DIR$/src/sample/ControlledScenes.java" />
+        <option value="$PROJECT_DIR$/src/sample/SendMessageBox.java" />
+        <option value="$PROJECT_DIR$/src/sample/sendMessageBox2.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/sendEmailToGroup.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/SendEmailToGroup.java" />
+        <option value="$PROJECT_DIR$/src/sample/Actions.java" />
+        <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SendMessageBox2.java" />
+        <option value="$PROJECT_DIR$/src/sample/SendMessageBox1.java" />
         <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
         <option value="$PROJECT_DIR$/src/sample/StudentPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SystemUsers/Storage.java" />
       </list>
     </option>
   </component>
@@ -376,10 +214,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="467" />
-    <option name="y" value="-12" />
-    <option name="width" value="820" />
-    <option name="height" value="804" />
+    <option name="x" value="196" />
+    <option name="y" value="-22" />
+    <option name="width" value="1265" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -401,6 +239,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,13 +259,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Project-Course-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Course-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemUsers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,7 +284,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/pdfbox-app-2.0.8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ews-java-api-2.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -451,10 +296,10 @@
       <recent name="sample" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sample/docsAndFiles" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/out" />
       <recent name="$PROJECT_DIR$/out/production/HighSchoolAdminSystem" />
-      <recent name="$PROJECT_DIR$/src/sample/docsAndFiles" />
       <recent name="$PROJECT_DIR$/src/sample" />
     </key>
   </component>
@@ -607,35 +452,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -692,56 +538,70 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7300">
-          <caret line="365" column="0" lean-forward="true" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+        <state relative-caret-position="6195">
+          <caret line="329" column="12" lean-forward="true" selection-start-line="329" selection-start-column="12" selection-end-line="330" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentLogin.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/background.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/CoverPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bgAdmin.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bgStud.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/imgLogin.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/imgStudent.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/imgTeacher.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bgTeacher.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/imgStaff.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/transparentStyle.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/transparent.css" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/dark_theme.css" />
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="189" column="41" lean-forward="false" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/imgAdmin.css" />
     <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/loginPage.css" />
     <entry file="file://$PROJECT_DIR$/src/sample/AdminLogin.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/TeachersContacts.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/StaffLogin.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/CoverPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/AddAdmin.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/javafx-src.zip!/javafx/collections/ModifiableObservableListBase.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Teacher.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Actions.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/LoginID.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Singleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/UserLog.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ScenesController.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/background.css">
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/LoginID.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Singleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/UserLog.java" />
     <entry file="file://$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" />
     <entry file="file://$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ClassMates.class" />
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Image.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,25 +610,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentLogin.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ClassMates.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="341" column="48" lean-forward="true" selection-start-line="341" selection-start-column="48" selection-end-line="341" selection-end-column="48" />
+        <state relative-caret-position="277">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/MailSender.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/AddAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/admin_foto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/background.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/MyMails.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ClassMates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="28" column="32" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentContactTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ChooseFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherContactAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControlledScenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SendMail.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentContactAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Actions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SendMessageBox1.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/SendMessageBox2.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ScenesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SendEmailToGroup.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="189" column="41" lean-forward="false" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <caret line="221" column="28" lean-forward="false" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,7 +870,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>pdfbox-app-2.0.8</last-edited>
+          <last-edited>ews-java-api-2.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

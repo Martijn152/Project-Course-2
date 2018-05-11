@@ -23,7 +23,7 @@ public class StaffPortal implements Initializable,Actions, ControlledScenes {
     @FXML private Label endTime;
 
      private ScenesController myController;
-    private String fxmlFileChangePW="changepword.fxml";
+    private String fxmlFileChangePW="changePassword.fxml";
     private String fxmlFileHumanRes="humanResOffice.fxml";
 
 

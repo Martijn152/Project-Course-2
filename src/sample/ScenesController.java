@@ -106,6 +106,5 @@ public class ScenesController extends StackPane{
         stage.setOnHiding(event1 -> {
 
         });
-
-    }
+        }
 }

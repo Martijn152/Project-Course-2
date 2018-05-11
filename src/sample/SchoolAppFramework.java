@@ -1,9 +1,7 @@
 package sample;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -68,16 +66,16 @@ public class SchoolAppFramework extends Application{
         mainContainer.loadScene(SchoolAppFramework.adminSceneID, SchoolAppFramework.adminSceneFile);
         mainContainer.loadScene(SchoolAppFramework.teacherSceneID, SchoolAppFramework.teacherSceneFile);
         mainContainer.loadScene(SchoolAppFramework.studentSceneID, SchoolAppFramework.studentSceneFile);
-        mainContainer.loadScene(SchoolAppFramework.staffSceneID, SchoolAppFramework.staffSceneFile);
+        //mainContainer.loadScene(SchoolAppFramework.staffSceneID, SchoolAppFramework.staffSceneFile);
         mainContainer.loadScene(SchoolAppFramework.adminLoginSceneID, SchoolAppFramework.adminLoginFile);
         mainContainer.loadScene(SchoolAppFramework.teacherLoginSceneID, SchoolAppFramework.teacherLoginFile);
         mainContainer.loadScene(SchoolAppFramework.studentLoginSceneID, SchoolAppFramework.studentLoginFile);
-        mainContainer.loadScene(SchoolAppFramework.staffLoginSceneID, SchoolAppFramework.staffLoginFile);
+        //mainContainer.loadScene(SchoolAppFramework.staffLoginSceneID, SchoolAppFramework.staffLoginFile);
 
         mainContainer.loadScene(SchoolAppFramework.groupSceneID, SchoolAppFramework.groupSceneIDFile);
         mainContainer.loadScene(SchoolAppFramework.viewAddgradeSceneID, SchoolAppFramework.viewAddgradeSceneIDFile);
         mainContainer.loadScene(SchoolAppFramework.viewAdminSceneID, SchoolAppFramework.viewAdminSceneIDFile);
-        mainContainer.loadScene(SchoolAppFramework.viewStaffSceneID, SchoolAppFramework.viewStaffSceneIDFile);
+        //mainContainer.loadScene(SchoolAppFramework.viewStaffSceneID, SchoolAppFramework.viewStaffSceneIDFile);
         mainContainer.loadScene(SchoolAppFramework.viewTeacherSceneID, SchoolAppFramework.viewTeacherSceneIDFile);
         mainContainer.loadScene(SchoolAppFramework.teacherContactAdminSceneID, SchoolAppFramework.teacherContactAdminSceneFile);
         mainContainer.loadScene(SchoolAppFramework.studentContactAdminSceneID, SchoolAppFramework.studentContactAdminSceneFile);

@@ -40,24 +40,26 @@ public class AdminPortal implements Initializable,Actions,ControlledScenes {
     private String addTeacherFxmlFileName="addteacher.fxml";
     private String addStaffFxmlFileName="addstaff.fxml";
     private String addAdminFxmlFileName="addadmin.fxml";
-    private String changePWFxmlFileName="changepword.fxml";
+    private String changePWFxmlFileName="changePassword.fxml";
 
 
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+
     }
 
-    @FXML private void manageBoardMbr()throws IOException{
+    @FXML private void manageBoardMbr(){
         myController.setScenes(SchoolAppFramework.viewAdminSceneID);
 
     }
-    @FXML private void manageStaff()throws IOException{
+    @FXML private void manageStaff(){
         myController.setScenes(SchoolAppFramework.viewStaffSceneID);
 
     }
-    @FXML private void manageTeacher()throws IOException{
+    @FXML private void manageTeacher(){
         myController.setScenes(SchoolAppFramework.viewTeacherSceneID);
 
     }
@@ -86,21 +88,21 @@ public class AdminPortal implements Initializable,Actions,ControlledScenes {
         myController.popUpStage(addAdminFxmlFileName);
 
     }
-    @FXML private void manageGroupYear9()throws IOException{
+    @FXML private void manageGroupYear9(){
         myController.setScenes(SchoolAppFramework.groupSceneID);
     }
-    @FXML private void manageGroupYear10()throws IOException{
+    @FXML private void manageGroupYear10(){
         myController.setScenes(SchoolAppFramework.groupSceneID);
     }
-    @FXML private void manageGroupYear11()throws IOException{
+    @FXML private void manageGroupYear11(){
         myController.setScenes(SchoolAppFramework.groupSceneID);
     }
-    @FXML private void manageGroupYear12()throws IOException{
+    @FXML private void manageGroupYear12(){
         myController.setScenes(SchoolAppFramework.groupSceneID);
     }
 
     @Override
-    public void exitBtn(ActionEvent event) throws IOException {
+    public void exitBtn(ActionEvent event){
         myController.setScenes(SchoolAppFramework.loginSceneID);
     }
 

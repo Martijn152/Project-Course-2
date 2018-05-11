@@ -1,7 +1,5 @@
 package sample;
 
-import sample.ScenesController;
-
 public interface ControlledScenes {
 
 
