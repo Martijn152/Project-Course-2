@@ -1,10 +1,8 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package sample;
 
 public interface ControlledScenes {
-    void setScreenParent(ScenesController var1);
+
+
+    // This method will allow the injection of the Parent Screenpane
+    public void setScreenParent(ScenesController screenController);
 }

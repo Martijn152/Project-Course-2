@@ -124,7 +124,7 @@
       </GridPane>
    </right>
    <center>
-      <GridPane prefHeight="494.0" prefWidth="563.0" styleClass="admin" stylesheets="@docsAndFiles/bgAdmin.css" BorderPane.alignment="CENTER">
+      <GridPane prefHeight="494.0" prefWidth="563.0" styleClass="admin" stylesheets="@docsAndFiles/background.css" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

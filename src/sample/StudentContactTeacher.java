@@ -20,13 +20,14 @@ public class StudentContactTeacher implements Initializable {
     @FXML private TableColumn<TeacherGroupedByGroup, String> email;
     @FXML private TableColumn<TeacherGroupedByGroup, String> subject;
     ObservableList<TeacherGroupedByGroup> list;
-    DBConnections db=new DBConnections();
+    DBConnections con=new DBConnections();
     private static String loginID;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        DBConnections.connect();
         loginID=StudentLogin.getCurrentUser();
-        list=db.getTeacher(loginID);
+        list=con.getTeacher(loginID);
         System.out.println(loginID);
 
         name.setCellValueFactory(new PropertyValueFactory<>("name"));
