@@ -73,7 +73,7 @@ public class SchoolAppFramework extends Application {
         mainContainer.loadScene(studentContactAdminSceneID, studentContactAdminSceneFile);
         mainContainer.loadScene(teachersContactsSceneID, teachersContactsSceneFile);
 
-        mainContainer.setScenes(coverPageSceneID);
+        mainContainer.setScenes(adminSceneID);
 
         Group root = new Group();
         root.getChildren().add(mainContainer);

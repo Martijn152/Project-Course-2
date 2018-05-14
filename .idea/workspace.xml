@@ -2,201 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba966fe1-4a23-4181-8a37-8a02cb30fa6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/activation-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/itext-4.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jPDFViewerFX.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.mail.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mail-2018.5.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.28-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/pdf-renderer-1.0.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/pdfbox-app-2.0.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Classmate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/TeacherGroupedByGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Actions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StaffPortal.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/b1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/background1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/bbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/bd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/bg23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/black.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/d1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/f2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/kilimanjaro.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/labo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/safari.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/t.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/v1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/vogt.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transcript1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/transcript2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/activation_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jPDFViewerFX.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mail_2018_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_28_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdf_renderer_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdfbox_app_2_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classeMates.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Actions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AddAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AddStaff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AddStudent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AddTeacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AdminLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/AdminPortal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ChangePword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ClassMates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ControlledScenes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/CoverPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/DBConnections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Group.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/HumanResOffice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/LoginScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ManageAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ScenesController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SearchResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SendMail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StaffLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StaffPortal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StudentLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/StudentPortal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/AdminMember.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Group.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Staff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/TeachersContacts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/UserLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewStaff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/ViewTeacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/addadmin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/addstaff.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/addstudent.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/addteacher.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/admin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/adminlogin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/changepword.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/classMates.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/classeMates.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/coverPage.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/background.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/dark_theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/imgLogin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/loginPage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/transparent.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/group.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/humanResOffice.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/login.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/manageadmin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/passwordRecovery.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/searchresult.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/sendMail.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/staff.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/stafflogin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/student.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/studentlogin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/teacher.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/teachersContacts.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/teacherslogin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/viewadmin.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/viewstaff.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/viewteacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStaff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStaff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStudent.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStudent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddTeacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ClassMates.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ClassMates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/CoverPage.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/CoverPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/Group.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/Group.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/HumanResOffice.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/HumanResOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ManageAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ManageAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/PasswordRecovery.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/PasswordRecovery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ScenesController.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ScenesController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffLogin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/AdminMember.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/AdminMember.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Group.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Group.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Person.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Staff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Staff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Student.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Teacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Teacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/User.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherContactAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherContactAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ManageAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ManageAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersLogIn.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersLogIn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAddGrade.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAddGrade.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewStaff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewStaff.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewTeacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_46.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" afterPath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addadmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classMates.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classMates.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/passwordRecovery.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/passwordRecovery.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/humanResOffice.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherContactAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherContactAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Staff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Staff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/HumanResOffice.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/HumanResOffice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SendMail.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SendMail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/User.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewStaff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewStaff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ScenesController.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ScenesController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classMates.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/classMates.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/manageadmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Teacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Teacher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentPortal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/Group.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/Group.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStaff.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStaff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddTeacher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" afterPath="$PROJECT_DIR$/HighSchoolAdminSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/coverPage.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffLogin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Student.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewTeacher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/PasswordRecovery.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/PasswordRecovery.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addteacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Group.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Group.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ClassMates.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ClassMates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Person.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/AdminMember.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/AdminMember.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStudent.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AddStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/sendMail.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactAdmin.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/CoverPage.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/CoverPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstaff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changepword.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -208,105 +85,174 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="StudentPortal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="341" column="52" lean-forward="true" selection-start-line="341" selection-start-column="52" selection-end-line="341" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1407">
-              <caret line="73" column="59" lean-forward="false" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-              <folding>
-                <marker date="1525775302063" expanded="true" signature="67057:67178" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67057:67196" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67057:67209" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67057:67224" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67080:67161" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67259:69478" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67272:69463" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67326:67621" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67345:67606" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67408:67586" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67448:67552" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67469:67530" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67671:67998" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67690:67983" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67785:67963" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67825:67929" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="67846:67907" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68049:68314" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68068:68299" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68101:68279" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68141:68245" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68162:68223" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68357:68663" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68376:68648" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68450:68628" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68490:68594" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68511:68572" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68714:69077" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68733:69062" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68825:69042" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68865:69008" ph="..." />
-                <marker date="1525775302063" expanded="true" signature="68886:68986" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4704">
-              <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+            <state relative-caret-position="821">
+              <caret line="449" column="6" lean-forward="true" selection-start-line="449" selection-start-column="6" selection-end-line="449" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getPassword#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSSN#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
+                <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
+                <element signature="e#14008#14036#0" expanded="false" />
+                <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
+                <marker date="1526327696337" expanded="false" signature="1423:1450" ph="SELECT login... persons" />
+                <marker date="1526327696337" expanded="false" signature="1844:1872" ph="SELECT passw... persons" />
+                <marker date="1526327696337" expanded="false" signature="2261:2284" ph="SELECT ssn F... persons" />
+                <marker date="1526327696337" expanded="false" signature="2667:2760" ph="SELECT id FR... admins" />
+                <marker date="1526327696337" expanded="true" signature="3089:3195" ph="SELECT SSN,F... persons" />
+                <marker date="1526327696337" expanded="false" signature="3523:3585" ph="SELECT Subje... teachers" />
+                <marker date="1526327696337" expanded="false" signature="4219:4345" ph="SELECT first... persons" />
+                <marker date="1526327696337" expanded="false" signature="5181:5307" ph="SELECT first... persons" />
+                <marker date="1526327696337" expanded="false" signature="6138:6254" ph="SELECT first... persons" />
+                <marker date="1526327696337" expanded="false" signature="7084:7318" ph="SELECT perso... persons" />
+                <marker date="1526327696337" expanded="false" signature="8171:8454" ph="SELECT subje... persons" />
+                <marker date="1526327696337" expanded="false" signature="9123:9789" ph="INSERT INTO persons... " />
+                <marker date="1526327696337" expanded="false" signature="9825:10009" ph="INSERT INTO teachers... " />
+                <marker date="1526327696337" expanded="false" signature="9894:9967" ph="SELECT perso... persons" />
+                <marker date="1526327696337" expanded="false" signature="10202:10850" ph="INSERT INTO persons... " />
+                <marker date="1526327696337" expanded="false" signature="10886:11054" ph="INSERT INTO staff... " />
+                <marker date="1526327696337" expanded="false" signature="10948:11019" ph="SELECT perso... persons" />
+                <marker date="1526327696337" expanded="false" signature="11547:12047" ph="SELECT ssn,F... grades" />
+                <marker date="1526327696337" expanded="false" signature="14305:14451" ph="select First... persons" />
+                <marker date="1526327696337" expanded="false" signature="14399:14450" ph="select SSN f... admins" />
+                <marker date="1526327696337" expanded="false" signature="14723:14870" ph="select First... persons" />
+                <marker date="1526327696337" expanded="false" signature="14817:14869" ph="select SSN f... admins" />
+                <marker date="1526327696337" expanded="false" signature="15142:15296" ph="select First... persons" />
+                <marker date="1526327696337" expanded="false" signature="15236:15295" ph="select SSN f... admins" />
+                <marker date="1526327696337" expanded="false" signature="15568:15728" ph="select First... persons" />
+                <marker date="1526327696337" expanded="false" signature="15662:15727" ph="select SSN f... admins" />
+                <marker date="1526327696337" expanded="false" signature="16208:16413" ph="UPDATE perso... " />
+                <marker date="1526327696337" expanded="true" signature="17022:17129" ph="select ssn,F... persons" />
+                <marker date="1526327696337" expanded="true" signature="17022:17146" ph="select ssn,F... persons" />
+                <marker date="1526327696337" expanded="true" signature="17022:17149" ph="select ssn,F... persons" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Student.java">
+      <file leaf-file-name="CoverPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/CoverPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="132">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighSchoolAdminSystem.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HighSchoolAdminSystem.iml">
+      <file leaf-file-name="ChangePword.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="814">
+              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTeacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/AddTeacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grades.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Grades.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-770">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewTeacher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ViewTeacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordRecovery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageAdmin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ManageAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/LoginScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mgrade1</find>
+      <find>handleSearchBtn</find>
+      <find>searchresult</find>
+      <find>wrongPass</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>alert</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -321,18 +267,40 @@
       <list>
         <option value="$PROJECT_DIR$/HighSchoolAdminSystem.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
-        <option value="$PROJECT_DIR$/src/sample/SystemUsers/Student.java" />
         <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
-        <option value="$PROJECT_DIR$/src/sample/StudentPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/dbHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/DB/DBHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/teacherslogin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/TeachersContacts.java" />
+        <option value="$PROJECT_DIR$/src/sample/ScenesController.java" />
+        <option value="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/changepword.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
+        <option value="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ChangePword.java" />
+        <option value="$PROJECT_DIR$/src/sample/teachersContacts.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SystemUsers/Grades.java" />
+        <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
+        <option value="$PROJECT_DIR$/src/sample/teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SearchResult.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
+        <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1377" />
-    <option name="y" value="-18" />
-    <option name="width" value="820" />
-    <option name="height" value="804" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -354,17 +322,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Project-Course-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Course-2" type="462c0819:PsiDirectoryNode" />
+              <item name="New folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New folder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Project-Course-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Course-2" type="462c0819:PsiDirectoryNode" />
+              <item name="New folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New folder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Project-Course-2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Course-2" type="462c0819:PsiDirectoryNode" />
+              <item name="New folder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="New folder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -373,17 +341,24 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/itext-4.2.1.jar!/" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FreeLance\TeacherJavaFX\Second Iteration\new_version(1)\src\sample\SystemUsers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -507,6 +482,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba966fe1-4a23-4181-8a37-8a02cb30fa6f" name="Default" comment="" />
@@ -514,42 +492,79 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525685895351</updated>
+      <workItem from="1526284026141" duration="2685000" />
+      <workItem from="1526287274478" duration="2190000" />
+      <workItem from="1526295112470" duration="9122000" />
+      <workItem from="1526305160967" duration="7876000" />
+      <workItem from="1526315278916" duration="6339000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28212000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1929" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47196263" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021505376" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21028744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2788145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13854167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -560,241 +575,446 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="73" column="59" lean-forward="false" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state relative-caret-position="110">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/sample/SendMail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <marker date="1525775302063" expanded="true" signature="67057:67178" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67196" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67209" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67224" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67080:67161" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67259:69478" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67272:69463" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67326:67621" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67345:67606" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67408:67586" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67448:67552" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67469:67530" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67671:67998" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67690:67983" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67785:67963" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67825:67929" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67846:67907" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68049:68314" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68068:68299" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68101:68279" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68141:68245" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68162:68223" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68357:68663" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68376:68648" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68450:68628" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68490:68594" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68511:68572" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68714:69077" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68733:69062" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68825:69042" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68865:69008" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68886:68986" ph="..." />
-          </folding>
+        <state relative-caret-position="-71">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4704">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/sample/teachersContacts.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighSchoolAdminSystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <marker date="1525775302063" expanded="true" signature="67057:67178" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67196" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67209" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67224" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67080:67161" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67259:69478" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67272:69463" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67326:67621" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67345:67606" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67408:67586" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67448:67552" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67469:67530" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67671:67998" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67690:67983" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67785:67963" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67825:67929" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67846:67907" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68049:68314" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68068:68299" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68101:68279" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68141:68245" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68162:68223" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68357:68663" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68376:68648" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68450:68628" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68490:68594" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68511:68572" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68714:69077" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68733:69062" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68825:69042" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68865:69008" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68886:68986" ph="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/sample/teacherslogin.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighSchoolAdminSystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighSchoolAdminSystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/s.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bg1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/b1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/21.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bd.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/bg23.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/black.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/d1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/f2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/kilimanjaro.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/vogt.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/v1.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/docsAndFiles/labo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="99" column="49" lean-forward="false" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <marker date="1525775302063" expanded="true" signature="67057:67178" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67196" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67209" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67057:67224" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67080:67161" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67259:69478" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67272:69463" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67326:67621" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67345:67606" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67408:67586" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67448:67552" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67469:67530" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67671:67998" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67690:67983" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67785:67963" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67825:67929" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="67846:67907" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68049:68314" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68068:68299" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68101:68279" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68141:68245" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68162:68223" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68357:68663" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68376:68648" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68450:68628" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68490:68594" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68511:68572" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68714:69077" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68733:69062" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68825:69042" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68865:69008" ph="..." />
-            <marker date="1525775302063" expanded="true" signature="68886:68986" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/sample/viewteacher.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Project-Course-2/Project-Course-2/src/sample/DBConnections.java">
+    <entry file="file://$PROJECT_DIR$/temp.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Actions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4704">
-          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/AddAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="-183">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/ControlledScenes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/searchresult.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ScenesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="86" column="16" lean-forward="false" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="73" column="59" lean-forward="false" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        <state relative-caret-position="-675">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/teacher.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="341" column="52" lean-forward="true" selection-start-line="341" selection-start-column="52" selection-end-line="341" selection-end-column="52" />
+        <state relative-caret-position="1938">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="52" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AdminLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeachersLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="54" column="12" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeachersContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1381">
+          <caret line="153" column="25" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="153" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#TeacherPortal#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#openfileteacher#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="e#2556#2584#0" expanded="false" />
+            <element signature="method#createfilegrade#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="e#3108#3151#0" expanded="false" />
+            <element signature="e#3492#3520#0" expanded="false" />
+            <element signature="method#goToGroup9#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToGroup10#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToGroup11#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToGroup12#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToAdminMbr#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToTeacher#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#exitBtn#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#updatePword#0;class#TeacherPortal#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherContactAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="78" column="35" lean-forward="false" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ManageAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="449" column="6" lean-forward="true" selection-start-line="449" selection-start-column="6" selection-end-line="449" selection-end-column="6" />
+          <folding>
+            <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getPassword#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSSN#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
+            <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
+            <element signature="e#14008#14036#0" expanded="false" />
+            <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
+            <marker date="1526327696337" expanded="false" signature="1423:1450" ph="SELECT login... persons" />
+            <marker date="1526327696337" expanded="false" signature="1844:1872" ph="SELECT passw... persons" />
+            <marker date="1526327696337" expanded="false" signature="2261:2284" ph="SELECT ssn F... persons" />
+            <marker date="1526327696337" expanded="false" signature="2667:2760" ph="SELECT id FR... admins" />
+            <marker date="1526327696337" expanded="true" signature="3089:3195" ph="SELECT SSN,F... persons" />
+            <marker date="1526327696337" expanded="false" signature="3523:3585" ph="SELECT Subje... teachers" />
+            <marker date="1526327696337" expanded="false" signature="4219:4345" ph="SELECT first... persons" />
+            <marker date="1526327696337" expanded="false" signature="5181:5307" ph="SELECT first... persons" />
+            <marker date="1526327696337" expanded="false" signature="6138:6254" ph="SELECT first... persons" />
+            <marker date="1526327696337" expanded="false" signature="7084:7318" ph="SELECT perso... persons" />
+            <marker date="1526327696337" expanded="false" signature="8171:8454" ph="SELECT subje... persons" />
+            <marker date="1526327696337" expanded="false" signature="9123:9789" ph="INSERT INTO persons... " />
+            <marker date="1526327696337" expanded="false" signature="9825:10009" ph="INSERT INTO teachers... " />
+            <marker date="1526327696337" expanded="false" signature="9894:9967" ph="SELECT perso... persons" />
+            <marker date="1526327696337" expanded="false" signature="10202:10850" ph="INSERT INTO persons... " />
+            <marker date="1526327696337" expanded="false" signature="10886:11054" ph="INSERT INTO staff... " />
+            <marker date="1526327696337" expanded="false" signature="10948:11019" ph="SELECT perso... persons" />
+            <marker date="1526327696337" expanded="false" signature="11547:12047" ph="SELECT ssn,F... grades" />
+            <marker date="1526327696337" expanded="false" signature="14305:14451" ph="select First... persons" />
+            <marker date="1526327696337" expanded="false" signature="14399:14450" ph="select SSN f... admins" />
+            <marker date="1526327696337" expanded="false" signature="14723:14870" ph="select First... persons" />
+            <marker date="1526327696337" expanded="false" signature="14817:14869" ph="select SSN f... admins" />
+            <marker date="1526327696337" expanded="false" signature="15142:15296" ph="select First... persons" />
+            <marker date="1526327696337" expanded="false" signature="15236:15295" ph="select SSN f... admins" />
+            <marker date="1526327696337" expanded="false" signature="15568:15728" ph="select First... persons" />
+            <marker date="1526327696337" expanded="false" signature="15662:15727" ph="select SSN f... admins" />
+            <marker date="1526327696337" expanded="false" signature="16208:16413" ph="UPDATE perso... " />
+            <marker date="1526327696337" expanded="true" signature="17022:17129" ph="select ssn,F... persons" />
+            <marker date="1526327696337" expanded="true" signature="17022:17146" ph="select ssn,F... persons" />
+            <marker date="1526327696337" expanded="true" signature="17022:17149" ph="select ssn,F... persons" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/CoverPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Grades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +1075,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -863,7 +1082,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>activation-1.1.11</last-edited>
+          <last-edited>mysql-connector-java-5.1.28-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

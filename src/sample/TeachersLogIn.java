@@ -5,7 +5,8 @@
 
 package sample;
 
-import java.io.IOException;
+import java.io.*;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -30,10 +31,40 @@ public class TeachersLogIn implements UserLogin, ControlledScenes {
     public TeachersLogIn() {
     }
 
+    public static void createfileteacher(String username,String ssn,String subject,String tid){
+
+        String fileName = "temp.txt";
+
+        try {
+
+            FileWriter fileWriter = new FileWriter(fileName);
+
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+
+
+            bufferedWriter.write(username.trim().replace(" ",""));
+            bufferedWriter.newLine();
+            bufferedWriter.write(ssn);
+            bufferedWriter.newLine();
+            bufferedWriter.write(subject);
+            bufferedWriter.newLine();
+            bufferedWriter.write(tid);
+
+
+            bufferedWriter.close();
+        }
+        catch(IOException ex) {
+            System.out.println("Error writing to file '" + fileName + "'");
+
+        }
+    }
+
     public void login(ActionEvent event) throws IOException {
+
         String un=userName.getText();
         String ps=password.getText();
-        //String
         System.out.println(un);
         DBConnections.connect();
         boolean resu=DBConnections.isteacher(un,ps);
@@ -50,7 +81,6 @@ public class TeachersLogIn implements UserLogin, ControlledScenes {
 
         }
     }
-
 
     public void passwordRecovering(ActionEvent event) throws IOException {
         this.myController.popUpStage(this.passwordRecFxmlFileName);

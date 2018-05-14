@@ -39,21 +39,20 @@ public class TeachersContacts implements Initializable, ControlledScenes {
     @FXML
     public TableColumn genderCol;
 
-
     public TeachersContacts() {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
+
         DBConnections.connect();
-        ObservableList<Teacher> infoList = DBConnections.getTeacherInfo();
+        ObservableList<Teacher> infoList = DBConnections.getTeacherInfo2();
         this.teacherTableView.setEditable(false);
-        this.firstNameCol.setCellValueFactory(new PropertyValueFactory ("name"));
+        this.firstNameCol.setCellValueFactory(new PropertyValueFactory("name"));
         this.lastNameCol.setCellValueFactory(new PropertyValueFactory("surname"));
         this.emailCol.setCellValueFactory(new PropertyValueFactory("emailAddress"));
         this.telCol.setCellValueFactory(new PropertyValueFactory("phoneNum"));
         this.addressCol.setCellValueFactory(new PropertyValueFactory("homeAddress"));
         this.subjectCol.setCellValueFactory(new PropertyValueFactory("teachingField"));
-        this.genderCol.setCellValueFactory (new PropertyValueFactory("gender"));
         this.teacherTableView.setItems(infoList);
     }
 
