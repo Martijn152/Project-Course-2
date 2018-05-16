@@ -1,9 +1,6 @@
 package sample.SystemUsers;
 
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
+import javafx.beans.property.*;
 
 public class Grades {
 
@@ -12,6 +9,11 @@ public class Grades {
     private StringProperty emailAddress = new SimpleStringProperty(this, "emailAddress");
     private DoubleProperty mgrade1 = new SimpleDoubleProperty(this, "mgrade1");
     private DoubleProperty mgrade2 = new SimpleDoubleProperty(this, "mgrade2");
+    //these variables is used to update the columns
+    //both variables are uniquely defined in the database,So we will easily update the columns
+    //using these variables in the query or where clause
+    private IntegerProperty gid = new SimpleIntegerProperty(this, "gid");
+    private StringProperty loginId = new SimpleStringProperty(this, "loginId");
 
 
     public Grades() {
@@ -75,6 +77,22 @@ public class Grades {
 
     public void setMgrade2(Double name) {
         this.mgrade2.set(name);
+    }
+
+    public int getGid() {
+        return (int)this.gid.get();
+    }
+
+    public void setGid(int gid) {
+        this.gid.set(gid);
+    }
+
+    public String getLoginId() {
+        return (String)this.loginId.get();
+    }
+
+    public void setLoginID(String loginId) {
+        this.loginId.set(loginId);
     }
 
 

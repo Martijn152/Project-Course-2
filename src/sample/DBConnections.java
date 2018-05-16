@@ -9,11 +9,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
 import javafx.collections.FXCollections;
@@ -33,10 +29,8 @@ public class DBConnections {
 
     public static void connect() {
         try {
-           String url = "jdbc:mysql://den1.mysql3.gear.host:3306/projectcourse2";
-
-          Connection connection = DriverManager.getConnection(url, "projectcourse2", "Cg25k9o3?!3l");
-
+            String url = "jdbc:mysql://den1.mysql3.gear.host:3306/projectcourse2";
+            Connection connection = DriverManager.getConnection(url, "projectcourse2", "Cg25k9o3?!3l");
             statement = connection.createStatement();
         } catch (SQLException var2) {
             System.out.println("Connection failed.");
@@ -315,7 +309,13 @@ public class DBConnections {
         System.out.println(gradeyear);
 
         try {
-            ResultSet resultSet = statement.executeQuery("SELECT p.SSN,p.FirstName,p.EmailAdress,g.GradeOne,g.GradeTwo FROM " +
+            //updated query
+            //now resultSet will hold 7 columns values
+            //gradeId and LoginID are new attribute in this query
+
+
+            ResultSet resultSet = statement.executeQuery("SELECT g.GradeID,p.SSN,p.FirstName,p.EmailAdress," +
+                    "p.LoginID,g.GradeOne,g.GradeTwo FROM " +
                     "persons p,grades g,groups gp,groups_teachers gt,teachers t,students s " +
                     "WHERE gp.Year='"+gradeyear+"' AND gp.GroupID=gt.GroupID AND " +
                     "gt.TeacherID=t.teacherid " +
@@ -323,18 +323,17 @@ public class DBConnections {
                     "g.teacherID = t.teacherID AND t.teacherID = "+tid+" " +
                     "AND t.subject = '"+sub+"'");
 
-/*            ResultSet resultSet = statement.executeQuery("select ssn,FirstName,EmailAdress from persons where SSN in " +
-                    "(select ssn from students where GroupID in " +
-                    "(select GroupID from groups where Year='" + gradeyear + "' ));");*/
 
 
             while (resultSet.next()) {
                 Grades staff = new Grades();
-                staff.setSSN(resultSet.getString(1));
-                staff.setName(resultSet.getString(2));
-                staff.setEmailAdress(resultSet.getString(3));
-                staff.setMgrade1(resultSet.getDouble(4));
-                staff.setMgrade2(resultSet.getDouble(5));
+                staff.setGid(resultSet.getInt(1));
+                staff.setSSN(resultSet.getString(2));
+                staff.setName(resultSet.getString(3));
+                staff.setEmailAdress(resultSet.getString(4));
+                staff.setLoginID(resultSet.getString(5));
+                staff.setMgrade1(resultSet.getDouble(6));
+                staff.setMgrade2(resultSet.getDouble(7));
                 result.add(staff);
             }
         } catch (SQLException var3) {
@@ -354,7 +353,7 @@ public class DBConnections {
         try {
             // FileReader reads text files in the default encoding.
             FileReader fileReader = new FileReader(fileName);
-            // Always wrap FileReader in BufferedReader.
+            // Wraps FileReader in BufferedReader.
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             int i = 0;
             while ((line = bufferedReader.readLine()) != null) {
@@ -364,7 +363,7 @@ public class DBConnections {
                     break;
                 }
             }
-            // Always close files.
+
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
             System.out.println(
@@ -374,7 +373,7 @@ public class DBConnections {
             System.out.println(
                     "Error reading file '"
                             + fileName + "'");
-            // Or we could just do this:
+
             // ex.printStackTrace();
         }
         return username;
@@ -447,8 +446,8 @@ public class DBConnections {
      * This method will search the persons data from database.
      * if any data is found then it will return the string with data
      * else it will return the empty string
-     *
-     *
+     * @param name
+     * @return String
      */
     public static String getSearchResult(String name){
         String list = "";
@@ -461,7 +460,6 @@ public class DBConnections {
                         resultSet.getString(3)+"\t\t\t"+resultSet.getString(4)
                         +"\t\t\t"+resultSet.getString(5)+"\n";
             }
-            System.out.println("size : "+list);
         } catch (SQLException var3) {
             list ="";
             var3.printStackTrace();
@@ -469,5 +467,35 @@ public class DBConnections {
         return list;
     }
 
+
+    /**
+     * There are four parameters .
+     * first is table param.It is used to update the specific table from database
+     * Second is Column param.It is a column Name that is already defined in the database.
+     * Third is Value Param.It is a column value that we update the column in the DB.
+     * Last is id. It is unique attribute that is already defined in the db
+     * If table is persons then its id Name is LoginID
+     * else it is GradeID
+     * This method is used to update the grades and persons table .
+     *
+     * @param table
+     * @param column
+     * @param value
+     * @param id
+     * @return int
+     */
+    public static int updateGradeTable(String table,String column,String value,String id){
+        int i=0;
+        try {
+            if(table.equals("persons")){
+                i = statement.executeUpdate("UPDATE "+table+" SET "+column+" ='"+value+"' WHERE LoginID = '"+id+"' ");
+            }else if(table.equals("grades")){
+                i = statement.executeUpdate("UPDATE "+table+" SET "+column+" ='"+value+"' WHERE GradeID = "+id+" ");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return i;
+    }
 
 }

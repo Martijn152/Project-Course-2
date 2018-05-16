@@ -58,19 +58,18 @@ public class TeacherPortal implements Initializable, Actions, ControlledScenes {
     }
 
     public String openfileteacher() {
-        // The name of the file to open.
+
         String fileName = "temp.txt";
 
-        // This will reference one line at a time
         String line = null;
         String username=null;
 
         try {
-            // FileReader reads text files in the default encoding.
+
             FileReader fileReader =
                     new FileReader(fileName);
 
-            // Always wrap FileReader in BufferedReader.
+            // Wraps FileReader in BufferedReader.
             BufferedReader bufferedReader =
                     new BufferedReader(fileReader);
 
@@ -83,7 +82,7 @@ public class TeacherPortal implements Initializable, Actions, ControlledScenes {
                 }
             }
 
-            // Always close files.
+
             bufferedReader.close();
         } catch (FileNotFoundException ex) {
             System.out.println(
@@ -93,7 +92,7 @@ public class TeacherPortal implements Initializable, Actions, ControlledScenes {
             System.out.println(
                     "Error reading file '"
                             + fileName + "'");
-            // Or we could just do this:
+
             // ex.printStackTrace();
         }
 
@@ -102,31 +101,29 @@ public class TeacherPortal implements Initializable, Actions, ControlledScenes {
     }
 
     public static void createfilegrade(String gradeyear){
-        // The name of the file to open.
+
         String fileName = "grade.txt";
 
         try {
-            // Assume default encoding.
+
             FileWriter fileWriter =
                     new FileWriter(fileName);
 
-            // Always wrap FileWriter in BufferedWriter.
+            // wraps FileWriter in BufferedWriter.
             BufferedWriter bufferedWriter =
                     new BufferedWriter(fileWriter);
 
-            // Note that write() does not automatically
-            // append a newline character.
+
             bufferedWriter.write(gradeyear);
 
 
-            // Always close files.
             bufferedWriter.close();
         }
         catch(IOException ex) {
             System.out.println(
                     "Error writing to file '"
                             + fileName + "'");
-            // Or we could just do this:
+
             // ex.printStackTrace();
         }
     }

@@ -39,9 +39,8 @@ public class TeachersLogIn implements UserLogin, ControlledScenes {
 
             FileWriter fileWriter = new FileWriter(fileName);
 
-
+            // Wraps FileWriter in BufferedWriter.
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
 
 
             bufferedWriter.write(username.trim().replace(" ",""));
