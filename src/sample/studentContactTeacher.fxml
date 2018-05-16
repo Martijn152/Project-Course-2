@@ -20,7 +20,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label text="GROUP TEACHERS" textFill="#f5f0f0" />
+            <Label text="GROUP TEACHERS" />
          </children>
       </GridPane>
    </top>
@@ -38,11 +38,11 @@
       </GridPane>
    </bottom>
    <center>
-      <TableView fx:id="TeacherViewedByStudentTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <columns>
-            <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
-            <TableColumn fx:id="email" prefWidth="75.0" text="Email" />
-            <TableColumn fx:id="subject" prefWidth="75.0" text="Subject" />
+            <TableColumn prefWidth="75.0" text="Name" />
+            <TableColumn prefWidth="75.0" text="Email" />
+            <TableColumn prefWidth="75.0" text="Subject" />
          </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
