@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.LoginScreen">
+<BorderPane fx:id="borderPane" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: BLACK;" styleClass="imgLogin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginScreen">
    <top>
       <GridPane prefHeight="117.0" prefWidth="1298.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -41,7 +41,7 @@
       </GridPane>
    </top>
    <left>
-      <GridPane prefHeight="462.0" prefWidth="317.0" BorderPane.alignment="CENTER">
+      <GridPane prefHeight="462.0" prefWidth="339.0" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
@@ -52,7 +52,7 @@
             <RowConstraints maxHeight="432.0" minHeight="10.0" prefHeight="369.6000122070312" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <TextArea fx:id="newsArea" editable="false" prefHeight="350.0" prefWidth="308.0" styleClass="text-area" stylesheets="@docsAndFiles/transparent.css" GridPane.rowIndex="3">
+            <TextArea fx:id="newsArea" editable="false" prefHeight="350.0" prefWidth="340.0" styleClass="text-area" stylesheets="@docsAndFiles/transparent.css" GridPane.rowIndex="3">
                <GridPane.margin>
                   <Insets bottom="20.0" />
                </GridPane.margin>
@@ -101,7 +101,7 @@
       </GridPane>
    </right>
    <center>
-      <GridPane alignment="CENTER" prefHeight="362.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+      <GridPane alignment="CENTER" prefHeight="470.0" prefWidth="605.0" BorderPane.alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

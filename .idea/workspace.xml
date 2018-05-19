@@ -2,50 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/IT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/Resource.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SystemUsers/Grades.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/last.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/IT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Resource.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/last.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grade.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/SystemUsers/Grades.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/LoginScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SchoolAppFramework.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/SearchResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StaffPortal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/StudentContactTeacher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeacherPortal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersLogIn.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/TeachersLogIn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAddGrade.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ViewAddGrade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/Thumbs.db" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/docsAndFiles/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/docsAndFiles/Thumbs.db" afterPath="$PROJECT_DIR$/src/sample/docsAndFiles/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transcript1.pdf" afterPath="$PROJECT_DIR$/transcript1.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changePassword.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changePassword.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/addstudent.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/admin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/adminlogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/group.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/login.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/searchresult.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/staff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/stafflogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/student.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactAdmin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentContactTeacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/studentlogin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacher.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teachersContacts.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherContactAdmin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/teacherslogin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewaddgrade.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ChangePword.java" afterPath="$PROJECT_DIR$/src/sample/ChangePword.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewadmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewstaff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/viewteacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AdminPortal.java" afterPath="$PROJECT_DIR$/src/sample/AdminPortal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DBConnections.java" afterPath="$PROJECT_DIR$/src/sample/DBConnections.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/LoginScreen.java" afterPath="$PROJECT_DIR$/src/sample/LoginScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" afterPath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/SearchResult.java" afterPath="$PROJECT_DIR$/src/sample/SearchResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeachersContacts.java" afterPath="$PROJECT_DIR$/src/sample/TeachersContacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StaffPortal.java" afterPath="$PROJECT_DIR$/src/sample/StaffPortal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" afterPath="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/StudentPortal.java" afterPath="$PROJECT_DIR$/src/sample/StudentPortal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeacherPortal.java" afterPath="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/TeachersLogIn.java" afterPath="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/UserLogin.java" afterPath="$PROJECT_DIR$/src/sample/UserLogin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" afterPath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/changePassword.fxml" afterPath="$PROJECT_DIR$/src/sample/changePassword.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/addstudent.fxml" afterPath="$PROJECT_DIR$/src/sample/addstudent.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/admin.fxml" afterPath="$PROJECT_DIR$/src/sample/admin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/adminlogin.fxml" afterPath="$PROJECT_DIR$/src/sample/adminlogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/classMates.fxml" afterPath="$PROJECT_DIR$/src/sample/classMates.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/group.fxml" afterPath="$PROJECT_DIR$/src/sample/group.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/login.fxml" afterPath="$PROJECT_DIR$/src/sample/login.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/news.fxml" afterPath="$PROJECT_DIR$/src/sample/news.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/searchresult.fxml" afterPath="$PROJECT_DIR$/src/sample/searchresult.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/staff.fxml" afterPath="$PROJECT_DIR$/src/sample/staff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/stafflogin.fxml" afterPath="$PROJECT_DIR$/src/sample/stafflogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/student.fxml" afterPath="$PROJECT_DIR$/src/sample/student.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" afterPath="$PROJECT_DIR$/src/sample/studentContactAdmin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" afterPath="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/studentlogin.fxml" afterPath="$PROJECT_DIR$/src/sample/studentlogin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacher.fxml" afterPath="$PROJECT_DIR$/src/sample/teacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" afterPath="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teachersContacts.fxml" afterPath="$PROJECT_DIR$/src/sample/teachersContacts.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/teacherslogin.fxml" afterPath="$PROJECT_DIR$/src/sample/teacherslogin.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewadmin.fxml" afterPath="$PROJECT_DIR$/src/sample/viewadmin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewstaff.fxml" afterPath="$PROJECT_DIR$/src/sample/viewstaff.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewteacher.fxml" afterPath="$PROJECT_DIR$/src/sample/viewteacher.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp.txt" afterPath="$PROJECT_DIR$/temp.txt" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,24 +126,66 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
+    <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="64" column="66" lean-forward="false" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
+            <state relative-caret-position="819">
+              <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TeacherPortal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="149" column="34" lean-forward="false" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+              <folding>
+                <element signature="e#2144#2145#0" expanded="true" />
+                <element signature="e#2178#2179#0" expanded="true" />
+                <element signature="method#initialize#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#sendMail#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#checkmails#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#goToAdminMbr#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#goToTeacher#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#exitBtn#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#updatePword#0;class#TeacherPortal#0" expanded="false" />
+                <element signature="method#start#0;class#TeacherPortal#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewAddGrade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeachersLogIn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TeachersLogIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="1149" column="61" lean-forward="true" selection-start-line="1149" selection-start-column="61" selection-end-line="1149" selection-end-column="61" />
+            <state relative-caret-position="235">
+              <caret line="574" column="5" lean-forward="true" selection-start-line="574" selection-start-column="5" selection-end-line="574" selection-end-column="5" />
               <folding>
                 <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
@@ -129,7 +194,7 @@
                 <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#isteacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
@@ -145,9 +210,11 @@
                 <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
@@ -182,9 +249,13 @@
                 <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="e#41083#41085#0" expanded="false" />
+                <element signature="e#41522#41524#0" expanded="false" />
                 <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
                 <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="e#43156#43171#0" expanded="false" />
+                <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
                 <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
@@ -192,29 +263,6 @@
                 <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewaddgrade.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/viewaddgrade.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewAddGrade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,8 +286,10 @@
       <find>getCurrentUser</find>
       <find>DBConnections.connect();</find>
       <find>getStudentfi</find>
-      <find>getGrade</find>
       <find>sub</find>
+      <find>getTeacher</find>
+      <find>getGrade</find>
+      <find>isteacher</find>
       <find>sub</find>
     </findStrings>
     <replaceStrings>
@@ -270,11 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java" />
-        <option value="$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java" />
-        <option value="$PROJECT_DIR$/src/sample/SystemUsers/LoginID.java" />
-        <option value="$PROJECT_DIR$/src/sample/LoginID.java" />
-        <option value="$PROJECT_DIR$/src/sample/Singleton.java" />
         <option value="$PROJECT_DIR$/src/sample/UserLog.java" />
         <option value="$PROJECT_DIR$/out/src/sample/SchoolAppFramework.java" />
         <option value="$PROJECT_DIR$/out/src/sample/DBConnections.java" />
@@ -289,7 +334,6 @@
         <option value="$PROJECT_DIR$/src/sample/docsAndFiles/admin_foto.css" />
         <option value="$PROJECT_DIR$/src/sample/fileChooser.fxml" />
         <option value="$PROJECT_DIR$/src/sample/chooseFile.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
         <option value="$PROJECT_DIR$/src/sample/ClassMates.java" />
         <option value="$PROJECT_DIR$/src/sample/MyMails.java" />
         <option value="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
@@ -302,14 +346,10 @@
         <option value="$PROJECT_DIR$/src/sample/sendEmailToGroup.fxml" />
         <option value="$PROJECT_DIR$/src/sample/SendEmailToGroup.java" />
         <option value="$PROJECT_DIR$/src/sample/Actions.java" />
-        <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
-        <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/SendMessageBox2.java" />
         <option value="$PROJECT_DIR$/src/sample/SendMessageBox1.java" />
         <option value="$PROJECT_DIR$/src/sample/SystemUsers/Storage.java" />
         <option value="$PROJECT_DIR$/src/sample/Group.java" />
-        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
-        <option value="$PROJECT_DIR$/src/sample/StudentPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/studentlogin.fxml" />
         <option value="$PROJECT_DIR$/src/sample/StudentLogin.java" />
         <option value="$PROJECT_DIR$/src/sample/student.fxml" />
@@ -318,7 +358,17 @@
         <option value="$PROJECT_DIR$/src/sample/studentContactTeacher.fxml" />
         <option value="$PROJECT_DIR$/src/sample/teacherContactAdmin.fxml" />
         <option value="$PROJECT_DIR$/src/sample/viewadmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/viewstaff.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/StudentPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/LoginScreen.java" />
         <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
+        <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
+        <option value="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/SearchResult.java" />
+        <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
         <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
       </list>
@@ -356,8 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +428,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -563,7 +613,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -579,8 +628,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -593,6 +641,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -638,7 +687,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -647,161 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SendMessageBox1.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/SendMessageBox2.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/ScenesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SendEmailToGroup.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="70" column="39" lean-forward="true" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="56" column="55" lean-forward="false" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Project-Course-2.zip/Project-Course-2/src/sample/DBConnections.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Project-Course-2 (1).zip/Project-Course-2/src/sample/DBConnections.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="154" column="43" lean-forward="true" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AdminLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StudentLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="51" column="57" lean-forward="true" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addadmin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addstaff.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addstudent.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addteacher.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/addteachertogroup.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/admin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/adminlogin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="100" lean-forward="true" selection-start-line="20" selection-start-column="100" selection-end-line="20" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/changePassword.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,17 +806,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/searchresult.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/staff.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -949,17 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/studentContactAdmin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1011,32 +883,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/teacherslogin.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/viewadmin.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="296" lean-forward="false" selection-start-line="14" selection-start-column="296" selection-end-line="14" selection-end-column="296" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/viewstaff.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1055,10 +905,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/teacher.fxml">
+    <entry file="file://$USER_HOME$/Desktop/DBConnections.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/viewstaff.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1066,34 +917,146 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AddStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/studentContactAdmin.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentContactAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherContactAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="81" column="29" lean-forward="true" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TeachersContacts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="91">
           <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="64" column="66" lean-forward="false" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
+        <state relative-caret-position="315">
+          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/ScenesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="1596">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="54" column="73" lean-forward="true" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Classmate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/TeacherGroupedByGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentContactTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/viewaddgrade.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1101,18 +1064,127 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/DBConnections.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="294">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="49" column="73" lean-forward="false" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="e#3374#3412#0" expanded="false" />
+            <element signature="method#start#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#initialize#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#pdfViewBtn1#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#pdfVeiwBtn2#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#viewClassMateBtn#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#viewTeacherBtn#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#sendMsgToClassmate#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#checkMail#0;class#StudentPortal#0" expanded="false" />
+            <element signature="method#updatePword#0;class#StudentPortal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/searchresult.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="method#AdminPortal#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#initialize#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageBoardMbr#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageStaff#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageTeacher#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#upgradeNews#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#addNewStudent#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#addNewTeacher#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#addNewStaff#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#addNewAdmin#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageGroupYear9#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageGroupYear10#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageGroupYear11#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#manageGroupYear12#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#exitBtn#0;class#AdminPortal#0" expanded="false" />
+            <element signature="method#updatePword#0;class#AdminPortal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/teacherslogin.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="72" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeachersLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1149" column="61" lean-forward="true" selection-start-line="1149" selection-start-column="61" selection-end-line="1149" selection-end-column="61" />
+        <state relative-caret-position="235">
+          <caret line="574" column="5" lean-forward="true" selection-start-line="574" selection-start-column="5" selection-end-line="574" selection-end-column="5" />
           <folding>
             <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
@@ -1121,7 +1193,7 @@
             <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
             <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
             <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#isteacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
@@ -1137,9 +1209,11 @@
             <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
             <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
             <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
             <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
             <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
             <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
             <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
@@ -1174,15 +1248,46 @@
             <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
             <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
             <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="e#41083#41085#0" expanded="false" />
+            <element signature="e#41522#41524#0" expanded="false" />
             <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
             <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="e#43156#43171#0" expanded="false" />
+            <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
             <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
             <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getSearchResult#0;class#DBConnections#0" expanded="false" />
             <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
             <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="149" column="34" lean-forward="false" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+          <folding>
+            <element signature="e#2144#2145#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="method#initialize#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#sendMail#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#checkmails#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToAdminMbr#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#goToTeacher#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#exitBtn#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#updatePword#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#start#0;class#TeacherPortal#0" expanded="false" />
           </folding>
         </state>
       </provider>

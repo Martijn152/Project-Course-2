@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.AdminPortal">
+<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminPortal">
    <top>
       <GridPane prefHeight="161.0" prefWidth="898.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -49,7 +49,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="BOTTOM" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitBtn" prefHeight="85.0" prefWidth="136.0" style="-fx-background-color: #1329;" text="RETURN" textFill="#f8f4f4">
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitBtn" prefHeight="85.0" prefWidth="136.0" style="-fx-background-color: #1329;" text="LOG OUT" textFill="#f8f4f4">
                <GridPane.margin>
                   <Insets bottom="30.0" />
                </GridPane.margin>
@@ -165,7 +165,7 @@
                   <Insets />
                </GridPane.margin>
             </Button>
-            <Button fx:id="newsModule" mnemonicParsing="false" onAction="#upgradeNews" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #3229;" text="Upgrade school news" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Button fx:id="newsModule" mnemonicParsing="false" onAction="#upgradeNews" prefHeight="31.0" prefWidth="183.0" style="-fx-background-color: #3229;" text="Update school news" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="7">
                <font>
                   <Font name="Adobe Gurmukhi" size="15.0" />
                </font>
@@ -173,7 +173,7 @@
                   <Insets />
                </GridPane.margin>
             </Button>
-            <Button fx:id="updatePw" mnemonicParsing="false" onAction="#updatePword" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #3229;" text="Upgrade password" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <Button fx:id="updatePw" mnemonicParsing="false" onAction="#updatePword" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #3229;" text="Update password" textFill="#fcf9f9" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <font>
                   <Font name="Adobe Gurmukhi" size="15.0" />
                </font>

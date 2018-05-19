@@ -5,17 +5,14 @@
 
 package sample;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class AdminPortal implements Initializable, Actions, ControlledScenes {
     @FXML
@@ -80,7 +77,7 @@ public class AdminPortal implements Initializable, Actions, ControlledScenes {
 
     public void initialize(URL location, ResourceBundle resources) {
         currentUser = AdminLogin.getCurrentUser();
-        this.username.setText(currentUser);
+        this.username.setText(DBConnections.getFirstName(currentUser));
     }
 
     @FXML
@@ -107,6 +104,7 @@ public class AdminPortal implements Initializable, Actions, ControlledScenes {
 
     @FXML
     private void handleSearchBtn() throws IOException {
+        SearchResult.setSearchString(searchField.getText());
         this.myController.popUpStage(this.searchFxmlFileName);
     }
 

@@ -18,6 +18,7 @@ import java.util.ResourceBundle;
 import static sample.SystemUsers.Storage.sendmail;
 
 public class TeacherPortal extends Application implements Initializable,Actions,ControlledScenes {
+    public Label username;
     @FXML private Button viewTeacherBtn;
     @FXML private Button viewStudentBtn;
     @FXML private Button viewAdministrationBtn;
@@ -55,15 +56,24 @@ public class TeacherPortal extends Application implements Initializable,Actions,
     private String groupID3 = "3";
     private String groupID4 = "4";
 
+    public static String currentUser;
+    private static String selectedGroup;
+
+    public static String getCurrentUser() {
+        return currentUser;
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        currentUser = TeachersLogIn.getCurrentUser();
+        username.setText(DBConnections.getFirstName(currentUser));
+
         DBConnections.connect();
 
         teacherList = con.teachersName();
         adminList = con.adminsName();
         group1List = con.studentNamesByGroup(groupID1);
-        System.out.println(group1List);
         group2List = con.studentNamesByGroup(groupID2);
         group3List = con.studentNamesByGroup(groupID3);
         group4List = con.studentNamesByGroup(groupID4);
@@ -143,25 +153,35 @@ public class TeacherPortal extends Application implements Initializable,Actions,
         }
 
     @FXML private void handleSearchBtn() throws IOException {
-        myController.popUpStage(searchFxmlFile);
+            SearchResult.setSearchString(searchField.getText());
+            myController.popUpStage(searchFxmlFile);
     }
 
     @FXML private void goToGroup9()throws IOException {
+        setSelectedGroup("1");
+        myController.loadScene(SchoolAppFramework.viewAddgradeSceneID, SchoolAppFramework.viewAddgradeSceneIDFile);
         myController.setScenes(SchoolAppFramework.viewAddgradeSceneID);
 
     }
     @FXML private void goToGroup10()throws IOException {
+        setSelectedGroup("2");
+        myController.loadScene(SchoolAppFramework.viewAddgradeSceneID, SchoolAppFramework.viewAddgradeSceneIDFile);
         myController.setScenes(SchoolAppFramework.viewAddgradeSceneID);
 
     }
     @FXML private void goToGroup11()throws IOException {
+        setSelectedGroup("3");
+        myController.loadScene(SchoolAppFramework.viewAddgradeSceneID, SchoolAppFramework.viewAddgradeSceneIDFile);
         myController.setScenes(SchoolAppFramework.viewAddgradeSceneID);
 
     }
     @FXML private void goToGroup12()throws IOException {
+        setSelectedGroup("4");
+        myController.loadScene(SchoolAppFramework.viewAddgradeSceneID, SchoolAppFramework.viewAddgradeSceneIDFile);
         myController.setScenes(SchoolAppFramework.viewAddgradeSceneID);
 
     }
+
     @FXML private void goToAdminMbr()throws IOException{
         myController.setScenes(SchoolAppFramework.teacherContactAdminSceneID);
 
@@ -190,5 +210,14 @@ public class TeacherPortal extends Application implements Initializable,Actions,
     @Override
     public void start(Stage primaryStage){
 
+    }
+
+
+    public static String getSelectedGroup() {
+        return selectedGroup;
+    }
+
+    public static void setSelectedGroup(String selectedGroup) {
+        TeacherPortal.selectedGroup = selectedGroup;
     }
 }

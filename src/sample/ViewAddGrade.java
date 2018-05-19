@@ -5,13 +5,13 @@
 
 package sample;
 
-import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
+import javafx.scene.paint.Color;
 import javafx.util.converter.DoubleStringConverter;
 import sample.SystemUsers.Grades;
 
@@ -21,6 +21,7 @@ import java.util.ResourceBundle;
 
 public class ViewAddGrade implements Initializable, ControlledScenes {
 
+    public Label messageLabel;
     ScenesController myController;
 
     @FXML
@@ -61,14 +62,6 @@ public class ViewAddGrade implements Initializable, ControlledScenes {
         this.myController.setScenes(SchoolAppFramework.teacherSceneID);
     }
 
-    @FXML
-    private void onRefresh() {
-        Platform.runLater(() -> {
-            groupName.setText("Subject Name : "+DBConnections.sub);
-        });
-        loadData();
-    }
-
     /**
      * This method will load the Data from database and data will display in the tableView
      */
@@ -76,7 +69,10 @@ public class ViewAddGrade implements Initializable, ControlledScenes {
         System.out.println("loadData running.");
         gradetable.getItems().clear();
         DBConnections.connect();
-        ObservableList<Grades> gradeList = DBConnections.getGradeInfo();
+        ObservableList<Grades> gradeList = DBConnections.getGradeInfo(TeacherPortal.getSelectedGroup(), TeacherPortal.getCurrentUser());
+
+        groupName.setText("Subject: "+DBConnections.sub);
+
         ssn.setCellValueFactory(new PropertyValueFactory("SSN"));
         name.setCellValueFactory(new PropertyValueFactory("name"));
         email.setCellValueFactory(new PropertyValueFactory("emailAddress"));
@@ -91,55 +87,6 @@ public class ViewAddGrade implements Initializable, ControlledScenes {
         this.myController = screenController;
     }
 
-    /**
-     * This method is used to edit the name column from tableView and update the tableView with database
-     * @param event
-     * @throws Exception
-     */
-    @FXML
-    private void nameEdit(TableColumn.CellEditEvent<Grades, String> event) throws Exception {
-        Grades g = event.getRowValue();
-        int i;
-        if(event.getNewValue()==null || event.getNewValue().isEmpty()){
-            emptyMessage();
-        }else{
-            //third param is column value
-            i = DBConnections.updateGradeTable("persons","FirstName",event.getNewValue(),g.getLoginId());
-            if(i!=0){
-                System.out.println("column updated");
-            }else{
-                System.out.println("column not updated");
-            }
-        }
-    }
-
-    /**
-     * This method is used to edit the email address column from tableView and update the tableView with database
-     * @param event
-     * @throws Exception
-     */
-    @FXML
-    private void emailEdit(TableColumn.CellEditEvent<Grades, String> event) throws Exception {
-        Grades g = event.getRowValue();
-        int i;
-        if(event.getNewValue()==null || event.getNewValue().isEmpty()){
-            emptyMessage();
-        }else{
-            //Same thing
-            i = DBConnections.updateGradeTable("persons","EmailAdress",event.getNewValue(),g.getLoginId());
-            if(i!=0){
-                System.out.println("column updated");
-            }else{
-                System.out.println("column not updated");
-            }
-        }
-    }
-
-    /**
-     * This method is used to edit the grade One column from tableView and update the tableView with database
-     * @param event
-     * @throws Exception
-     */
     @FXML
     private void gradeEdit(TableColumn.CellEditEvent<Grades, Double> event){
         Grades g = event.getRowValue();
@@ -151,9 +98,11 @@ public class ViewAddGrade implements Initializable, ControlledScenes {
             i = DBConnections.updateGradeTable("grades","GradeOne",event.getNewValue().toString(),
                    String.valueOf(g.getGid()));
             if(i!=0){
-                System.out.println("column updated");
+                messageLabel.setTextFill(Color.GREEN);
+                messageLabel.setText("Grade updated.");
             }else{
-                System.out.println("column not updated");
+                messageLabel.setTextFill(Color.RED);
+                messageLabel.setText("The grade was not updated. \nPlease contact an admin.");
             }
         }
     }

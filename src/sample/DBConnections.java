@@ -118,40 +118,18 @@ public class DBConnections {
         return result;
     }
 
-    public static boolean isteacher(String username, String password) {
-
-        ResultSet rs = null;
-
+    public static boolean isTeacher(String SSN) {
+        boolean result = false;
 
         try {
-            String q1 = "SELECT SSN,FirstName,LastName FROM persons WHERE LoginID='" + username + "' && Password='" + password + "'";
-            rs = statement.executeQuery(q1);
-            String ssn = "";
-            String tname = "";
-            if (rs.next()) {
-                ssn = rs.getString("SSN");
-                tname = rs.getString(2) + " " + rs.getString(3);
-            } else {
-                return false;
+            for(ResultSet resultSet = statement.executeQuery("SELECT teacherid FROM teachers, persons WHERE teachers.ssn = persons.ssn AND persons.ssn = '" + SSN + "'"); resultSet.next(); result = true) {
+
             }
-            q1 = "SELECT Subject,teacherid From teachers WHERE SSN='" + ssn + "'";
-            rs = statement.executeQuery(q1);
-
-            if (rs.next()) {
-                sub = rs.getString(1);
-                tid = rs.getString(2);
-                TeachersLogIn.createfileteacher(tname, ssn, sub, tid);
-                return true;
-            } else {
-                return false;
-            }
-
-        } catch (SQLException e) {
-
-            e.printStackTrace();
+        } catch (SQLException var3) {
+            var3.printStackTrace();
         }
-        return false;
 
+        return result;
     }
 
     public static ObservableList<Teacher> getTeacherInfo() {
@@ -471,6 +449,20 @@ public class DBConnections {
 
     }
 
+    public static String getFirstName(String username) {
+        String string = "";
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT firstname FROM persons WHERE loginid = '" + username + "'");
+            while(resultSet.next()) {
+                string = resultSet.getString(1);
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+        return string;
+    }
+
+
     public static void addStudent(Student newStudent) {
         try {
             statement.execute("" +
@@ -539,11 +531,29 @@ public class DBConnections {
         }
     }
 
+    public static ArrayList<String> getGradeID(String studentId) {
+        ArrayList<String> result = new ArrayList<>();
+
+        try {
+            ResultSet resultSet = statement.executeQuery("SELECT gradeid FROM grades WHERE studentid = '" + studentId + "'");
+            while(resultSet.next()) {
+                result.add(resultSet.getString(1));
+            }
+        } catch (SQLException var4) {
+            var4.printStackTrace();
+        }
+
+        return result;
+    }
+
     public static void deleteStudent(Student student) {
         try {
             String studentid = getSingleStudentID(student);
             statement.execute("DELETE FROM students WHERE id = '" + studentid + "'");
-            //statement.execute("DELETE FROM persons where ssn = '" + staff.getSSN() + "'");
+            for (String item : getGradeID(studentid)) {
+                statement.execute("DELETE FROM grades WHERE gradeid = '" + item + "'");
+            }
+            //statement.execute("DELETE FROM persons where ssn = '" + student.getSSN() + "'");
 
         } catch (SQLException var4) {
             var4.printStackTrace();
@@ -842,14 +852,13 @@ public class DBConnections {
                     "SELECT FirstName, LastName FROM persons, admins WHERE persons.SSN = admins.SSN AND admins.Position = '" + position + "'"
             );
             while (rs.next()){
-                name = rs.getString(1)+"  "+rs.getString(2);
+                name = rs.getString(1)+" "+rs.getString(2);
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
         return name;
     }
-
     public String getprincipalEmail(String position){
         String email=null;
         try {
@@ -889,7 +898,7 @@ public class DBConnections {
                     "SELECT FirstName,LastName FROM persons,admins WHERE persons.SSN = admins.SSN and admins.Position = '"+position+"'"
             );
             while (rs.next()){
-                name = rs.getString(1)+"  "+rs.getString(2);
+                name = rs.getString(1)+" "+rs.getString(2);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -935,7 +944,7 @@ public class DBConnections {
                     "SELECT FirstName,LastName FROM persons,admins WHERE persons.SSN = admins.SSN and admins.Position = '"+position+" '"
             );
             while (rs.next()){
-                name = rs.getString(1)+"  "+rs.getString(2);
+                name = rs.getString(1)+" "+rs.getString(2);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -980,7 +989,7 @@ public class DBConnections {
                     "SELECT FirstName,LastName FROM persons,admins WHERE persons.SSN = admins.SSN and admins.Position = '"+position+"'"
             );
             while (rs.next()){
-                name = rs.getString(1)+"  "+rs.getString(2);
+                name = rs.getString(1)+" "+rs.getString(2);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -1120,11 +1129,13 @@ public class DBConnections {
      * This method will return the grades in the ObservableList.
      * @return ObservableList
      */
-    public static ObservableList<Grades> getGradeInfo() {
+    public static ObservableList<Grades> getGradeInfo(String year, String user) {
+
         System.out.println("Getting grades.");
 
         ObservableList result = FXCollections.observableArrayList();
-        String gradeyear = openfilegrade();
+        result.clear();
+        String gradeyear = year;
         System.out.println("Gradeyear: " + gradeyear);
 
         try {
@@ -1132,26 +1143,40 @@ public class DBConnections {
             //now resultSet will hold 7 columns values
             //gradeId and LoginID are new attribute in this query
 
+            if(isGroupTeacher(user, year)) {
 
-            ResultSet resultSet = statement.executeQuery("SELECT GradeID,persons.SSN,FirstName,EmailAdress," +
-                    "LoginID,GradeOne,GradeTwo FROM " +
-                    "persons,grades,groups,students " +
-                    "WHERE groups.year='"+gradeyear+"' " +
-                    "AND persons.SSN = students.SSN " +
-                    "AND grades.studentID = students.studentID " +
-                    "AND subject = '" + sub + "'");
+                ResultSet resultSet = statement.executeQuery("SELECT DISTINCT persons.ssn, firstname, lastname, emailadress, gradeone, gradetwo, gradeid " +
+                        "FROM persons, students, grades, groups " +
+                        "WHERE persons.ssn = students.ssn " +
+                        "AND students.groupid = '" + gradeyear + "' " +
+                        "AND grades.studentid = students.studentid " +
+                        "AND subject = (select subject from teachers, persons where teachers.ssn = persons.ssn and persons.loginid = '" + user + "')");
 
-            while (resultSet.next()) {
-                System.out.println("Got a result!");
-                Grades staff = new Grades();
-                staff.setGid(resultSet.getInt(1));
-                staff.setSSN(resultSet.getString(2));
-                staff.setName(resultSet.getString(3));
-                staff.setEmailAdress(resultSet.getString(4));
-                staff.setLoginID(resultSet.getString(5));
-                staff.setMgrade1(resultSet.getDouble(6));
-                staff.setMgrade2(resultSet.getDouble(7));
-                result.add(staff);
+                while (resultSet.next()) {
+                    Grades staff = new Grades();
+                    staff.setSSN(resultSet.getString(1));
+                    staff.setName(resultSet.getString(2) + " " + resultSet.getString(3));
+                    staff.setEmailAdress(resultSet.getString(4));
+                    staff.setMgrade1(resultSet.getDouble(5));
+                    staff.setMgrade2(resultSet.getDouble(6));
+                    staff.setGid(resultSet.getInt(7));
+                    result.add(staff);
+                }
+
+            }
+        } catch (SQLException var3) {
+            var3.printStackTrace();
+        }
+
+        return result;
+    }
+
+    public static boolean isGroupTeacher(String loginid, String group) {
+        boolean result = false;
+
+        try {
+            for(ResultSet resultSet = statement.executeQuery("SELECT groups_teachers.teacherid FROM groups_teachers, teachers, persons WHERE teachers.ssn = persons.ssn AND persons.loginid = '" + loginid + "' AND groups_teachers.groupid = '" + group + "' AND groups_teachers.teacherid = teachers.teacherid"); resultSet.next(); result = true) {
+
             }
         } catch (SQLException var3) {
             var3.printStackTrace();
@@ -1266,19 +1291,21 @@ public class DBConnections {
      * @return String
      */
 
-    public static String getSearchResult(String name){
-        String list = "";
+    public static ObservableList<Person> getSearchResult(String name){
+        ObservableList<Person> list = FXCollections.observableArrayList();
         try {
             ResultSet resultSet = statement.executeQuery("select ssn,FirstName,LastName,PhoneNumber,EmailAdress " +
                     "from persons where FirstName LIKE '"+name+"%'");
 
             while (resultSet.next()) {
-                list += resultSet.getString(1)+"\t\t\t"+resultSet.getString(2)+"\t\t\t"+
-                        resultSet.getString(3)+"\t\t\t"+resultSet.getString(4)
-                        +"\t\t\t"+resultSet.getString(5)+"\n";
+                Person person = new Person();
+                person.setSSN(resultSet.getString(1));
+                person.setName(resultSet.getString(2));
+                person.setSurname(resultSet.getString(3));
+                person.setEmailAddress(resultSet.getString(5));
+                list.add(person);
             }
         } catch (SQLException var3) {
-            list ="";
             var3.printStackTrace();
         }
         return list;

@@ -5,15 +5,16 @@
 
 package sample;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.ResourceBundle;
 
 public class LoginScreen implements Initializable, ControlledScenes {
     public TextArea newsArea;
@@ -53,21 +54,25 @@ public class LoginScreen implements Initializable, ControlledScenes {
 
     @FXML
     private void handleAdmBtn() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.adminLoginSceneID,SchoolAppFramework.adminLoginFile);
         this.myController.setScenes(SchoolAppFramework.adminLoginSceneID);
     }
 
     @FXML
     private void handleStudentBtn() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.studentLoginSceneID,SchoolAppFramework.studentLoginFile);
         this.myController.setScenes(SchoolAppFramework.studentLoginSceneID);
     }
 
     @FXML
     private void handleTeachersBtn() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.teacherLoginSceneID,SchoolAppFramework.teacherLoginFile);
         this.myController.setScenes(SchoolAppFramework.teacherLoginSceneID);
     }
 
     @FXML
     private void handleStaffBtn() throws IOException {
+        this.myController.loadScene(SchoolAppFramework.staffLoginSceneID,SchoolAppFramework.staffLoginFile);
         this.myController.setScenes(SchoolAppFramework.staffLoginSceneID);
     }
 

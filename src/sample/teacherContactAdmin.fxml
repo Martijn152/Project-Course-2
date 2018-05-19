@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-border-color: white;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.TeacherContactAdmin">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-border-color: white;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeacherContactAdmin">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -42,7 +42,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="returnBtn" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="90.0" prefWidth="141.0" text="Return">
+            <Button fx:id="returnBtn" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="90.0" prefWidth="141.0" text="BACK">
                <font>
                   <Font name="Arial Black" size="18.0" />
                </font>
@@ -110,7 +110,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label text="IT-system Manager">
+                        <Label text="IT-System Manager">
                            <font>
                               <Font name="Avenir Next Bold" size="18.0" />
                            </font>
@@ -185,7 +185,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label text="Head of human Ressources">
+                        <Label text="Head of Human Resources">
                            <font>
                               <Font name="Avenir Next Bold" size="18.0" />
                            </font>

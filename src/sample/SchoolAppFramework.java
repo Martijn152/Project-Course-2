@@ -60,18 +60,18 @@ public class SchoolAppFramework extends Application {
 
         mainContainer.loadScene(loginSceneID, loginSceneFile);
         mainContainer.loadScene(teacherSceneID, teacherSceneFile);
-/*        mainContainer.loadScene(studentSceneID, studentSceneFile);
-        mainContainer.loadScene(staffSceneID, staffSceneFile);*/
-        mainContainer.loadScene(teacherLoginSceneID, teacherLoginFile);
-/*        mainContainer.loadScene(studentLoginSceneID, studentLoginFile);
-        mainContainer.loadScene(staffLoginSceneID, staffLoginFile);
-        mainContainer.loadScene(adminSceneID, adminSceneFile);
-        mainContainer.loadScene(adminLoginSceneID, adminLoginFile);
-        mainContainer.loadScene(groupSceneID, groupSceneIDFile);*/
+        //mainContainer.loadScene(studentSceneID, studentSceneFile);
+        //mainContainer.loadScene(staffSceneID, staffSceneFile);
+        //mainContainer.loadScene(teacherLoginSceneID, teacherLoginFile);
+        //mainContainer.loadScene(studentLoginSceneID, studentLoginFile);
+        //mainContainer.loadScene(staffLoginSceneID, staffLoginFile);
+        //mainContainer.loadScene(adminSceneID, adminSceneFile);
+        //mainContainer.loadScene(adminLoginSceneID, adminLoginFile);
+        //mainContainer.loadScene(groupSceneID, groupSceneIDFile);
         mainContainer.loadScene(viewAddgradeSceneID, viewAddgradeSceneIDFile);
-/*        mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
-        mainContainer.loadScene(viewStaffSceneID, viewStaffSceneIDFile);
-        mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);*/
+        mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
+        //mainContainer.loadScene(viewStaffSceneID, viewStaffSceneIDFile);
+        //mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);
         mainContainer.loadScene(teacherContactAdminSceneID, teacherContactAdminSceneFile);
         mainContainer.loadScene(studentContactAdminSceneID, studentContactAdminSceneFile);
         mainContainer.loadScene(teachersContactsSceneID, teachersContactsSceneFile);

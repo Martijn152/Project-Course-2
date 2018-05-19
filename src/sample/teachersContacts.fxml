@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeachersContacts">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" style="-fx-border-color: black;" styleClass="admin" stylesheets="@docsAndFiles/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeachersContacts">
    <top>
       <GridPane prefHeight="61.0" prefWidth="1100.0" BorderPane.alignment="CENTER">
          <columnConstraints>
@@ -37,7 +37,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button fx:id="returnBtn" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="90.0" prefWidth="141.0" text="RETURN" />
+            <Button fx:id="returnBtn" mnemonicParsing="false" onAction="#handleReturnBtn" prefHeight="90.0" prefWidth="141.0" text="BACK" />
          </children>
       </GridPane>
    </bottom>

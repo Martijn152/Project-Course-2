@@ -332,7 +332,7 @@ public class StudentPortal extends Application implements Initializable,Actions,
 
     @Override
     public void exitBtn(ActionEvent event){
-        myController.setScenes(SchoolAppFramework.loginSceneID);
+            myController.setScenes(SchoolAppFramework.loginSceneID);
     }
 
     @Override

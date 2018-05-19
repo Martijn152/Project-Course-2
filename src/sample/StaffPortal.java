@@ -5,14 +5,15 @@
 
 package sample;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class StaffPortal implements Initializable, Actions, ControlledScenes {
     @FXML
@@ -37,11 +38,14 @@ public class StaffPortal implements Initializable, Actions, ControlledScenes {
     private String fxmlFileChangePW = "changepword.fxml";
     private String fxmlFileHumanRes = "humanResOffice.fxml";
 
+    public static String currentUser;
+
     public StaffPortal() {
     }
 
     public void initialize(URL location, ResourceBundle resources) {
-        staffName.setText(StaffLogin.getCurrentUser());
+        currentUser = StaffLogin.getCurrentUser();
+        staffName.setText(DBConnections.getFirstName(currentUser));
     }
 
     @FXML
