@@ -68,7 +68,7 @@ public class AdminPortal implements Initializable, Actions, ControlledScenes {
     private String addTeacherFxmlFileName = "addteacher.fxml";
     private String addStaffFxmlFileName = "addstaff.fxml";
     private String addAdminFxmlFileName = "addadmin.fxml";
-    private String changePWFxmlFileName = "changepword.fxml";
+    private String changePWFxmlFileName = "changePassword.fxml";
 
     public static String currentUser;
 

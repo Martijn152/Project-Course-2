@@ -18,7 +18,7 @@ public class ChangePword {
     @FXML
     private TextField userName;
     @FXML
-    private TextField email;
+    private TextField oldPassword;
     @FXML
     private TextField newPassword;
 
@@ -27,7 +27,7 @@ public class ChangePword {
 
     @FXML
     private void handleSaveBtn() {
-        if (userName.getText() == null || userName.getText().trim().isEmpty() || email.getText() == null || email.getText().trim().isEmpty()
+        if (userName.getText() == null || userName.getText().trim().isEmpty() || oldPassword.getText() == null || oldPassword.getText().trim().isEmpty()
                 ||newPassword.getText() == null || newPassword.getText().trim().isEmpty()){
             Alert info = new Alert(AlertType.INFORMATION);
             info.setHeaderText("          Fields are empty");
@@ -35,21 +35,21 @@ public class ChangePword {
             info.show();
             ((Stage) this.saveBtn.getScene().getWindow()).close();
             return;
-
         }
+
         DBConnections.connect();
-        boolean s = DBConnections.updatePass(userName.getText(), email.getText(), newPassword.getText());
+        boolean s = DBConnections.updatePass(userName.getText(), newPassword.getText(), oldPassword.getText());
         if(s == true) {
             Alert info = new Alert(AlertType.INFORMATION);
-            info.setHeaderText("          PASSWORD SUCCESSFULLY UPDATED!!!");
-            info.setContentText("An email have been sent to you.");
+            info.setHeaderText("          PASSWORD SUCCESSFULLY UPDATED!");
+            info.setContentText("You can now use your new password.");
             info.show();
             ((Stage) this.saveBtn.getScene().getWindow()).close();
         }
         else{
             Alert info = new Alert(AlertType.INFORMATION);
-            info.setHeaderText("          PASSWORD NOT UPDATED!!!");
-            info.setContentText("Wrong Credentials Entered");
+            info.setHeaderText("          PASSWORD NOT UPDATED!");
+            info.setContentText("Please enter the correct credentials.");
             info.show();
             ((Stage) this.saveBtn.getScene().getWindow()).close();
         }

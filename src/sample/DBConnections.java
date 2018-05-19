@@ -1262,12 +1262,12 @@ public class DBConnections {
         return Admininfo;
     }
 
-    public static boolean updatePass(String login, String email, String pass) {
+    public static boolean updatePass(String login, String newpass, String oldpass) {
         try {
             int i = statement.executeUpdate("" +
-                    "UPDATE persons\n" +
-                    "SET Password =" + "'" + pass + "'" + "\n" +
-                    "WHERE LoginID= " + "'" + login + "'" + " and Password=" + "'" + email + "'" + ";");
+                    "UPDATE persons " +
+                    "SET Password = '" + newpass + "' " +
+                    "WHERE LoginID= '" + login + "' and Password = '" + oldpass + "'");
             if (i > 0) {
 
                 return true;
