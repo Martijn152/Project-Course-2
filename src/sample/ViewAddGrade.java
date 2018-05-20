@@ -71,8 +71,6 @@ public class ViewAddGrade implements Initializable, ControlledScenes {
         DBConnections.connect();
         ObservableList<Grades> gradeList = DBConnections.getGradeInfo(TeacherPortal.getSelectedGroup(), TeacherPortal.getCurrentUser());
 
-        groupName.setText("Subject: "+DBConnections.sub);
-
         ssn.setCellValueFactory(new PropertyValueFactory("SSN"));
         name.setCellValueFactory(new PropertyValueFactory("name"));
         email.setCellValueFactory(new PropertyValueFactory("emailAddress"));

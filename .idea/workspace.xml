@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DBConnections.java" afterPath="$PROJECT_DIR$/src/sample/DBConnections.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" afterPath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" afterPath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/group.fxml" afterPath="$PROJECT_DIR$/src/sample/group.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" afterPath="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" afterPath="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,18 +70,21 @@
       <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="1281">
+              <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+              <folding>
+                <marker date="1526828843867" expanded="false" signature="4407:4418" ph=" { " />
+                <marker date="1526828843867" expanded="false" signature="4431:4437" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="1036" column="54" lean-forward="true" selection-start-line="1036" selection-start-column="54" selection-end-line="1036" selection-end-column="54" />
+            <state relative-caret-position="224">
+              <caret line="1332" column="7" lean-forward="true" selection-start-line="1332" selection-start-column="7" selection-end-line="1332" selection-end-column="7" />
               <folding>
                 <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
@@ -91,6 +93,71 @@
                 <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherInfoNotGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#editTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#deleteTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacherID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSingleTeacherID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#editStaff#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#removeTeacherFromGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#addNewsItem#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getNews#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGroupParticipant#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#ClassmatesName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStudentGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStudentfisrtName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getStudentFullName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getReceiverEmailAdddress#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#groupTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getfirstSemesterGrades#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSecondSemesterGrades#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getCurrentUserEmail#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getCurrentUserPassword#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#principalsName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getprincipalEmail#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getprincipalTel#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getITmanagerlName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getITmanagerEmail#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getITmanagerTel#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSecretaryName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSecretaryEmail#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSecretaryTel#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getHRmanagerName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getHRmanagerEmail#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getHRmanagerTel#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
+                <element signature="e#41696#41698#0" expanded="false" />
+                <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
+                <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="e#43330#43345#0" expanded="false" />
+                <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
+                <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
+                <element signature="method#getSearchResult#0;class#DBConnections#0" expanded="false" />
                 <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
               </folding>
@@ -98,11 +165,60 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ViewAddGrade.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewaddgrade.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/viewaddgrade.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <marker date="1526830404118" expanded="true" signature="1339:2420" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="1423:2407" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="1452:1728" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="1754:1865" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="1885:2389" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2049:2166" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2082:2157" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2244:2368" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2266:2347" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2432:4453" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2479:4440" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2508:2624" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2650:2761" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2781:4422" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2877:4401" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="2902:4231" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3134:3459" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3174:3280" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3315:3426" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3560:3893" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3600:3714" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="3749:3860" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="4015:4048" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="4172:4205" ph="..." />
+                <marker date="1526830404118" expanded="true" signature="4267:4376" ph="..." />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PasswordRecovery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="840">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -204,7 +320,6 @@
         <option value="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
         <option value="$PROJECT_DIR$/src/sample/SearchResult.java" />
         <option value="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-        <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
         <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/changePassword.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ChangePword.java" />
@@ -213,6 +328,7 @@
         <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
         <option value="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
         <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
+        <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
       </list>
     </option>
   </component>
@@ -248,9 +364,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,7 +390,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,9 +570,10 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -465,24 +582,23 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280543" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -861,17 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/viewaddgrade.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SystemUsers/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -930,14 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -987,9 +1084,6 @@
             <element signature="method#viewTeacherBtn#0;class#StudentPortal#0" expanded="false" />
             <element signature="method#sendMsgToClassmate#0;class#StudentPortal#0" expanded="false" />
             <element signature="method#checkMail#0;class#StudentPortal#0" expanded="false" />
-            <marker date="1526812945088" expanded="false" signature="12196:12202" ph=" }" />
-            <marker date="1526812945088" expanded="true" signature="12284:12342" ph="{...}" />
-            <marker date="1526812945088" expanded="false" signature="12465:12471" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1004,24 +1098,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1281">
+          <caret line="67" column="64" lean-forward="false" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+          <folding>
+            <marker date="1526828843867" expanded="false" signature="4407:4418" ph=" { " />
+            <marker date="1526828843867" expanded="false" signature="4431:4437" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="1036" column="54" lean-forward="true" selection-start-line="1036" selection-start-column="54" selection-end-line="1036" selection-end-column="54" />
+        <state relative-caret-position="224">
+          <caret line="1332" column="7" lean-forward="true" selection-start-line="1332" selection-start-column="7" selection-end-line="1332" selection-end-column="7" />
           <folding>
             <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
             <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
@@ -1030,9 +1119,127 @@
             <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
             <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
             <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherInfoNotGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#editTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#deleteTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacherID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSingleTeacherID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#editStaff#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#removeTeacherFromGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#addNewsItem#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getNews#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGroupParticipant#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#ClassmatesName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStudentGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStudentfisrtName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getStudentFullName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getReceiverEmailAdddress#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#groupTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getfirstSemesterGrades#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSecondSemesterGrades#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getCurrentUserEmail#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getCurrentUserPassword#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#principalsName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getprincipalEmail#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getprincipalTel#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getITmanagerlName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getITmanagerEmail#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getITmanagerTel#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSecretaryName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSecretaryEmail#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSecretaryTel#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getHRmanagerName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getHRmanagerEmail#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getHRmanagerTel#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
+            <element signature="e#41696#41698#0" expanded="false" />
+            <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
+            <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="e#43330#43345#0" expanded="false" />
+            <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#updatePass#0;class#DBConnections#0" expanded="false" />
+            <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSearchResult#0;class#DBConnections#0" expanded="false" />
             <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
             <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/viewaddgrade.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <marker date="1526830404118" expanded="true" signature="1339:2420" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="1423:2407" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="1452:1728" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="1754:1865" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="1885:2389" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2049:2166" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2082:2157" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2244:2368" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2266:2347" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2432:4453" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2479:4440" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2508:2624" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2650:2761" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2781:4422" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2877:4401" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="2902:4231" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3134:3459" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3174:3280" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3315:3426" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3560:3893" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3600:3714" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="3749:3860" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="4015:4048" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="4172:4205" ph="..." />
+            <marker date="1526830404118" expanded="true" signature="4267:4376" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ViewAddGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

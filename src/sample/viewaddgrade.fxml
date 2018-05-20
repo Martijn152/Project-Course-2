@@ -22,16 +22,6 @@
          <rowConstraints>
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
-         <children>
-            <Label fx:id="groupName" graphicTextGap="0.0" style="-fx-background-color: #1230;" textFill="WHITE">
-               <padding>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </padding>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Label>
-         </children>
       </GridPane>
    </top>
    <bottom>
