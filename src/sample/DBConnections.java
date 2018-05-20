@@ -316,7 +316,7 @@ public class DBConnections {
             statement.execute("DELETE FROM groups_teachers where teacherid = '" + teacherid + "'");
             statement.execute("DELETE FROM grades where teacherid = '" + teacherid + "'");
             statement.execute("DELETE FROM teachers where teacherid = '" + teacherid + "'");
-            //statement.execute("DELETE FROM persons where ssn = '" + teacher.getSSN() + "'");
+            statement.execute("DELETE FROM persons where ssn = '" + teacher.getSSN() + "'");
 
         } catch (SQLException var4) {
             var4.printStackTrace();
@@ -428,7 +428,7 @@ public class DBConnections {
         try {
             String staffid = getSingleStaffID(staff);
             statement.execute("DELETE FROM staff WHERE id = '" + staffid + "'");
-            //statement.execute("DELETE FROM persons where ssn = '" + staff.getSSN() + "'");
+            statement.execute("DELETE FROM persons where ssn = '" + staff.getSSN() + "'");
 
         } catch (SQLException var4) {
             var4.printStackTrace();
@@ -549,11 +549,12 @@ public class DBConnections {
     public static void deleteStudent(Student student) {
         try {
             String studentid = getSingleStudentID(student);
-            statement.execute("DELETE FROM students WHERE id = '" + studentid + "'");
+
             for (String item : getGradeID(studentid)) {
                 statement.execute("DELETE FROM grades WHERE gradeid = '" + item + "'");
             }
-            //statement.execute("DELETE FROM persons where ssn = '" + student.getSSN() + "'");
+            statement.execute("DELETE FROM students WHERE studentid = '" + studentid + "'");
+            statement.execute("DELETE FROM persons where ssn = '" + student.getSSN() + "'");
 
         } catch (SQLException var4) {
             var4.printStackTrace();
@@ -1028,13 +1029,16 @@ public class DBConnections {
     public String recoveredPassword(String ssn, String email){
         String password = null;
         try {
+            System.out.println("Getting password...");
             rs =st.executeQuery(
-                    "SELECT Password FROM persons WHERE SSN = '"+ssn+"' AND EmailAdress = '"+email+"'"
+                    "SELECT password FROM persons WHERE ssn = '" + ssn + "' AND emailadress = '" + email + "'"
             );
             while (rs.next()){
+                System.out.println("Found password!");
                 password = rs.getString(1);
             }
         } catch (SQLException e) {
+            System.out.println("An error occurred.");
             e.printStackTrace();
         }
         return password;

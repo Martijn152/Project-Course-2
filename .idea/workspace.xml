@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/AdminPortal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/ChangePword.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/DBConnections.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changePassword.fxml" afterPath="$PROJECT_DIR$/out/production/HighSchoolAdminSystem/sample/changePassword.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AdminPortal.java" afterPath="$PROJECT_DIR$/src/sample/AdminPortal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/ChangePword.java" afterPath="$PROJECT_DIR$/src/sample/ChangePword.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DBConnections.java" afterPath="$PROJECT_DIR$/src/sample/DBConnections.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/changePassword.fxml" afterPath="$PROJECT_DIR$/src/sample/changePassword.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" afterPath="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" afterPath="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/group.fxml" afterPath="$PROJECT_DIR$/src/sample/group.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,106 +71,18 @@
       <file leaf-file-name="SchoolAppFramework.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+            <state relative-caret-position="124">
+              <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherPortal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="method#initialize#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#sendMail#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#checkmails#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#goToAdminMbr#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#goToTeacher#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#exitBtn#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#updatePword#0;class#TeacherPortal#0" expanded="false" />
-                <element signature="method#start#0;class#TeacherPortal#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminPortal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-              <folding>
-                <element signature="method#AdminPortal#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#initialize#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageBoardMbr#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageStaff#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageTeacher#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#upgradeNews#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#addNewStudent#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#addNewTeacher#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#addNewStaff#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#addNewAdmin#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageGroupYear9#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageGroupYear10#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageGroupYear11#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#manageGroupYear12#0;class#AdminPortal#0" expanded="false" />
-                <element signature="method#exitBtn#0;class#AdminPortal#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentPortal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="105" column="67" lean-forward="false" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
-              <folding>
-                <element signature="e#3374#3412#0" expanded="false" />
-                <element signature="method#start#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#initialize#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#pdfViewBtn1#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#pdfVeiwBtn2#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#viewClassMateBtn#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#viewTeacherBtn#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#sendMsgToClassmate#0;class#StudentPortal#0" expanded="false" />
-                <element signature="method#checkMail#0;class#StudentPortal#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangePword.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changePassword.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/changePassword.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="66" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBConnections.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3402">
-              <caret line="1267" column="39" lean-forward="false" selection-start-line="1267" selection-start-column="39" selection-end-line="1267" selection-end-column="39" />
+            <state relative-caret-position="321">
+              <caret line="1036" column="54" lean-forward="true" selection-start-line="1036" selection-start-column="54" selection-end-line="1036" selection-end-column="54" />
               <folding>
                 <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
@@ -183,74 +91,19 @@
                 <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getTeacherInfoNotGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#editTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#deleteTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getTeacherID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSingleTeacherID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#editStaff#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#removeTeacherFromGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#addNewsItem#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getNews#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getGroupParticipant#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#ClassmatesName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStudentGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStudentfisrtName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getStudentFullName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getReceiverEmailAdddress#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#groupTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getfirstSemesterGrades#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSecondSemesterGrades#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getCurrentUserEmail#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getCurrentUserPassword#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#principalsName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getprincipalEmail#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getprincipalTel#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getITmanagerlName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getITmanagerEmail#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getITmanagerTel#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSecretaryName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSecretaryEmail#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSecretaryTel#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getHRmanagerName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getHRmanagerEmail#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getHRmanagerTel#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#recoveredPassword#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
-                <element signature="e#41522#41524#0" expanded="false" />
-                <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
-                <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="e#43156#43171#0" expanded="false" />
-                <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
-                <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
-                <element signature="method#getSearchResult#0;class#DBConnections#0" expanded="false" />
                 <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
                 <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordRecovery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -278,7 +131,8 @@
       <find>getTeacher</find>
       <find>getGrade</find>
       <find>isteacher</find>
-      <find>sub</find>
+      <find>delete</find>
+      <find>recovered</find>
     </findStrings>
     <replaceStrings>
       <replace>DBConnections.connect2();</replace>
@@ -324,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/sample/MyMails.java" />
         <option value="$PROJECT_DIR$/src/sample/TeacherContactAdmin.java" />
         <option value="$PROJECT_DIR$/src/sample/ViewAdmin.java" />
-        <option value="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
         <option value="$PROJECT_DIR$/src/sample/StudentContactAdmin.java" />
         <option value="$PROJECT_DIR$/src/sample/ControlledScenes.java" />
         <option value="$PROJECT_DIR$/src/sample/SendMessageBox.java" />
@@ -346,19 +199,20 @@
         <option value="$PROJECT_DIR$/src/sample/viewadmin.fxml" />
         <option value="$PROJECT_DIR$/src/sample/viewstaff.fxml" />
         <option value="$PROJECT_DIR$/src/sample/LoginScreen.java" />
-        <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
         <option value="$PROJECT_DIR$/src/sample/StaffPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/StudentContactTeacher.java" />
         <option value="$PROJECT_DIR$/src/sample/viewaddgrade.fxml" />
         <option value="$PROJECT_DIR$/src/sample/SearchResult.java" />
         <option value="$PROJECT_DIR$/src/sample/TeachersLogIn.java" />
-        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/ViewAddGrade.java" />
         <option value="$PROJECT_DIR$/src/sample/AdminPortal.java" />
         <option value="$PROJECT_DIR$/src/sample/changePassword.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
         <option value="$PROJECT_DIR$/src/sample/ChangePword.java" />
         <option value="$PROJECT_DIR$/src/sample/StudentPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/TeacherPortal.java" />
+        <option value="$PROJECT_DIR$/src/sample/SchoolAppFramework.java" />
+        <option value="$PROJECT_DIR$/src/sample/PasswordRecovery.java" />
+        <option value="$PROJECT_DIR$/src/sample/DBConnections.java" />
       </list>
     </option>
   </component>
@@ -370,10 +224,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1654" />
-    <option name="y" value="-13" />
-    <option name="width" value="1265" />
-    <option name="height" value="801" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -394,6 +248,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,9 +273,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -600,35 +454,35 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1929" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1066,14 +920,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/StaffLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="72" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TeachersLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1092,109 +938,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="341">
+          <caret line="64" column="50" lean-forward="false" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/StaffLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="64" lean-forward="false" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+        <state relative-caret-position="425">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="1267" column="39" lean-forward="false" selection-start-line="1267" selection-start-column="39" selection-end-line="1267" selection-end-column="39" />
-          <folding>
-            <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getPassword#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSSN#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#isTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getTeacherInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStaffInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStudentInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getTeacherInfoGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getTeacherInfoNotGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#editTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#deleteTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getTeacherID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSingleTeacherID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addStaff#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#editStaff#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStaffID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#deleteStaff#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSingleStaffID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getFirstName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addStudent#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addAdmin#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#editStudents#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getGradeID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#deleteStudent#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSingleStudentID#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addTeacherToGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#removeTeacherFromGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#addNewsItem#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getNews#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getGroupParticipant#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#ClassmatesName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStudentGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStudentfisrtName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getStudentFullName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getReceiverEmailAdddress#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#groupTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getfirstSemesterGrades#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSecondSemesterGrades#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getCurrentUserEmail#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getCurrentUserPassword#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#principalsName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getprincipalEmail#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getprincipalTel#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getITmanagerlName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getITmanagerEmail#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getITmanagerTel#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSecretaryName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSecretaryEmail#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSecretaryTel#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getHRmanagerName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getHRmanagerEmail#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getHRmanagerTel#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#recoveredPassword#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#teachersName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#adminsName#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#studentNamesByGroup#0;class#DBConnections#0" expanded="false" />
-            <element signature="e#41522#41524#0" expanded="false" />
-            <element signature="method#getTeacherInfo2#0;class#DBConnections#0" expanded="false" />
-            <element signature="docComment;method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getGradeInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="e#43156#43171#0" expanded="false" />
-            <element signature="method#isGroupTeacher#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#openfilegrade#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getAdminInfo#0;class#DBConnections#0" expanded="false" />
-            <element signature="docComment;method#getSearchResult#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#getSearchResult#0;class#DBConnections#0" expanded="false" />
-            <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
-            <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/changePassword.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="66" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        <state relative-caret-position="51">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1204,39 +967,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ChangePword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/AdminPortal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
-          <folding>
-            <element signature="method#AdminPortal#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#initialize#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageBoardMbr#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageStaff#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageTeacher#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#upgradeNews#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#addNewStudent#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#addNewTeacher#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#addNewStaff#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#addNewAdmin#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageGroupYear9#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageGroupYear10#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageGroupYear11#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#manageGroupYear12#0;class#AdminPortal#0" expanded="false" />
-            <element signature="method#exitBtn#0;class#AdminPortal#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/StudentPortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
+        <state relative-caret-position="549">
           <caret line="105" column="67" lean-forward="false" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
           <folding>
             <element signature="e#3374#3412#0" expanded="false" />
@@ -1248,23 +987,51 @@
             <element signature="method#viewTeacherBtn#0;class#StudentPortal#0" expanded="false" />
             <element signature="method#sendMsgToClassmate#0;class#StudentPortal#0" expanded="false" />
             <element signature="method#checkMail#0;class#StudentPortal#0" expanded="false" />
+            <marker date="1526812945088" expanded="false" signature="12196:12202" ph=" }" />
+            <marker date="1526812945088" expanded="true" signature="12284:12342" ph="{...}" />
+            <marker date="1526812945088" expanded="false" signature="12465:12471" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TeacherPortal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="340">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/SchoolAppFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PasswordRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DBConnections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="1036" column="54" lean-forward="true" selection-start-line="1036" selection-start-column="54" selection-end-line="1036" selection-end-column="54" />
           <folding>
-            <element signature="method#initialize#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#sendMail#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#checkmails#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#goToAdminMbr#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#goToTeacher#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#exitBtn#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#updatePword#0;class#TeacherPortal#0" expanded="false" />
-            <element signature="method#start#0;class#TeacherPortal#0" expanded="false" />
+            <element signature="method#connect#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getLoginID#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getPassword#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#getSSN#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isAdmin#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isStaff#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#isStudent#0;class#DBConnections#0" expanded="false" />
+            <element signature="docComment;method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
+            <element signature="method#updateGradeTable#0;class#DBConnections#0" expanded="false" />
           </folding>
         </state>
       </provider>

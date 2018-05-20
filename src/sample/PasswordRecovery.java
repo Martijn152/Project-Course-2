@@ -52,8 +52,8 @@ public class PasswordRecovery implements Initializable {
         sendMailToGroupParticipant(from,pass,to,subject,body);
 
         Alert info=new Alert(Alert.AlertType.INFORMATION);
-        info.setHeaderText("              PASSWORD RECOVERED!!");
-        info.setContentText("An email have been sent to you with your password!");
+        info.setHeaderText("              PASSWORD RECOVERED!");
+        info.setContentText("An email have been sent to you with your password.");
         info.show();
         ((Stage)okBtn.getScene().getWindow()).close();
     }

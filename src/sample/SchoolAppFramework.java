@@ -68,13 +68,13 @@ public class SchoolAppFramework extends Application {
         //mainContainer.loadScene(adminSceneID, adminSceneFile);
         //mainContainer.loadScene(adminLoginSceneID, adminLoginFile);
         //mainContainer.loadScene(groupSceneID, groupSceneIDFile);
-        mainContainer.loadScene(viewAddgradeSceneID, viewAddgradeSceneIDFile);
+        //mainContainer.loadScene(viewAddgradeSceneID, viewAddgradeSceneIDFile);
         mainContainer.loadScene(viewAdminSceneID, viewAdminSceneIDFile);
         //mainContainer.loadScene(viewStaffSceneID, viewStaffSceneIDFile);
         //mainContainer.loadScene(viewTeacherSceneID, viewTeacherSceneIDFile);
         mainContainer.loadScene(teacherContactAdminSceneID, teacherContactAdminSceneFile);
         mainContainer.loadScene(studentContactAdminSceneID, studentContactAdminSceneFile);
-        mainContainer.loadScene(teachersContactsSceneID, teachersContactsSceneFile);
+        //mainContainer.loadScene(teachersContactsSceneID, teachersContactsSceneFile);
 
 
         Group root = new Group();
